@@ -1,0 +1,40 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # chạy mỗi ngày 00:00 UTC (tương đương 07:00 Asia/Bangkok)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run EPG generator
+        env:
+          TZ: Asia/Bangkok
+        run: |
+          python epg.py
+
+      - name: Commit generated EPG
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'github-actions[bot]'
+          author_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          message: 'Update epg.xml'
+          add: 'docs/epg.xml'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
