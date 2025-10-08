@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# epg.py - improved EPG generator with fallbacks (VT VTV, SCTV, VTVCAB)
+# Copy this file into repo root and run.
+
 import requests
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
@@ -5,206 +9,254 @@ from datetime import datetime, timedelta
 import pytz
 import os
 import re
+import sys
 
-def read_channels():
-    channels = []
-    with open("channels.txt", "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
+# ---------- Config ----------
+TIME_RE = re.compile(r'([01]?\d|2[0-3])[:.][0-5]\d')
+TIME_TITLE_RE = re.compile(r'([01]?\d|2[0-3])[:.][0-5]\d\s*[-–—:]?\s*([^\n<]{3,200})')
+SNIPPET_LEN = 12000  # chars to take around channel name for generic parsing
+TZ = pytz.timezone("Asia/Ho_Chi_Minh")
+# ----------------------------
+
+def read_channels(path="channels.txt"):
+    chans = []
+    if not os.path.exists(path):
+        print("channels.txt not found!", file=sys.stderr)
+        return chans
+    with open(path, "r", encoding="utf-8") as f:
+        for ln in f:
+            ln = ln.strip()
+            if not ln or ln.startswith("#"):
                 continue
-            parts = line.split("|")
-            if len(parts) != 3:
+            parts = [p.strip() for p in ln.split("|")]
+            if len(parts) < 2:
                 continue
-            cid, url, display = parts
-            channels.append({
-                "id": cid.strip(),
-                "url": url.strip(),
-                "display": display.strip()
-            })
-    return channels
+            cid = parts[0]
+            url = parts[1]
+            disp = parts[2] if len(parts) > 2 else cid
+            chans.append({"id": cid, "url": url, "display": disp})
+    return chans
 
-# --- helpers to parse times like "HH:MM" or "H:MM" ---
-def parse_time_hhmm(timestr):
+def fetch_html(url):
     try:
-        parts = timestr.strip().split(":")
-        if len(parts) == 2:
-            hh = int(parts[0])
-            mm = int(parts[1])
-            return hh, mm
-    except:
-        pass
-    return None
-
-# ========== Parsers cho từng nguồn ==========
-
-def get_vtv_schedule(channel):
-    """Lấy lịch từ vtv.vn/lich-phat-song.htm"""
-    url = "https://vtv.vn/lich-phat-song.htm"
-    try:
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        headers = {"User-Agent": "Mozilla/5.0 (EPG-Generator)"}
+        r = requests.get(url, headers=headers, timeout=20)
+        r.raise_for_status()
+        return r.text
     except Exception as e:
-        print("  lỗi fetch VTV:", e)
+        print("  ! fetch error:", e)
+        return None
+
+# ---- Specific parsers (attempt CSS-based parse first) ----
+
+def parse_vtv_by_dom(html, channel_id):
+    """Try parsing VTV page structure"""
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+        out = []
+        # vtv uses boxes with class containing 'boxLichChuongTrinh' (observed)
+        for box in soup.select(".boxLichChuongTrinh"):
+            h2 = box.select_one("h2")
+            if not h2: 
+                continue
+            if channel_id.lower() in h2.get_text(strip=True).lower():
+                # li entries inside
+                for li in box.select("li"):
+                    t_el = li.select_one(".time")
+                    p_el = li.select_one(".title")
+                    if t_el and p_el:
+                        t = t_el.get_text(strip=True)
+                        p = p_el.get_text(strip=True)
+                        out.append({"time": t, "title": p})
+        return out
+    except Exception as e:
+        print("  vtv DOM parse error:", e)
         return []
 
-    schedules = []
-    # Trang vtv có các box .boxLichChuongTrinh cho mỗi kênh
-    for box in soup.select(".boxLichChuongTrinh"):
-        # tiêu đề kênh
-        h2 = box.select_one("h2")
-        if not h2:
-            continue
-        ch_name = h2.get_text(strip=True).lower()
-        if channel["id"].lower() in ch_name:
-            # tìm các <li>
-            for li in box.select("li"):
-                time_el = li.select_one(".time")
-                prog_el = li.select_one(".title")
-                if time_el and prog_el:
-                    t = time_el.get_text(strip=True)
-                    p = prog_el.get_text(strip=True)
-                    schedules.append({"time": t, "title": p})
-    return schedules
-
-def get_sctv_schedule(channel):
-    """Lấy lịch từ sctv.com.vn"""
-    url = "https://www.sctv.com.vn/lich-phat-song"
+def parse_sctv_by_dom(html, channel_id):
     try:
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
+        out = []
+        for block in soup.select(".schedule__content"):
+            title_el = block.select_one(".schedule__title")
+            if not title_el:
+                continue
+            if channel_id.lower() in title_el.get_text(strip=True).lower():
+                for row in block.select(".schedule__item"):
+                    t_el = row.select_one(".schedule__time")
+                    p_el = row.select_one(".schedule__name")
+                    if t_el and p_el:
+                        out.append({"time": t_el.get_text(strip=True), "title": p_el.get_text(strip=True)})
+        return out
     except Exception as e:
-        print("  lỗi fetch SCTV:", e)
+        print("  sctv DOM parse error:", e)
         return []
 
-    schedules = []
-    # cấu trúc trang SCTV: .schedule__content chứa từng kênh
-    for block in soup.select(".schedule__content"):
-        title_el = block.select_one(".schedule__title")
-        if not title_el:
-            continue
-        name = title_el.get_text(strip=True).lower()
-        if channel["id"].lower() in name:
-            # tìm các dòng item
-            for row in block.select(".schedule__item"):
-                t_el = row.select_one(".schedule__time")
-                p_el = row.select_one(".schedule__name")
-                if t_el and p_el:
-                    t = t_el.get_text(strip=True)
-                    p = p_el.get_text(strip=True)
-                    schedules.append({"time": t, "title": p})
-    return schedules
-
-def get_vtvcab_schedule(channel):
-    """Lấy lịch từ dichvu.vtvcab.vn/lich-phat-song"""
-    url = "https://dichvu.vtvcab.vn/lich-phat-song"
+def parse_vtvcab_by_dom(html, channel_id):
     try:
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
+        out = []
+        for div in soup.select(".list-channel"):
+            name_el = div.select_one(".name-channel")
+            if not name_el:
+                continue
+            nm = name_el.get_text(strip=True).lower()
+            # normalize channel_id (e.g. "ON Sports" => "sports" or check substring)
+            check = channel_id.lower().replace("on ", "").strip()
+            if check in nm:
+                for row in div.select(".row-program"):
+                    t_el = row.select_one(".time")
+                    p_el = row.select_one(".name-program")
+                    if t_el and p_el:
+                        out.append({"time": t_el.get_text(strip=True), "title": p_el.get_text(strip=True)})
+        return out
     except Exception as e:
-        print("  lỗi fetch VTVCAB:", e)
+        print("  vtvcab DOM parse error:", e)
         return []
 
-    schedules = []
-    # cấu trúc trang VTVCab: có .list-channel cho từng kênh
-    for div in soup.select(".list-channel"):
-        name_el = div.select_one(".name-channel")
-        if not name_el:
-            continue
-        nm = name_el.get_text(strip=True).lower()
-        # kiểm tra nếu tên kênh trùng (loại bỏ "on " nếu cần)
-        if channel["id"].lower().replace("on ", "") in nm:
-            # tìm các chương trình row-program
-            for row in div.select(".row-program"):
-                t_el = row.select_one(".time")
-                p_el = row.select_one(".name-program")
-                if t_el and p_el:
-                    t = t_el.get_text(strip=True)
-                    p = p_el.get_text(strip=True)
-                    schedules.append({"time": t, "title": p})
-    return schedules
+# ---- Generic fallback parser: find channel name in HTML and regex extract times+titles ----
 
-def fetch_schedule(channel):
-    url = channel["url"]
-    if "vtv.vn" in url:
-        return get_vtv_schedule(channel)
-    elif "sctv.com.vn" in url:
-        return get_sctv_schedule(channel)
-    elif "vtvcab.vn" in url:
-        return get_vtvcab_schedule(channel)
+def parse_generic_by_snippet(html, channel_id):
+    html_lower = html.lower()
+    key = channel_id.lower()
+    idx = html_lower.find(key)
+    if idx == -1:
+        # not found, try partial like remove spaces or digits
+        key2 = re.sub(r'\d+', '', key).strip()
+        idx = html_lower.find(key2) if key2 else -1
+    if idx == -1:
+        # last resort: search first 15000 chars for times and pick them
+        snippet = html[:SNIPPET_LEN]
     else:
-        print("  nguồn không xử lý được:", url)
+        start = max(0, idx - 2000)
+        end = min(len(html), idx + SNIPPET_LEN)
+        snippet = html[start:end]
+    # replace html tags with newlines to reduce noise
+    text = re.sub(r'<(script|style).*?</\1>', ' ', snippet, flags=re.S|re.I)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'&nbsp;|\xa0', ' ', text)
+    # find time-title pairs
+    items = []
+    for m in TIME_TITLE_RE.finditer(text):
+        timestr = m.group(1).replace('.', ':')
+        title = m.group(2).strip()
+        # strip leading punctuation
+        title = re.sub(r'^[\s\-\*\:\–\—]+', '', title)
+        # avoid capturing long garbage
+        if len(title) > 200:
+            title = title[:200].strip()
+        items.append({"time": timestr, "title": title})
+    # dedupe while preserving order
+    seen = set()
+    out = []
+    for it in items:
+        keyt = (it["time"], it["title"])
+        if keyt in seen: continue
+        seen.add(keyt)
+        out.append(it)
+    return out
+
+# ---- Unified schedule getter ----
+
+def fetch_schedule_for_channel(ch):
+    url = ch.get("url", "")
+    html = fetch_html(url)
+    if not html:
         return []
+    # try site-specific DOM parsers first
+    lower = url.lower()
+    res = []
+    if "vtv.vn" in lower:
+        res = parse_vtv_by_dom(html, ch["id"])
+        if res:
+            return res
+    if "sctv.com.vn" in lower:
+        res = parse_sctv_by_dom(html, ch["id"])
+        if res:
+            return res
+    if "vtvcab.vn" in lower or "dichvu.vtvcab" in lower:
+        res = parse_vtvcab_by_dom(html, ch["id"])
+        if res:
+            return res
+    # fallback generic
+    res = parse_generic_by_snippet(html, ch["id"])
+    return res
 
-def generate_epg(channels):
-    tz = pytz.timezone("Asia/Ho_Chi_Minh")
-    today = datetime.now(tz).date()
+# ---- build programmes into xml ----
 
-    tv = ET.Element("tv", attrib={"generator-info-name": "GitHub-EPG"})
+def build_programmes(channels):
+    tv = ET.Element("tv", attrib={"generator-info-name":"github-epg-generator"})
+    today = datetime.now(TZ).date()
 
-    # Tạo các <channel>
+    # add channels
     for ch in channels:
-        ch_el = ET.SubElement(tv, "channel", id=ch["id"])
-        dn = ET.SubElement(ch_el, "display-name")
-        dn.text = ch["display"]
+        ce = ET.SubElement(tv, "channel", id=ch["id"])
+        dn = ET.SubElement(ce, "display-name")
+        dn.text = ch.get("display", ch["id"])
 
-    # Với mỗi kênh, lấy lịch và tạo chương trình
+    # get schedules
     for ch in channels:
-        print("Lấy lịch cho:", ch["id"])
-        sched = fetch_schedule(ch)
+        print("=> Lấy lịch cho:", ch["id"])
+        try:
+            sched = fetch_schedule_for_channel(ch)
+        except Exception as e:
+            print("  ! exception fetching:", e)
+            sched = []
+        print("   - items found:", len(sched))
         if not sched:
-            # nếu không lấy được gì, bỏ qua
+            # leave no programme (so file still valid); optionally add a placeholder
             continue
 
-        # biến để giữ thời điểm trước để xác định stop
         prev_dt = None
         for i, item in enumerate(sched):
-            parsed = parse_time_hhmm(item["time"])
+            # parse HH:MM
+            parsed = re.search(r'([01]?\d|2[0-3])[:.][0-5]\d', item["time"] or "")
             if not parsed:
                 continue
-            hh, mm = parsed
-            dt_start = datetime(year=today.year, month=today.month, day=today.day,
-                                hour=hh, minute=mm, tzinfo=tz)
-            # nếu lịch trước đó tồn tại và dt_start <= prev, xử lý nhảy ngày
+            hhmm = parsed.group(0).replace('.', ':')
+            hh, mm = [int(x) for x in hhmm.split(':')]
+            dt_start = datetime(year=today.year, month=today.month, day=today.day, hour=hh, minute=mm, tzinfo=TZ)
+            # if previous start exists and dt_start <= prev -> assume next day
             if prev_dt and dt_start <= prev_dt:
                 dt_start = dt_start + timedelta(days=1)
-            # tìm dt_stop: nếu có mục tiếp theo, dùng giờ của mục tiếp, else + 30 phút
+            # compute stop time
             dt_stop = None
             if i + 1 < len(sched):
-                parsed2 = parse_time_hhmm(sched[i+1]["time"])
+                parsed2 = re.search(r'([01]?\d|2[0-3])[:.][0-5]\d', sched[i+1]["time"] or "")
                 if parsed2:
-                    hh2, mm2 = parsed2
-                    dt_stop = datetime(year=today.year, month=today.month, day=today.day,
-                                       hour=hh2, minute=mm2, tzinfo=tz)
+                    hh2, mm2 = [int(x) for x in parsed2.group(0).replace('.',':').split(':')]
+                    dt_stop = datetime(year=today.year, month=today.month, day=today.day, hour=hh2, minute=mm2, tzinfo=TZ)
                     if dt_stop <= dt_start:
                         dt_stop = dt_stop + timedelta(days=1)
             if dt_stop is None:
                 dt_stop = dt_start + timedelta(minutes=30)
 
-            # tạo programme
-            prog_el = ET.SubElement(tv, "programme", {
+            prog = ET.SubElement(tv, "programme", {
                 "start": dt_start.strftime("%Y%m%d%H%M%S") + " +0700",
                 "stop": dt_stop.strftime("%Y%m%d%H%M%S") + " +0700",
                 "channel": ch["id"]
             })
-            t_el = ET.SubElement(prog_el, "title", {"lang": "vi"})
-            t_el.text = item["title"]
-            d_el = ET.SubElement(prog_el, "desc", {"lang": "vi"})
-            d_el.text = ""
-
+            t = ET.SubElement(prog, "title", {"lang":"vi"})
+            t.text = item.get("title") or ""
+            d = ET.SubElement(prog, "desc", {"lang":"vi"})
+            d.text = ""
             prev_dt = dt_start
 
-    # tạo thư mục docs nếu chưa có
-    os.makedirs("docs", exist_ok=True)
-    out_path = os.path.join("docs", "epg.xml")
-    tree = ET.ElementTree(tv)
-    tree.write(out_path, encoding="utf-8", xml_declaration=True)
-    print("Đã viết EPG vào", out_path)
+    return tv
+
+def write_xml(tv_elem, out="docs/epg.xml"):
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    tree = ET.ElementTree(tv_elem)
+    tree.write(out, encoding="utf-8", xml_declaration=True)
+    print("-> written", out)
+
+def main():
+    chans = read_channels()
+    if not chans:
+        print("No channels found in channels.txt", file=sys.stderr)
+        return
+    tv = build_programmes(chans)
+    write_xml(tv)
 
 if __name__ == "__main__":
-    channels = read_channels()
-    generate_epg(channels)
-            
+    main()
