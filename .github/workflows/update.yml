@@ -2,8 +2,8 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # chạy mỗi 6 tiếng
-  workflow_dispatch:        # cho phép anh chạy thủ công
+    - cron: '0 */6 * * *'   # chạy mỗi 6 tiếng
+  workflow_dispatch:         # cho phép anh chạy thủ công
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
 
       - name: Cài thư viện cần thiết
         run: |
-          pip install requests beautifulsoup4 lxml python-dateutil
+          pip install requests beautifulsoup4 lxml python-dateutil pytz
 
       - name: Chạy script tạo EPG
         run: |
