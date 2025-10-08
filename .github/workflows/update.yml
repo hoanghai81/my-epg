@@ -2,32 +2,32 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # chạy mỗi ngày lúc 08:00 sáng giờ Việt Nam
+    - cron: "0 0 * * *"   # chạy mỗi ngày lúc 07h sáng giờ VN
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Cài Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: 3.x
 
-      - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 lxml python-dateutil pytz
+      - name: Cài requests
+        run: pip install requests
 
-      - name: Run EPG generator
+      - name: Sinh file epg.xml
         run: python epg.py
 
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Auto update EPG"
-          add: "docs/epg.xml"
+      - name: Commit và push
+        run: |
+          git config user.name "EPG Bot"
+          git config user.email "actions@github.com"
+          git add docs/epg.xml
+          git commit -m "Update EPG $(date '+%Y-%m-%d %H:%M:%S')" || echo "Không có thay đổi"
+          git push
           
