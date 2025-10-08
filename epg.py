@@ -1,98 +1,104 @@
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
-import pytz, json, re, dateutil.parser
+from datetime import datetime, timedelta
+import pytz, re
 
-# Proxy worker Cloudflare của anh
+# Proxy Cloudflare Worker của anh
 PROXY = "https://epg-proxy.haikoc.workers.dev"
 
-# Danh sách kênh và nguồn
+# Danh sách kênh
 CHANNELS = [
     ("VTV1", "https://vtv.vn/lich-phat-song.htm", "VTV1 HD"),
     ("VTV2", "https://vtv.vn/lich-phat-song.htm", "VTV2 HD"),
     ("SCTV1", "https://www.sctv.com.vn/lich-phat-song", "SCTV1"),
     ("SCTV2", "https://www.sctv.com.vn/lich-phat-song", "SCTV2"),
     ("ONSports", "https://dichvu.vtvcab.vn/lich-phat-song", "ON Sports"),
-    ("ONVieGiaiTri", "https://dichvu.vtvcab.vn/lich-phat-song", "ON Vie Giải Trí")
+    ("ONVieGiaiTri", "https://dichvu.vtvcab.vn/lich-phat-song", "ON Vie Giải Trí"),
 ]
 
-today = datetime.now(pytz.timezone("Asia/Ho_Chi_Minh")).strftime("%Y-%m-%d")
+# Lấy giờ VN
+tz = pytz.timezone("Asia/Ho_Chi_Minh")
+today = datetime.now(tz).strftime("%Y-%m-%d")
 print(f"=> Lấy EPG cho ngày {today}")
 
 def fetch(url):
     try:
-        res = requests.get(f"{PROXY}/?url={url}", timeout=20)
-        print(f"    [fetch] proxied {url} -> status {res.status_code}, content-type: {res.headers.get('content-type')}, length={len(res.text)}")
+        proxied = f"{PROXY}/?url={url}"
+        res = requests.get(proxied, timeout=30)
+        print(f"    [fetch] {url} -> {res.status_code}, {res.headers.get('content-type')}")
         return res.text
     except Exception as e:
         print("    [fetch error]", e)
         return ""
 
-def parse_vtv(code):
-    url = f"https://vtvapi.vtv.vn/api/v1/schedules?type=channel&code={code.lower()}&date={today}"
-    html = fetch(url)
-    try:
-        data = json.loads(html)
-        items = []
-        for i in data.get("data", []):
-            title = i["title"].strip()
-            start = dateutil.parser.parse(i["start_time"])
-            stop = dateutil.parser.parse(i["end_time"])
-            items.append((start, stop, title))
-        return items
-    except Exception as e:
-        print(f"  [!] Parse lỗi VTV: {e}")
-        html = fetch("https://vtv.vn/lich-phat-song.htm")
-        soup = BeautifulSoup(html, "lxml")
-        blocks = soup.select(".list-item")
-        items = []
-        for b in blocks:
-            ch = b.select_one(".name")
-            if not ch or code not in ch.text: continue
-            time = b.select_one(".time")
-            title = b.select_one(".title")
-            if time and title:
-                h, m = map(int, time.text.strip().split(":"))
-                start = datetime.now().replace(hour=h, minute=m, second=0, microsecond=0)
-                stop = start
-                items.append((start, stop, title.text.strip()))
-        return items
+def parse_vtv(channel):
+    html = fetch("https://vtv.vn/lich-phat-song.htm")
+    soup = BeautifulSoup(html, "lxml")
+    items = []
+    # Mỗi block chương trình theo kênh
+    blocks = soup.select("div.content-box")
+    for block in blocks:
+        name = block.select_one("h3 a, h2 a")
+        if not name or channel.lower() not in name.text.lower():
+            continue
+        for row in block.select("ul > li"):
+            time_tag = row.select_one(".time")
+            title_tag = row.select_one(".name")
+            if time_tag and title_tag:
+                try:
+                    h, m = map(int, time_tag.text.strip().split(":"))
+                    start = datetime.now(tz).replace(hour=h, minute=m, second=0, microsecond=0)
+                    stop = start + timedelta(minutes=30)
+                    title = title_tag.text.strip()
+                    items.append((start, stop, title))
+                except:
+                    pass
+    return items
 
-def parse_sctv(code):
+def parse_sctv(channel):
     html = fetch("https://www.sctv.com.vn/lich-phat-song")
     soup = BeautifulSoup(html, "lxml")
     items = []
-    chan = soup.find("div", {"class": "channel-name"}, string=re.compile(code, re.I))
-    if chan:
-        parent = chan.find_parent("div", {"class": "channel"})
-        if parent:
-            for li in parent.select("li"):
-                time = li.find("span", {"class": "time"})
-                title = li.find("span", {"class": "name"})
-                if time and title:
-                    h, m = map(int, time.text.strip().split(":"))
-                    start = datetime.now().replace(hour=h, minute=m, second=0, microsecond=0)
-                    stop = start
-                    items.append((start, stop, title.text.strip()))
+    blocks = soup.select("div.tab-content div.tab-pane")
+    for b in blocks:
+        name = b.get("id", "").lower()
+        if channel.lower() not in name:
+            continue
+        for row in b.select("li"):
+            time_tag = row.select_one(".time")
+            title_tag = row.select_one(".name")
+            if time_tag and title_tag:
+                try:
+                    h, m = map(int, time_tag.text.strip().split(":"))
+                    start = datetime.now(tz).replace(hour=h, minute=m, second=0, microsecond=0)
+                    stop = start + timedelta(minutes=30)
+                    title = title_tag.text.strip()
+                    items.append((start, stop, title))
+                except:
+                    pass
     return items
 
-def parse_vtvcab(code):
+def parse_vtvcab(channel):
     html = fetch("https://dichvu.vtvcab.vn/lich-phat-song")
     soup = BeautifulSoup(html, "lxml")
     items = []
-    blocks = soup.select(".schedule-item")
-    for b in blocks:
-        ch = b.select_one(".channel-name")
-        if not ch or code.lower().replace(" ", "") not in ch.text.lower().replace(" ", ""):
+    # Tìm các block có tên kênh trùng
+    for b in soup.select(".schedule-item"):
+        name = b.select_one(".channel-name")
+        if not name or channel.lower().replace(" ", "") not in name.text.lower().replace(" ", ""):
             continue
         for row in b.select(".program-item"):
-            time = row.select_one(".time")
-            title = row.select_one(".title")
-            if time and title:
-                h, m = map(int, time.text.strip().split(":"))
-                start = datetime.now().replace(hour=h, minute=m, second=0, microsecond=0)
-                stop = start
-                items.append((start, stop, title.text.strip()))
+            time_tag = row.select_one(".time")
+            title_tag = row.select_one(".title")
+            if time_tag and title_tag:
+                try:
+                    h, m = map(int, time_tag.text.strip().split(":"))
+                    start = datetime.now(tz).replace(hour=h, minute=m, second=0, microsecond=0)
+                    stop = start + timedelta(minutes=30)
+                    title = title_tag.text.strip()
+                    items.append((start, stop, title))
+                except:
+                    pass
     return items
 
 def make_epg(channels):
@@ -110,7 +116,7 @@ def make_epg(channels):
 
         print(f"   - items found: {len(items)}")
         xml.append(f'<channel id="{code}"><display-name>{name}</display-name></channel>')
-        for (start, stop, title) in items:
+        for start, stop, title in items:
             s = start.strftime("%Y%m%d%H%M%S +0700")
             e = stop.strftime("%Y%m%d%H%M%S +0700")
             xml.append(f'<programme start="{s}" stop="{e}" channel="{code}"><title>{title}</title></programme>')
@@ -119,4 +125,3 @@ def make_epg(channels):
     print("-> written docs/epg.xml")
 
 make_epg(CHANNELS)
-                    
