@@ -60,7 +60,7 @@
     <desc lang="vi" />
   </programme>
   <programme start="20251009000000 +0700" stop="20251010000000 +0700" channel="VTV1">
-    <title lang="vi">Ký sự Đất sinh nghề - Tập 5, 6 09:30 Nhịp sống cộng đồng 09:35 Thế giới tuổi thơ Đi để lớn lên 10:00 Nẻo về nguồn cội</title>
+    <title lang="vi">Ký sự Đất sinh nghề - Tập 5, 6 09:30 Nhịp sống cộng đồng 09:35 Thế giới tuổi thơ Đi để lớn lên 10:00 Nẻo về nguồn cội Người Dao Áo Dài ở Khâ</title>
     <desc lang="vi" />
   </programme>
   <programme start="20251010000000 +0700" stop="20251011000000 +0700" channel="VTV1">
@@ -187,7 +187,7 @@
     <desc lang="vi" />
   </programme>
   <programme start="20251009000000 +0700" stop="20251010000000 +0700" channel="VTV2">
-    <title lang="vi">Ký sự Đất sinh nghề - Tập 5, 6 09:30 Nhịp sống cộng đồng 09:35 Thế giới tuổi thơ Đi để lớn lên 10:00 Nẻo về nguồn cội</title>
+    <title lang="vi">Ký sự Đất sinh nghề - Tập 5, 6 09:30 Nhịp sống cộng đồng 09:35 Thế giới tuổi thơ Đi để lớn lên 10:00 Nẻo về nguồn cội Người Dao Áo Dài ở Khâ</title>
     <desc lang="vi" />
   </programme>
   <programme start="20251010000000 +0700" stop="20251011000000 +0700" channel="VTV2">
@@ -271,23 +271,12 @@
   <channel id="ON Sports">
     <display-name>ON Sports</display-name>
   </channel>
-  <programme start="20251001000000 +0700" stop="20251002000000 +0700" channel="ON Sports">
-    <title lang="vi">25 GMT+0000 (Coordinated Universal Time)" class="absolute top-0 -translate-x-1/2 w-[6px] rounded-md h-8 z-50 bg-red-600"&gt;</title>
+  <programme start="20251006000000 +0700" stop="20251007000000 +0700" channel="ON Sports">
+    <title lang="vi">30 GMT+0000 (Coordinated Universal Time)" class="absolute top-0 -translate-x-1/2 w-[6px] rounded-md h-8 z-50 bg-red-600"&gt;</title>
     <desc lang="vi" />
   </programme>
-  <programme start="20251001000000 +0700" stop="20251001003000 +0700" channel="ON Sports">
-    <title lang="vi">25 GMT+0000 (Coordinated Universal Time)" class="absolute left-1/2 top-0 h-full w-[1px] bg-red-600 z-40"&gt;</title>
-    <desc lang="vi" />
-  </programme>
-  <channel id="ON Vie Giải Trí">
-    <display-name>ON Vie Giải Trí</display-name>
-  </channel>
-  <programme start="20251001000000 +0700" stop="20251002000000 +0700" channel="ON Vie Giải Trí">
-    <title lang="vi">28 GMT+0000 (Coordinated Universal Time)" class="absolute top-0 -translate-x-1/2 w-[6px] rounded-md h-8 z-50 bg-red-600"&gt;</title>
-    <desc lang="vi" />
-  </programme>
-  <programme start="20251001000000 +0700" stop="20251001003000 +0700" channel="ON Vie Giải Trí">
-    <title lang="vi">28 GMT+0000 (Coordinated Universal Time)" class="absolute left-1/2 top-0 h-full w-[1px] bg-red-600 z-40"&gt;</title>
+  <programme start="20251006000000 +0700" stop="20251006003000 +0700" channel="ON Sports">
+    <title lang="vi">30 GMT+0000 (Coordinated Universal Time)" class="absolute left-1/2 top-0 h-full w-[1px] bg-red-600 z-40"&gt;</title>
     <desc lang="vi" />
   </programme>
 </tv>
