@@ -1,82 +1,86 @@
 import requests
-import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import os
 
-# ==========================
-# CẤU HÌNH
-# ==========================
-EPG_SOURCE = "https://lichphatsong.site/epg.xml"
-TARGET_CHANNEL = "VTV1"
-OUTPUT_FILE = "docs/epg.xml"
-LOG_FILE = "epg.log"
+def fetch_vtv1_schedule(date_str):
+    """
+    Crawl lịch phát sóng VTV1 từ lichphatsong.site theo ngày (YYYY-MM-DD)
+    Trả về list các item: [{"start": "...", "title": "..."}]
+    """
+    url = "https://lichphatsong.site/kenh/vtv1"
+    print(f"=> Lấy lịch VTV1 cho ngày {date_str} từ {url}")
+    try:
+        res = requests.get(url, timeout=20)
+        res.raise_for_status()
+    except Exception as e:
+        print(f"[!] Lỗi tải trang: {e}")
+        return []
 
-# ==========================
-# HÀM HỖ TRỢ
-# ==========================
-def log(msg):
-    print(msg)
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(f"[{datetime.now().isoformat(sep=' ', timespec='seconds')}] {msg}\n")
+    soup = BeautifulSoup(res.text, "lxml")
+    all_days = soup.find_all("div", class_="tab-pane")
+    items = []
 
-def get_target_dates():
+    for day in all_days:
+        date_attr = day.get("id", "")
+        if date_attr.endswith(date_str):
+            for li in day.find_all("li", class_="list-group-item"):
+                time_tag = li.find("span", class_="time")
+                title_tag = li.find("span", class_="name")
+                if not time_tag or not title_tag:
+                    continue
+                start_time = time_tag.get_text(strip=True)
+                title = title_tag.get_text(strip=True)
+                start_dt = f"{date_str} {start_time}"
+                items.append({"start": start_dt, "title": title})
+    print(f"   - items found: {len(items)}")
+    return items
+
+def make_epg_xml(channel_id, channel_name, schedules):
+    xml = [f'  <channel id="{channel_id}">']
+    xml.append(f'    <display-name>{channel_name}</display-name>')
+    xml.append("  </channel>")
+    for prog in schedules:
+        try:
+            start_dt = datetime.strptime(prog["start"], "%Y-%m-%d %H:%M")
+            stop_dt = start_dt + timedelta(minutes=30)
+            start_fmt = start_dt.strftime("%Y%m%d%H%M%S +0700")
+            stop_fmt = stop_dt.strftime("%Y%m%d%H%M%S +0700")
+            title = prog["title"].replace("&", "&amp;")
+            xml.append(f'  <programme start="{start_fmt}" stop="{stop_fmt}" channel="{channel_id}">')
+            xml.append(f'    <title lang="vi">{title}</title>')
+            xml.append("  </programme>")
+        except Exception as e:
+            print(f"[!] Lỗi parse chương trình: {e}")
+    return "\n".join(xml)
+
+def main():
+    print("=== BẮT ĐẦU SINH EPG ===")
+
     today = datetime.now()
-    tomorrow = today + timedelta(days=1)
-    return [today.strftime("%Y%m%d"), tomorrow.strftime("%Y%m%d")]
+    dates = [
+        today.strftime("%Y-%m-%d"),
+        (today + timedelta(days=1)).strftime("%Y-%m-%d"),
+    ]
 
-# ==========================
-# LẤY DỮ LIỆU EPG
-# ==========================
-def fetch_epg():
-    log(f"Đang tải EPG từ {EPG_SOURCE}")
-    try:
-        resp = requests.get(EPG_SOURCE, timeout=30)
-        resp.raise_for_status()
-        log(f"Đã tải thành công ({len(resp.content)} bytes)")
-        return resp.content
-    except Exception as e:
-        log(f"[!] Lỗi khi tải EPG: {e}")
-        return None
+    all_items = []
+    for date_str in dates:
+        items = fetch_vtv1_schedule(date_str)
+        all_items.extend(items)
 
-# ==========================
-# LỌC VÀ GHI FILE
-# ==========================
-def filter_epg(epg_data):
-    try:
-        root = ET.fromstring(epg_data)
-        out_root = ET.Element("tv")
+    # Sinh XML
+    header = '<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="lichphatsong.site">'
+    body = make_epg_xml("VTV1", "VTV1 HD", all_items)
+    footer = "</tv>"
+    xml_content = "\n".join([header, body, footer])
 
-        programmes = 0
-        dates = get_target_dates()
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/epg.xml", "w", encoding="utf-8") as f:
+        f.write(xml_content)
 
-        for prog in root.findall("programme"):
-            ch = prog.attrib.get("channel", "").strip()
-            start = prog.attrib.get("start", "")
-            if ch == TARGET_CHANNEL and start[:8] in dates:
-                out_root.append(prog)
-                programmes += 1
+    print(f"-> written docs/epg.xml ({len(all_items)} chương trình)")
+    print("=== HOÀN TẤT ===")
 
-        # thêm channel info
-        for ch in root.findall("channel"):
-            if ch.attrib.get("id") == TARGET_CHANNEL:
-                out_root.insert(0, ch)
-                break
-
-        tree = ET.ElementTree(out_root)
-        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-        tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-
-        log(f"✅ Đã lưu {OUTPUT_FILE} — {programmes} chương trình ({TARGET_CHANNEL})")
-    except Exception as e:
-        log(f"[!] Lỗi khi xử lý EPG: {e}")
-
-# ==========================
-# MAIN
-# ==========================
 if __name__ == "__main__":
-    log("=== BẮT ĐẦU SINH EPG ===")
-    data = fetch_epg()
-    if data:
-        filter_epg(data)
-    log("=== HOÀN TẤT ===\n")
+    main()
     
