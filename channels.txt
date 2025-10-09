@@ -1,6 +1,6 @@
-# kênh|nguồn|tên hiển thị
 VTV1|https://vtv.vn/lich-phat-song.htm|VTV1 HD
 VTV2|https://vtv.vn/lich-phat-song.htm|VTV2 HD
+VTV3|https://api.vtvgo.vn/api/v4/channel/schedule?channel_id=3&date={date}|VTV3 HD
 SCTV1|https://www.sctv.com.vn/lich-phat-song|SCTV1
 SCTV2|https://www.sctv.com.vn/lich-phat-song|SCTV2
 ON Sports|https://dichvu.vtvcab.vn/lich-phat-song|ON Sports
