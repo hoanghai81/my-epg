@@ -1,27 +1,37 @@
-name: Update EPG
+name: Update EPG XML
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # chạy lúc 01h sáng Hà Nội
+    - cron: "0 18 * * *"  # chạy lúc 01:00 giờ Việt Nam (UTC+7)
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-      - name: Install dependencies
-        run: |
-          pip install requests pytz
-      - name: Run epg.py
-        run: python epg.py
-      - name: Commit and push
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Auto update EPG"
-          add: "docs/epg.xml"
-          
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.x"
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Generate EPG
+      run: |
+        python epg.py
+
+    - name: Push changes
+      if: success()
+      run: |
+        git config --global user.email "github-actions@github.com"
+        git config --global user.name "github-actions"
+        git add docs/epg.xml
+        git commit -m "Auto update EPG ($(date))" || echo "No changes to commit"
+        git push
+        
