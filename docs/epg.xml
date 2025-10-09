@@ -1,2 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<tv><channel id="VTV1"><display-name>VTV1 HD</display-name></channel><channel id="VTV2"><display-name>VTV2 HD</display-name></channel><channel id="VTV3"><display-name>VTV3 HD</display-name></channel><channel id="SCTV1"><display-name>SCTV1</display-name></channel><channel id="SCTV2"><display-name>SCTV2</display-name></channel><channel id="ON Sports"><display-name>ON Sports</display-name></channel><channel id="ON Vie Giải Trí"><display-name>ON Vie Giải Trí</display-name></channel></tv>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="lichphatsong.site">
+  <channel id="VTV1">
+    <display-name>VTV1 HD</display-name>
+  </channel>
+</tv>
