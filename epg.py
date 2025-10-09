@@ -1,71 +1,86 @@
-import requests
+import requests, gzip, io, pytz
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import pytz
+import sys
 
-# Múi giờ Việt Nam
-tz = pytz.timezone("Asia/Ho_Chi_Minh")
+# === Cấu hình cơ bản ===
+EPG_SOURCE = "https://lichphatsong.site/schedule/epg.xml.gz"
+OUTPUT_FILE = "docs/epg.xml"
+TIMEZONE = pytz.timezone("Asia/Ho_Chi_Minh")
 
-# Đọc danh sách kênh
+print("=== BẮT ĐẦU SINH EPG (2 ngày gần nhất) ===")
+
+# === Đọc danh sách kênh ===
 channels = []
-with open("channels.txt", "r", encoding="utf-8") as f:
-    for line in f:
-        parts = [p.strip() for p in line.split("|")]
-        if len(parts) == 3:
-            channels.append({
-                "id": parts[0],
-                "url": parts[1],
-                "name": parts[2]
-            })
+try:
+    with open("channels.txt", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                parts = [p.strip() for p in line.split("|")]
+                if len(parts) >= 3:
+                    channels.append({
+                        "id": parts[0],
+                        "url": parts[1],
+                        "name": parts[2]
+                    })
+except FileNotFoundError:
+    print("[!] Không tìm thấy file channels.txt")
+    sys.exit(1)
 
-# Tạo root XML
-tv = ET.Element("tv", attrib={
-    "generator-info-name": "my-epg-generator",
-    "source-info-url": "https://lichphatsong.site"
-})
+# === Tải file EPG nén ===
+try:
+    print(f"=> Tải dữ liệu từ {EPG_SOURCE}")
+    r = requests.get(EPG_SOURCE, timeout=60)
+    r.raise_for_status()
+    data = gzip.decompress(io.BytesIO(r.content).read())
+    root = ET.fromstring(data)
+except Exception as e:
+    print(f"[!] Lỗi tải hoặc giải nén EPG: {e}")
+    sys.exit(1)
 
-# Hàm định dạng thời gian chuẩn EPG (YYYYMMDDhhmmss +0700)
-def format_time(dt):
-    return dt.strftime("%Y%m%d%H%M%S +0700")
+# === Giới hạn thời gian lấy dữ liệu (2 ngày) ===
+now = datetime.now(TIMEZONE)
+end_time = now + timedelta(days=2)
+print(f"=> Lọc chương trình từ {now.strftime('%d/%m %H:%M')} đến {end_time.strftime('%d/%m %H:%M')}")
 
-# Duyệt qua từng kênh
+# === Tạo XML đầu ra ===
+epg = ET.Element("tv")
+total_programmes = 0
+
 for ch in channels:
-    # Thêm thẻ channel
-    ch_el = ET.SubElement(tv, "channel", id=ch["id"])
-    ET.SubElement(ch_el, "display-name").text = ch["name"]
+    ch_id = ch["id"]
+    ch_name = ch["name"]
 
-    try:
-        r = requests.get(ch["url"], timeout=10)
-        r.encoding = "utf-8"
-        data = ET.fromstring(r.text)
+    ch_elem = ET.SubElement(epg, "channel", id=ch_id)
+    ET.SubElement(ch_elem, "display-name").text = ch_name
 
-        for prog in data.findall("programme"):
-            start = prog.attrib.get("start")
-            stop = prog.attrib.get("stop")
-            title_el = prog.find("title")
+    # Lọc chương trình trong khoảng thời gian cần lấy
+    progs = []
+    for p in root.findall("programme"):
+        if p.attrib.get("channel") != ch_id:
+            continue
+        start_str = p.attrib.get("start", "")[:14]
+        try:
+            start_dt = datetime.strptime(start_str, "%Y%m%d%H%M%S")
+        except:
+            continue
+        start_dt = TIMEZONE.localize(start_dt)
 
-            # Bỏ qua nếu thiếu thời gian
-            if not start or not stop or title_el is None:
-                continue
+        if now <= start_dt <= end_time:
+            progs.append(p)
 
-            # Thêm vào EPG chính
-            p_el = ET.SubElement(tv, "programme", {
-                "start": start,
-                "stop": stop,
-                "channel": ch["id"]
-            })
-            title = ET.SubElement(p_el, "title", lang="vi")
-            title.text = title_el.text or "Chưa có tiêu đề"
+    print(f"=> {ch_name}: {len(progs)} chương trình")
+    total_programmes += len(progs)
+    for p in progs:
+        epg.append(p)
 
-            desc_el = prog.find("desc")
-            if desc_el is not None and desc_el.text:
-                desc = ET.SubElement(p_el, "desc", lang="vi")
-                desc.text = desc_el.text.strip()
+# === Ghi file XML ===
+tree = ET.ElementTree(epg)
+ET.indent(tree, space="  ")
+tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
 
-    except Exception as e:
-        print(f"Lỗi khi xử lý {ch['name']}: {e}")
-
-# Ghi file epg.xml
-tree = ET.ElementTree(tv)
-tree.write("docs/epg.xml", encoding="utf-8", xml_declaration=True)
-print("✅ Đã tạo xong file docs/epg.xml theo chuẩn EPG XML.")
+print(f"\n✅ Đã ghi {OUTPUT_FILE}")
+print(f"📺 Tổng cộng: {total_programmes} chương trình ({len(channels)} kênh)")
+print("=== HOÀN TẤT ===")
+    
