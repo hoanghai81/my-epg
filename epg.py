@@ -1,61 +1,98 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import pytz
-import os
+import subprocess
 
-# Lấy múi giờ Hà Nội
-tz = pytz.timezone("Asia/Ho_Chi_Minh")
-today = datetime.now(tz).date()
-tomorrow = today + timedelta(days=1)
+CHANNELS_FILE = "channels.txt"
+OUTPUT_FILE = "docs/epg.xml"
 
-print("=== BẮT ĐẦU SINH EPG ===")
-
-# Đọc danh sách kênh
-channels = []
-with open("channels.txt", "r", encoding="utf-8") as f:
-    for line in f:
-        if "|" in line:
+def parse_channels():
+    channels = []
+    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
             parts = [p.strip() for p in line.split("|")]
-            if len(parts) == 2:
-                channels.append((parts[0], parts[1]))
+            if len(parts) >= 3:
+                channels.append({
+                    "id": parts[0],
+                    "url": parts[1],
+                    "name": parts[2]
+                })
+    return channels
 
-all_programs = []
-for ch_id, source in channels:
-    print(f"=> Lấy lịch cho: {ch_id}")
+def load_epg_from_url(url):
     try:
-        r = requests.get(source, timeout=20)
+        r = requests.get(url, timeout=15)
         r.raise_for_status()
+        return ET.fromstring(r.content)
     except Exception as e:
-        print(f"  [!] Lỗi tải nguồn {source}: {e}")
-        continue
+        print(f"[!] Lỗi tải EPG từ {url}: {e}")
+        return None
 
+def filter_programmes(root, channel_id):
+    programmes = []
+    for p in root.findall("programme"):
+        if p.attrib.get("channel", "").lower() == channel_id.lower():
+            programmes.append(p)
+    return programmes
+
+def generate_epg(channels):
+    tv = ET.Element("tv")
+    tv.set("generator-info-name", "my-epg")
+
+    total_count = 0
+
+    for ch in channels:
+        print(f"=> Xử lý kênh: {ch['name']} ({ch['id']})")
+
+        epg_root = load_epg_from_url(ch["url"])
+        if epg_root is None:
+            continue
+
+        programmes = filter_programmes(epg_root, ch["id"])
+        print(f"   - Số chương trình lấy được: {len(programmes)}")
+
+        # Thêm phần channel
+        ch_elem = ET.SubElement(tv, "channel", id=ch["id"])
+        disp = ET.SubElement(ch_elem, "display-name")
+        disp.text = ch["name"]
+
+        # Giữ lại chương trình trong 2 ngày (hôm nay + mai)
+        today = datetime.now()
+        end_time = today + timedelta(days=2)
+        for p in programmes:
+            start = p.attrib.get("start", "")
+            if start and len(start) >= 8:
+                try:
+                    dt = datetime.strptime(start[:8], "%Y%m%d")
+                    if dt <= end_time:
+                        tv.append(p)
+                        total_count += 1
+                except:
+                    continue
+
+    ET.ElementTree(tv).write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+    print(f"-> written {OUTPUT_FILE} ({total_count} chương trình)")
+    print("=== HOÀN TẤT ===")
+    return total_count
+
+def git_commit_and_push():
     try:
-        xml_data = r.text
-        root = ET.fromstring(xml_data)
-        count = 0
-        for prog in root.findall("programme"):
-            channel = prog.get("channel", "").lower()
-            if ch_id.lower() in channel:
-                start = prog.get("start")
-                start_dt = datetime.strptime(start[:8], "%Y%m%d").date()
-                if start_dt in (today, tomorrow):
-                    all_programs.append(prog)
-                    count += 1
-        print(f"   - items found: {count}")
+        subprocess.run(["git", "config", "--global", "user.email", "github-actions@github.com"])
+        subprocess.run(["git", "config", "--global", "user.name", "github-actions"])
+        subprocess.run(["git", "add", OUTPUT_FILE])
+        subprocess.run(["git", "commit", "-m", f"update EPG {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"], check=False)
+        subprocess.run(["git", "push"])
+        print("✅ Đã commit + push lên GitHub")
     except Exception as e:
-        print(f"  [!] Lỗi parse XML: {e}")
+        print(f"[!] Lỗi git: {e}")
 
-# Tạo file epg.xml
-out_dir = "docs"
-os.makedirs(out_dir, exist_ok=True)
-out_file = os.path.join(out_dir, "epg.xml")
-
-epg_root = ET.Element("tv")
-for p in all_programs:
-    epg_root.append(p)
-tree = ET.ElementTree(epg_root)
-tree.write(out_file, encoding="utf-8", xml_declaration=True)
-
-print(f"-> written {out_file} ({len(all_programs)} chương trình)")
-print("=== HOÀN TẤT ===")
+if __name__ == "__main__":
+    print("=== BẮT ĐẦU SINH EPG ===")
+    channels = parse_channels()
+    count = generate_epg(channels)
+    if count > 0:
+        git_commit_and_push()
+        
