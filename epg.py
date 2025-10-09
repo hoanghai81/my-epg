@@ -1,153 +1,82 @@
 import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
 import xml.etree.ElementTree as ET
-import pytz
-import html
-import re
+from datetime import datetime, timedelta
+import os
 
-TODAY = datetime.now().strftime("%Y-%m-%d")
-VN_TZ = pytz.timezone("Asia/Ho_Chi_Minh")
+# ==========================
+# CẤU HÌNH
+# ==========================
+EPG_SOURCE = "https://lichphatsong.site/epg.xml"
+TARGET_CHANNEL = "VTV1"
+OUTPUT_FILE = "docs/epg.xml"
+LOG_FILE = "epg.log"
 
+# ==========================
+# HÀM HỖ TRỢ
+# ==========================
 def log(msg):
-    print(msg, flush=True)
+    print(msg)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().isoformat(sep=' ', timespec='seconds')}] {msg}\n")
 
-def parse_vtvgo(api_url, display_name):
+def get_target_dates():
+    today = datetime.now()
+    tomorrow = today + timedelta(days=1)
+    return [today.strftime("%Y%m%d"), tomorrow.strftime("%Y%m%d")]
+
+# ==========================
+# LẤY DỮ LIỆU EPG
+# ==========================
+def fetch_epg():
+    log(f"Đang tải EPG từ {EPG_SOURCE}")
     try:
-        url = api_url.replace("{date}", TODAY)
-        log(f"   [fetch JSON] {url}")
-        r = requests.get(url, timeout=10)
-        if r.status_code != 200:
-            log(f"   [!] HTTP {r.status_code}")
-            return []
-        data = r.json()
-        schedules = data.get("data", {}).get("schedules", [])
-        results = []
-        for item in schedules:
-            start = item.get("time")
-            title = item.get("name") or item.get("program_name", "Chưa rõ")
-            if not start:
-                continue
-            start_dt = VN_TZ.localize(datetime.strptime(f"{TODAY} {start}", "%Y-%m-%d %H:%M"))
-            results.append({
-                "start": start_dt,
-                "title": title.strip()
-            })
-        return results
+        resp = requests.get(EPG_SOURCE, timeout=30)
+        resp.raise_for_status()
+        log(f"Đã tải thành công ({len(resp.content)} bytes)")
+        return resp.content
     except Exception as e:
-        log(f"   [!] Lỗi parse VTVGo: {e}")
-        return []
+        log(f"[!] Lỗi khi tải EPG: {e}")
+        return None
 
-def parse_vtv_html(url, code):
+# ==========================
+# LỌC VÀ GHI FILE
+# ==========================
+def filter_epg(epg_data):
     try:
-        r = requests.get(url, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        blocks = soup.select("div.lps-time-item")
-        results = []
-        for b in blocks:
-            ch = b.find_previous("div", class_="lps-cat-title")
-            if not ch or code.lower() not in ch.text.lower():
-                continue
-            for item in b.select("ul > li"):
-                time_tag = item.select_one("span.time")
-                title_tag = item.select_one("a") or item.select_one("span.name")
-                if not time_tag or not title_tag:
-                    continue
-                start = time_tag.text.strip()
-                title = title_tag.text.strip()
-                start_dt = VN_TZ.localize(datetime.strptime(f"{TODAY} {start}", "%Y-%m-%d %H:%M"))
-                results.append({
-                    "start": start_dt,
-                    "title": html.unescape(title)
-                })
-        return results
+        root = ET.fromstring(epg_data)
+        out_root = ET.Element("tv")
+
+        programmes = 0
+        dates = get_target_dates()
+
+        for prog in root.findall("programme"):
+            ch = prog.attrib.get("channel", "").strip()
+            start = prog.attrib.get("start", "")
+            if ch == TARGET_CHANNEL and start[:8] in dates:
+                out_root.append(prog)
+                programmes += 1
+
+        # thêm channel info
+        for ch in root.findall("channel"):
+            if ch.attrib.get("id") == TARGET_CHANNEL:
+                out_root.insert(0, ch)
+                break
+
+        tree = ET.ElementTree(out_root)
+        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+        tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+
+        log(f"✅ Đã lưu {OUTPUT_FILE} — {programmes} chương trình ({TARGET_CHANNEL})")
     except Exception as e:
-        log(f"   [!] Lỗi parse VTV HTML: {e}")
-        return []
+        log(f"[!] Lỗi khi xử lý EPG: {e}")
 
-def parse_sctv(url, code):
-    try:
-        r = requests.get(url, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        results = []
-        for box in soup.select("div.view-content div.views-row"):
-            title_el = box.select_one(".views-field-title span")
-            time_el = box.select_one(".views-field-field-thoi-gian span")
-            if not title_el or not time_el:
-                continue
-            start = time_el.text.strip()
-            title = title_el.text.strip()
-            start_dt = VN_TZ.localize(datetime.strptime(f"{TODAY} {start}", "%Y-%m-%d %H:%M"))
-            results.append({"start": start_dt, "title": html.unescape(title)})
-        return results
-    except Exception as e:
-        log(f"   [!] Lỗi parse SCTV: {e}")
-        return []
-
-def parse_vtvcab(url, code):
-    try:
-        r = requests.get(url, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        results = []
-        for item in soup.select(".tv-schedule-item"):
-            title_el = item.select_one(".tv-schedule-title")
-            time_el = item.select_one(".tv-schedule-time")
-            if not title_el or not time_el:
-                continue
-            start = time_el.text.strip()
-            title = title_el.text.strip()
-            start_dt = VN_TZ.localize(datetime.strptime(f"{TODAY} {start}", "%Y-%m-%d %H:%M"))
-            results.append({"start": start_dt, "title": html.unescape(title)})
-        return results
-    except Exception as e:
-        log(f"   [!] Lỗi parse VTVCab: {e}")
-        return []
-
-def main():
-    log(f"=> Lấy EPG cho ngày {TODAY}")
-    channels = []
-    with open("channels.txt", encoding="utf-8") as f:
-        for line in f:
-            if line.strip() and not line.startswith("#"):
-                parts = line.strip().split("|")
-                if len(parts) >= 3:
-                    channels.append({
-                        "code": parts[0].strip(),
-                        "url": parts[1].strip(),
-                        "name": parts[2].strip()
-                    })
-
-    root = ET.Element("tv")
-    for ch in channels:
-        code, url, display = ch["code"], ch["url"], ch["name"]
-        log(f"=> Lấy lịch cho: {display}")
-        programmes = []
-        if "api.vtvgo.vn" in url:
-            programmes = parse_vtvgo(url, display)
-        elif "vtv.vn" in url:
-            programmes = parse_vtv_html(url, code)
-        elif "sctv.com.vn" in url:
-            programmes = parse_sctv(url, code)
-        elif "vtvcab.vn" in url:
-            programmes = parse_vtvcab(url, code)
-        else:
-            log(f"   [!] Không nhận dạng được nguồn: {url}")
-
-        ch_elem = ET.SubElement(root, "channel", id=code)
-        ET.SubElement(ch_elem, "display-name").text = display
-        log(f"   - items found: {len(programmes)}")
-
-        for prog in programmes:
-            prog_elem = ET.SubElement(root, "programme", {
-                "start": prog["start"].strftime("%Y%m%d%H%M%S %z"),
-                "channel": code
-            })
-            ET.SubElement(prog_elem, "title").text = prog["title"]
-
-    tree = ET.ElementTree(root)
-    tree.write("docs/epg.xml", encoding="utf-8", xml_declaration=True)
-    log("-> written docs/epg.xml")
-
+# ==========================
+# MAIN
+# ==========================
 if __name__ == "__main__":
-    main()
+    log("=== BẮT ĐẦU SINH EPG ===")
+    data = fetch_epg()
+    if data:
+        filter_epg(data)
+    log("=== HOÀN TẤT ===\n")
     
