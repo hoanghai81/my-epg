@@ -3,47 +3,6 @@
   <channel id="vtv1hd">
     <display-name>VTV1</display-name>
   </channel>
-  <programme channel="vtv1hd" channel-number="1" start="20251010014000 +0700" stop="20251010020000 +0700">
-    <title lang="vi">TUỔI CAO GƯƠNG SÁNG : NGƯỜI GIEO HẠT</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010020000 +0700" stop="20251010023000 +0700">
-    <title lang="vi">THỂ THAO</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-    <icon src="https://image1.vnmedia.xyz/63d013ccc20c2a849f34a50baa14b32a/1760029810/schedule/vtv1hd/thethao.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010023000 +0700" stop="20251010024500 +0700">
-    <title lang="vi">TỪ NHỮNG MIỀN QUÊ</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010024500 +0700" stop="20251010033000 +0700">
-    <title lang="vi">VTV SỐNG KHỎE</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010033000 +0700" stop="20251010041500 +0700">
-    <title lang="vi">PHIM TRUYỆN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/32dcbfc14e3eb86a8bc19cba94996173/1760029810/schedule/vtv1hd/phimtruyen.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010041500 +0700" stop="20251010050500 +0700">
-    <title lang="vi">PHIM TRUYỆN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/7189942977802c0f00e269aeaba47207/1760029811/schedule/vtv1hd/phimtruyen.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010050500 +0700" stop="20251010051000 +0700">
-    <title lang="vi">S - VIỆT NAM</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/ca5abbf9a2c4bde28d76ce8088c51622/1760029811/schedule/vtv1hd/svietnam.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010051000 +0700" stop="20251010053000 +0700">
-    <title lang="vi">CỰU CHIẾN BINH VIỆT NAM : KỲ VỌNG TỪ NGHỊ QUYẾT 68</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010053000 +0700" stop="20251010065800 +0700">
-    <title lang="vi">CHÀO BUỔI SÁNG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 1 giờ 28 phút.</desc>
-    <icon src="https://image4.vnmedia.xyz/253970188f32bf1713d3b21f48e56d78/1760029811/schedule/vtv1hd/chaobuoisang.webp" />
-  </programme>
   <programme channel="vtv1hd" channel-number="1" start="20251010065800 +0700" stop="20251010070000 +0700">
     <title lang="vi">V - VIỆT NAM : 340_CHIẾU CÓI PHÚ TÂN</title>
     <desc lang="vi">Chương trình này có thời lượng là 2 phút.</desc>
