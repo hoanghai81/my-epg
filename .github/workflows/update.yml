@@ -2,34 +2,26 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # chạy mỗi 6 tiếng
-  workflow_dispatch:         # cho phép anh chạy thủ công
+    - cron: "0 18 * * *"  # chạy lúc 01h sáng Hà Nội
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Cài Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
-
-      - name: Cài thư viện cần thiết
+          python-version: "3.11"
+      - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml python-dateutil pytz
-
-      - name: Chạy script tạo EPG
-        run: |
-          python epg.py
-
-      - name: Commit và đẩy file EPG
+          pip install requests pytz
+      - name: Run epg.py
+        run: python epg.py
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'docs/epg.xml'
-          message: 'Update EPG tự động'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: "Auto update EPG"
+          add: "docs/epg.xml"
+          
