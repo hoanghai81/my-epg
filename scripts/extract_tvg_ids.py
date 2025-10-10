@@ -43,7 +43,7 @@ def save_ids_to_file(ids, filename=OUTPUT):
 
 if __name__ == "__main__":
     sources = [
-        "https://lichphatsong.site/schedule/epg.xml.gz",
+        "https://vnepg.site/epgu.xml",
         # có thể thêm: "https://example.com/epg.xml"
     ]
 
