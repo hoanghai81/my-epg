@@ -1,0 +1,25 @@
+#EXTM3U 
+
+#EXTINF:-1 tvg-id="VTV1" group-title="VTV",VTV1 HD
+http://example.com/stream/vtv1.m3u8
+
+#EXTINF:-1 tvg-id="VTV2" group-title="VTV",VTV2 HD
+http://example.com/stream/vtv2.m3u8
+
+#EXTINF:-1 tvg-id="VTV3" group-title="VTV",VTV3 HD
+http://example.com/stream/vtv3.m3u8
+
+#EXTINF:-1 tvg-id="VTV4" group-title="VTV",VTV4 HD
+http://example.com/stream/vtv4.m3u8
+
+#EXTINF:-1 tvg-id="SCTV1" group-title="SCTV",SCTV1
+http://example.com/stream/sctv1.m3u8
+
+#EXTINF:-1 tvg-id="SCTV2" group-title="SCTV",SCTV2
+http://example.com/stream/sctv2.m3u8
+
+#EXTINF:-1 tvg-id="ON-Sports" group-title="VTVcab",ON Sports
+http://example.com/stream/onsports.m3u8
+
+#EXTINF:-1 tvg-id="ON-Vie-Giai-Tri" group-title="VTVcab",ON Vie Giải Trí
+http://example.com/stream/on-vie-gt.m3u8
