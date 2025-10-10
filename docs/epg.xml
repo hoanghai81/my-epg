@@ -3,33 +3,6 @@
   <channel id="vtv1hd">
     <display-name>VTV1</display-name>
   </channel>
-  <programme channel="vtv1hd" channel-number="1" start="20251010065800 +0700" stop="20251010070000 +0700">
-    <title lang="vi">V - VIỆT NAM : 340_CHIẾU CÓI PHÚ TÂN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 2 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010070000 +0700" stop="20251010072500 +0700">
-    <title lang="vi">TÀI CHÍNH - KINH DOANH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 25 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/954b69112e7e00d716743ebf8b8b7ee0/1760029811/schedule/vtv1hd/taichinhkinhdoanh.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010072500 +0700" stop="20251010073000 +0700">
-    <title lang="vi">VÌ MỘT TƯƠNG LAI XANH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-    <icon src="https://image3.vnmedia.xyz/5d60b5df05025345bf9500a317b309cb/1760029811/schedule/vtv1hd/vimottuonglaixanh.webp" />
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010073000 +0700" stop="20251010074500 +0700">
-    <title lang="vi">NẺO VỀ NGUỒN CỘI : LỄ HỘI SEN DOLTA CỦA NGƯỜI KHMER</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010074500 +0700" stop="20251010080000 +0700">
-    <title lang="vi">KÝ SỰ : VỀ LẠI CỨ ĐỊA XƯA - TẬP 14</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme channel="vtv1hd" channel-number="1" start="20251010080000 +0700" stop="20251010085000 +0700">
-    <title lang="vi">PHIM TRUYỆN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/7189942977802c0f00e269aeaba47207/1760029811/schedule/vtv1hd/phimtruyen.webp" />
-  </programme>
   <programme channel="vtv1hd" channel-number="1" start="20251010085000 +0700" stop="20251010090000 +0700">
     <title lang="vi">TỪ NHỮNG MIỀN QUÊ</title>
     <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
@@ -513,5 +486,407 @@
     <title lang="vi">KHÁM PHÁ VIỆT NAM</title>
     <desc lang="vi">Chương trình này có thời lượng là 24 giờ 5 phút.</desc>
     <icon src="https://image2.vnmedia.xyz/3e140399475aa0dc73d0908c1103d1f9/1760029823/schedule/vtv1hd/khamphavietnam.webp" />
+  </programme>
+  <channel id="vtv2hd">
+    <display-name>VTV2</display-name>
+  </channel>
+  <programme channel="vtv2hd" channel-number="2" start="20251010083000 +0700" stop="20251010090000 +0700">
+    <title lang="vi">CHÂN TRỜI KHOA HỌC</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/1c797ee9fd2d61db456bce850c95d90b/1760029824/schedule/vtv2hd/chantroikhoahoc.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010090000 +0700" stop="20251010091500 +0700">
+    <title lang="vi">PHÁT TRIỂN BỀN VỮNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/c194499ff5c34db15f92c51bda431739/1760029824/schedule/vtv2hd/phattrienbenvung.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010091500 +0700" stop="20251010093000 +0700">
+    <title lang="vi">XEM VÀ NGHĨ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/53e33ebdb4ac89e83d34c98f01889c36/1760029824/schedule/vtv2hd/xemvanghi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010093000 +0700" stop="20251010101500 +0700">
+    <title lang="vi">VTV2 ĐẶC BIỆT</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010101500 +0700" stop="20251010110000 +0700">
+    <title lang="vi">CHO NGÀY HOÀN HẢO : NGHỆ SĨ TRỊNH MINH HIỀN</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010110000 +0700" stop="20251010111500 +0700">
+    <title lang="vi">KÝ SỰ : NHỚ NHỮNG CHUYẾN PHÀ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010111500 +0700" stop="20251010113000 +0700">
+    <title lang="vi">NẺO VỀ NGUỒN CỘI : CHIẾC LƯỠI CÀY TRÊN LƯNG TRỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010113000 +0700" stop="20251010121500 +0700">
+    <title lang="vi">PHIM TRUYỆN : ĐƯỜNG TỚI THÀNH THĂNG LONG - TẬP 5</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010121500 +0700" stop="20251010123500 +0700">
+    <title lang="vi">KHÁT VỌNG SỐNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010123500 +0700" stop="20251010124500 +0700">
+    <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010124500 +0700" stop="20251010130000 +0700">
+    <title lang="vi">TỪ NHỮNG MIỀN QUÊ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010130000 +0700" stop="20251010140000 +0700">
+    <title lang="vi">BÂY GIỜ VÀ Ở ĐÂY</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010140000 +0700" stop="20251010143000 +0700">
+    <title lang="vi">NHỮNG MẢNH GHÉP CỦA CUỘC SỐNG : KHU DỰ TRỮ SINH QUYỂN NÚI CHÚA - TẬP 3</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010143000 +0700" stop="20251010150000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI : HƯƠNG VỊ NƯỚC NGA - TẬP 4</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010150000 +0700" stop="20251010151500 +0700">
+    <title lang="vi">KÝ SỰ : MẶN MÒI Ơ KHO QUẸT</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010151500 +0700" stop="20251010153000 +0700">
+    <title lang="vi">NHÀ NÔNG VUI VẺ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/a3a8fee944d0fec90a32af645bb85d47/1760029824/schedule/vtv2hd/nhanongvuive.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010153000 +0700" stop="20251010161500 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI : TRÁI ĐẤT MONG MANH - TẬP 8</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010161500 +0700" stop="20251010164300 +0700">
+    <title lang="vi">KHGD QUỐC PHÒNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 28 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/d7982b7264a733d06e9920b16f1743c5/1760029824/schedule/vtv2hd/khgdquocphong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010164300 +0700" stop="20251010164500 +0700">
+    <title lang="vi">THÔNG BÁO - GHI ƠN</title>
+    <desc lang="vi">Chương trình này có thời lượng là 2 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/ae730c79637c7c4cc7fd272459116020/1760029825/schedule/vtv2hd/thongbaoghion.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010164500 +0700" stop="20251010172500 +0700">
+    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 40 phút.</desc>
+    <icon src="https://image2.vnmedia.xyz/a9904d37f2e21a94994f8939e01a5daf/1760029825/schedule/vtv2hd/bancuanhanong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010172500 +0700" stop="20251010173000 +0700">
+    <title lang="vi">NHỊP ĐẬP VIỆT NAM</title>
+    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010173000 +0700" stop="20251010180000 +0700">
+    <title lang="vi">ĐƯỜNG TỚI NÔNG TRẠI : BẢO TỒN VÀ PHÁT TRIỂN KINH TẾ LÀNG NGHỀ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010180000 +0700" stop="20251010183000 +0700">
+    <title lang="vi">NHỮNG BÔNG HOA NHỎ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010183000 +0700" stop="20251010190000 +0700">
+    <title lang="vi">CHUYỂN ĐỘNG 24H</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010190000 +0700" stop="20251010200000 +0700">
+    <title lang="vi">THỜI SỰ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
+    <icon src="https://image1.vnmedia.xyz/f75ab64887fa3dabe6e51d910f605475/1760029825/schedule/vtv2hd/thoisu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010200000 +0700" stop="20251010203000 +0700">
+    <title lang="vi">KINH TẾ SỐ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010203000 +0700" stop="20251010210000 +0700">
+    <title lang="vi">HIỂU SÂU - SỐNG CHẤT</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010210000 +0700" stop="20251010213000 +0700">
+    <title lang="vi">NHỮNG MẢNH GHÉP CỦA CUỘC SỐNG : KHU DỰ TRỮ SINH QUYỂN NÚI CHÚA - TẬP 6</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010213000 +0700" stop="20251010220000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI : HƯƠNG VỊ NƯỚC NGA - TẬP 5</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010220000 +0700" stop="20251010223000 +0700">
+    <title lang="vi">360° THỂ THAO</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010223000 +0700" stop="20251010224500 +0700">
+    <title lang="vi">KÝ SỰ : NHỚ NHỮNG CHUYẾN PHÀ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010224500 +0700" stop="20251010230000 +0700">
+    <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010230000 +0700" stop="20251010235000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI : TRÁI ĐẤT MONG MANH - TẬP 8</title>
+    <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251010235000 +0700" stop="20251011000000 +0700">
+    <title lang="vi">NẺO VỀ NGUỒN CỘI : SẮC MÀU VĂN HÓA DAO LÔ GANG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011000000 +0700" stop="20251011011500 +0700">
+    <title lang="vi">MƯA BÓNG MÂY - TẬP 4</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/731dcca114279d52baae4badaf0f753b/1760029825/schedule/vtv2hd/muabongmaytap.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011011500 +0700" stop="20251011020000 +0700">
+    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/a9904d37f2e21a94994f8939e01a5daf/1760029825/schedule/vtv2hd/bancuanhanong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011020000 +0700" stop="20251011031000 +0700">
+    <title lang="vi">MƯA BÓNG MÂY - TẬP 5</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ 10 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/731dcca114279d52baae4badaf0f753b/1760029825/schedule/vtv2hd/muabongmaytap.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011031000 +0700" stop="20251011035000 +0700">
+    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 40 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/a9904d37f2e21a94994f8939e01a5daf/1760029825/schedule/vtv2hd/bancuanhanong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011035000 +0700" stop="20251011040500 +0700">
+    <title lang="vi">NHÀ NÔNG VUI VẺ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image2.vnmedia.xyz/2e62a2182436520e3e132639375350a8/1760029826/schedule/vtv2hd/nhanongvuive.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011040500 +0700" stop="20251011043000 +0700">
+    <title lang="vi">CÔNG NGHỆ KIẾN TẠO</title>
+    <desc lang="vi">Chương trình này có thời lượng là 25 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/f42f6116e8f8293e2b429a3bc7bcd941/1760029826/schedule/vtv2hd/congnghekientao.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011043000 +0700" stop="20251011044500 +0700">
+    <title lang="vi">NẺO VỀ NGUỒN CỘI - CHIẾC LƯỠI CÀY TRÊN LƯNG TRỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/64c4ea7f363b0123b0491a94c4a39d5f/1760029826/schedule/vtv2hd/neovenguoncoi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011044500 +0700" stop="20251011051500 +0700">
+    <title lang="vi">MÔI TRƯỜNG VÀ CUỘC SỐNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/51ecc2e4e13ea368b6a2b9ad828375d6/1760029826/schedule/vtv2hd/moitruongvacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011051500 +0700" stop="20251011053000 +0700">
+    <title lang="vi">KÝ SỰ - MẶN MÒI Ơ KHO QUẸT</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/c3575bddfaed2bf97795d805787a1390/1760029826/schedule/vtv2hd/kysu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011053000 +0700" stop="20251011054500 +0700">
+    <title lang="vi">CHECK IN VIỆT NAM - NƠI CỬA NGÕ VÙNG TÂY BẮC</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/0728185bb616a131bd586fbf9f67cfbc/1760029826/schedule/vtv2hd/checkinvietnam.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011054500 +0700" stop="20251011063000 +0700">
+    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/b32e45bf35570397ab9c286f41379da8/1760029827/schedule/vtv2hd/bancuanhanong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011063000 +0700" stop="20251011070000 +0700">
+    <title lang="vi">CÂY TÁO NỞ HOA - HỒNG PHÚC CỔ TỰ - PHẦN 1</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/2f1f9f14b64b5a97843362901e30e5d8/1760029827/schedule/vtv2hd/caytaonohoa.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011070000 +0700" stop="20251011071500 +0700">
+    <title lang="vi">GIẢI MÃ CUỘC SỐNG - CHUYỆN TÊN PHỐ HÀ NỘI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/634f0b54d038bb6e44443b58e2cc1a1c/1760029827/schedule/vtv2hd/giaimacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011071500 +0700" stop="20251011073000 +0700">
+    <title lang="vi">KÝ SỰ - NHỚ NHỮNG CHUYẾN PHÀ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/b7183c846576d915e9d50fe8f43f0d9f/1760029827/schedule/vtv2hd/kysu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011073000 +0700" stop="20251011080000 +0700">
+    <title lang="vi">CÔNG NGHỆ 360</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/0e6be7e94fd80e665b40c10c5b60ada3/1760029827/schedule/vtv2hd/congnghe.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011080000 +0700" stop="20251011083000 +0700">
+    <title lang="vi">TRUNG QUỐC - MỘT GÓC NHÌN</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/67655d3c17d36112e74443db8253c6a6/1760029827/schedule/vtv2hd/trungquoc.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011083000 +0700" stop="20251011090000 +0700">
+    <title lang="vi">AN NINH VÀ CUỘC SỐNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/a04fb9a6bb33abe5ea4c8da02bf19679/1760029828/schedule/vtv2hd/anninhvacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011090000 +0700" stop="20251011091500 +0700">
+    <title lang="vi">TRƯỜNG TEEN - TẬP 13</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/fef20e637f9a514d9f730848c3307e59/1760029828/schedule/vtv2hd/truongteentap.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011091500 +0700" stop="20251011101500 +0700">
+    <title lang="vi">XEM VÀ NGHĨ - LỢN BIỂN LOÀI ĐỘNG VẬT KÌ LẠ - PHẦN 1</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
+    <icon src="https://image2.vnmedia.xyz/41978325f970fe936b72e5591b2c6bec/1760029828/schedule/vtv2hd/xemvanghi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011101500 +0700" stop="20251011110000 +0700">
+    <title lang="vi">CHO NGÀY HOÀN HẢO - CA SĨ THÁI HÀ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/f319d00f883a6ced44086a7e7e7283a5/1760029828/schedule/vtv2hd/chongayhoanhao.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011110000 +0700" stop="20251011111500 +0700">
+    <title lang="vi">KÝ SỰ - LỐI THƯƠNG ĐƯỜNG NHỚ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/5e000a6b7c9e3d1e5589aa0304baa2c4/1760029828/schedule/vtv2hd/kysu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011111500 +0700" stop="20251011113000 +0700">
+    <title lang="vi">NẺO VỀ NGUỒN CỘI - CHI NÊ - LÀNG HIẾU HỌC VÀ KHOA BẢNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/6898d7539a40e5f6663e307ac681778a/1760029828/schedule/vtv2hd/neovenguoncoi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011113000 +0700" stop="20251011123000 +0700">
+    <title lang="vi">MƯA BÓNG MÂY - TẬP 6</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
+    <icon src="https://image1.vnmedia.xyz/bb5a34cb3cc5daf4fd6c090548fa6054/1760029828/schedule/vtv2hd/muabongmaytap.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011123000 +0700" stop="20251011124500 +0700">
+    <title lang="vi">NHẮN TÌM ĐỒNG ĐỘI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/b513e8043aa97a1f5fe1976c391f2ed1/1760029829/schedule/vtv2hd/nhantimdongdoi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011124500 +0700" stop="20251011130000 +0700">
+    <title lang="vi">TỪ NHỮNG MIỀN QUÊ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/5870eb098ecfb4e64326aea87c87d9f8/1760029829/schedule/vtv2hd/tunhungmienque.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011130000 +0700" stop="20251011134500 +0700">
+    <title lang="vi">SỐNG KHỎE MỖI NGÀY - NGƯỜI CAO TUỔI VỚI THOÁT VỊ ĐĨA ĐỆM</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/5cd7a8ca1c0084df802c21a5e31bc7db/1760029829/schedule/vtv2hd/songkhoemoingay.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011134500 +0700" stop="20251011140000 +0700">
+    <title lang="vi">GIẢI MÃ CUỘC SỐNG - CHUYỆN TÊN PHỐ HÀ NỘI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/4f0a271cdb09655a7ba35b1d3b1fc0ac/1760029829/schedule/vtv2hd/giaimacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011140000 +0700" stop="20251011143000 +0700">
+    <title lang="vi">NHỮNG MẢNH GHÉP CỦA CUỘC SỐNG - KHU DỰ TRỮ SINH QUYỂN NÚI CHÚA - TẬP 4</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/b5454047ee78aeca6b3bb50e0e744ddf/1760029829/schedule/vtv2hd/nhungmanhghepcuacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011143000 +0700" stop="20251011150000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI - HƯƠNG VỊ NƯỚC NGA - TẬP 5</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image2.vnmedia.xyz/0f1736e10f8e228ba7e11581bf774a50/1760029829/schedule/vtv2hd/khamphathegioi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011150000 +0700" stop="20251011151500 +0700">
+    <title lang="vi">KIẾN THỨC CỘNG ĐỒNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/635350ed8a3eb568a67aaa49629d6a1c/1760029829/schedule/vtv2hd/kienthuccongdong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011151500 +0700" stop="20251011153000 +0700">
+    <title lang="vi">NHÀ NÔNG VUI VẺ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/f1b64c51e4e6f75f3ea42cb69091bcfc/1760029830/schedule/vtv2hd/nhanongvuive.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011153000 +0700" stop="20251011161500 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI - TRÁI ĐẤT MONG MANH - TẬP 9</title>
+    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/9602acd6c5288dcdc1808cce68d3d77e/1760029830/schedule/vtv2hd/khamphathegioi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011161500 +0700" stop="20251011163000 +0700">
+    <title lang="vi">VTV KẾT NỐI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/3bcc971f93081aac07481845f1b7698e/1760029830/schedule/vtv2hd/vtvketnoi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011163000 +0700" stop="20251011164300 +0700">
+    <title lang="vi">TRƯỜNG HỌC HẠNH PHÚC</title>
+    <desc lang="vi">Chương trình này có thời lượng là 13 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/96bba5919cda8a8cde2b1cafad927f62/1760029830/schedule/vtv2hd/truonghochanhphuc.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011164300 +0700" stop="20251011164500 +0700">
+    <title lang="vi">THÔNG BÁO - GHI ƠN</title>
+    <desc lang="vi">Chương trình này có thời lượng là 2 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/7ace274118b6fb7802d07f58b350f7da/1760029830/schedule/vtv2hd/thongbaoghion.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011164500 +0700" stop="20251011172500 +0700">
+    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
+    <desc lang="vi">Chương trình này có thời lượng là 40 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/149d3db14162110a6e61aab82ef9fdd6/1760029830/schedule/vtv2hd/bancuanhanong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011172500 +0700" stop="20251011173000 +0700">
+    <title lang="vi">NHỊP ĐẬP VIỆT NAM</title>
+    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/688ff3fc776663b47359d5d0d66594cc/1760029831/schedule/vtv2hd/nhipdapvietnam.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011173000 +0700" stop="20251011180000 +0700">
+    <title lang="vi">CÂY TÁO NỞ HOA</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/e92534c04bd745e31982501fcfb9a3b4/1760029831/schedule/vtv2hd/caytaonohoa.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011180000 +0700" stop="20251011183000 +0700">
+    <title lang="vi">CƠ THỂ BẠN NÓI GÌ ?</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image2.vnmedia.xyz/92af517e68687254ce4f3d0c3f9e88a3/1760029831/schedule/vtv2hd/cothebannoigi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011183000 +0700" stop="20251011190000 +0700">
+    <title lang="vi">CHUYỂN ĐỘNG 24H</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/b023df4b2b7d5894fffce81ea42cf355/1760029831/schedule/vtv2hd/chuyendongh.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011190000 +0700" stop="20251011200000 +0700">
+    <title lang="vi">THỜI SỰ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
+    <icon src="https://image4.vnmedia.xyz/f8e7f58b09c4b862472fba540691375d/1760029831/schedule/vtv2hd/thoisu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011200000 +0700" stop="20251011203000 +0700">
+    <title lang="vi">PHIM TÀI LIỆU NƯỚC NGOÀI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/2dd644e063517bf68047c9711efd0861/1760029831/schedule/vtv2hd/phimtailieunuocngoai.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011203000 +0700" stop="20251011204500 +0700">
+    <title lang="vi">CẢNH GIÁC 247</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/c699d1b6ec715be0dfd7029afabecd34/1760029831/schedule/vtv2hd/canhgiac.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011204500 +0700" stop="20251011210000 +0700">
+    <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image4.vnmedia.xyz/23747d65b2b14efdae038749eb586110/1760029832/schedule/vtv2hd/sachhaythaydoicuocdoi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011210000 +0700" stop="20251011213000 +0700">
+    <title lang="vi">NHỮNG MẢNH GHÉP CỦA CUỘC SỐNG - DÒNG CHẢY SÔNG HỒNG - TẬP 1</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/d9214c47d5434f76a27f65f2e7a13e29/1760029832/schedule/vtv2hd/nhungmanhghepcuacuocsong.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011213000 +0700" stop="20251011220000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI - HƯƠNG VỊ NƯỚC NGA - TẬP 6</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/35c0974c569800f2e8272e8ef7e4340c/1760029832/schedule/vtv2hd/khamphathegioi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011220000 +0700" stop="20251011223000 +0700">
+    <title lang="vi">360° THỂ THAO</title>
+    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/3bea43950538a4bb69ee00cfd3127699/1760029832/schedule/vtv2hd/thethao.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011223000 +0700" stop="20251011224500 +0700">
+    <title lang="vi">KÝ SỰ - LỐI THƯƠNG ĐƯỜNG NHỚ</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image1.vnmedia.xyz/2b4759a21d0b0c2eff2e728331f28957/1760029832/schedule/vtv2hd/kysu.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011224500 +0700" stop="20251011230000 +0700">
+    <title lang="vi">NỘI THẤT KHÔNG GIỚI HẠN</title>
+    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/270d9fc1752c7547901dac10940bedd2/1760029832/schedule/vtv2hd/noithatkhonggioihan.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011230000 +0700" stop="20251011235000 +0700">
+    <title lang="vi">KHÁM PHÁ THẾ GIỚI - TRÁI ĐẤT MONG MANH - TẬP 9</title>
+    <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/4b397d9ec4a4a98d4172a8e0b096a8ba/1760029833/schedule/vtv2hd/khamphathegioi.webp" />
+  </programme>
+  <programme channel="vtv2hd" channel-number="2" start="20251011235000 +0700" stop="20251012235500 +0700">
+    <title lang="vi">NẺO VỀ NGUỒN CỘI - CHIẾC LƯỠI CÀY TRÊN LƯNG TRỜI</title>
+    <desc lang="vi">Chương trình này có thời lượng là 24 giờ 5 phút.</desc>
+    <icon src="https://image3.vnmedia.xyz/90cb3f28f4d4fb83af2948b2c59a7fb0/1760029833/schedule/vtv2hd/neovenguoncoi.webp" />
   </programme>
 </tv>
