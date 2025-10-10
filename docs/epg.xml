@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="my-epg" source-info-name="lichphatsong.site" source-info-url="https://lichphatsong.site">
+<tv generator-info-name="my-epg" source-info-name="multi" source-info-url="https://lichphatsong.site/schedule/epg.xml.gz,https://iptv-epg.org/files/epg-gb.xml.gz">
   <channel id="vtv1hd">
     <display-name lang="vi">VTV1 HD</display-name>
+    <icon src="https://image4.vnmedia.xyz/logo/vtv1hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010231500 +0700" channel="vtv1hd">
-    <title lang="vi">BẢN TIN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/1feb5702e99c32501daea4d556171077/1760029814/schedule/vtv1hd/bantin.webp" />
-  </programme>
-  <programme start="20251010231500 +0700" stop="20251010233000 +0700" channel="vtv1hd">
-    <title lang="vi">VTV KẾT NỐI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/3cce624ca728f4d452cc2c55b0ea5d5f/1760029814/schedule/vtv1hd/vtvketnoi.webp" />
-  </programme>
   <programme start="20251010233000 +0700" stop="20251010234500 +0700" channel="vtv1hd">
     <title lang="vi">NẺO VỀ NGUỒN CỘI : LỄ HỘI SEN DOLTA CỦA NGƯỜI KHMER</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -318,11 +309,8 @@
   </programme>
   <channel id="vtv2hd">
     <display-name lang="vi">VTV2 HD</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/vtv2hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010235000 +0700" channel="vtv2hd">
-    <title lang="vi">KHÁM PHÁ THẾ GIỚI : TRÁI ĐẤT MONG MANH - TẬP 8</title>
-    <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
-  </programme>
   <programme start="20251010235000 +0700" stop="20251011000000 +0700" channel="vtv2hd">
     <title lang="vi">NẺO VỀ NGUỒN CỘI : SẮC MÀU VĂN HÓA DAO LÔ GANG</title>
     <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
@@ -584,6 +572,7 @@
   </programme>
   <channel id="vtv3hd">
     <display-name lang="vi">VTV3 HD</display-name>
+    <icon src="https://image4.vnmedia.xyz/logo/vtv3hd.jpg" />
   </channel>
   <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv3hd">
     <title lang="vi">LỜI TỰ SỰ : DIỄN VIÊN HUỲNH NGÂN</title>
@@ -821,19 +810,8 @@
   </programme>
   <channel id="vtv4hd">
     <display-name lang="vi">VTV4 HD</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/vtv4hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010231500 +0700" channel="vtv4hd">
-    <title lang="vi">GIAI ĐIỆU CUỘC SỐNG : ĐỘC BẢN DUO: TIẾNG VIỆT</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251010231500 +0700" stop="20251010232000 +0700" channel="vtv4hd">
-    <title lang="vi">S - VIỆT NAM : NHỮNG ĐIỀU ĐẦU TIÊN Ở LÔ LÔ CHẢI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
-  <programme start="20251010232000 +0700" stop="20251011000000 +0700" channel="vtv4hd">
-    <title lang="vi">THẾ GIỚI TUỔI THƠ : VIỆT NAM NHỮNG CHUYẾN ĐI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 40 phút.</desc>
-  </programme>
   <programme start="20251011000000 +0700" stop="20251011002000 +0700" channel="vtv4hd">
     <title lang="vi">BẢN TIN TIẾNG VIỆT 0H</title>
     <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
@@ -1060,11 +1038,8 @@
   </programme>
   <channel id="vtv5hd">
     <display-name lang="vi">VTV5 HD</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/vtv5hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010234500 +0700" channel="vtv5hd">
-    <title lang="vi">PHIM TRUYỆN: GIẢI CỨU CON TIM</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251010234500 +0700" stop="20251011000000 +0700" channel="vtv5hd">
     <title lang="vi">NẺO VỀ NGUỒN CỘI</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -1255,15 +1230,8 @@
   </programme>
   <channel id="vtv5hdtn">
     <display-name lang="vi">VTV5 TN HD</display-name>
+    <icon src="https://image2.vnmedia.xyz/logo/vtv5hdtn.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010232000 +0700" channel="vtv5hdtn">
-    <title lang="vi">HI TECH - CÔNG NGHỆ TƯƠNG LAI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
-  <programme start="20251010232000 +0700" stop="20251010234000 +0700" channel="vtv5hdtn">
-    <title lang="vi">NÔNG NGHIỆP XANH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
   <programme start="20251010234000 +0700" stop="20251010235900 +0700" channel="vtv5hdtn">
     <title lang="vi">XEM VÀ NGHĨ</title>
     <desc lang="vi">Chương trình này có thời lượng là 19 phút.</desc>
@@ -1466,11 +1434,8 @@
   </programme>
   <channel id="vtv5hdtnb">
     <display-name lang="vi">VTV5 TNB HD</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/vtv5hdtnb.jpg" />
   </channel>
-  <programme start="20251010231500 +0700" stop="20251010235900 +0700" channel="vtv5hdtnb">
-    <title lang="vi">BẠN CỦA NHÀ NÔNG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 44 phút.</desc>
-  </programme>
   <programme start="20251011000000 +0700" stop="20251011004500 +0700" channel="vtv5hdtnb">
     <title lang="vi">PHIM TRUYỆN: KHÉP MẮT CHỜ NGÀY MAI</title>
     <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
@@ -1613,11 +1578,8 @@
   </programme>
   <channel id="vtvcantho">
     <display-name lang="vi">VTV CẦN THƠ HD</display-name>
+    <icon src="https://image2.vnmedia.xyz/logo/vtvcantho.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010233000 +0700" channel="vtvcantho">
-    <title lang="vi">SẮC MÀU CÁC DÂN TỘC : NON NƯỚC CAO BẰNG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtvcantho">
     <title lang="vi">CẬN CẢNH THỂ THAO</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -1812,15 +1774,8 @@
   </programme>
   <channel id="vtv7hd">
     <display-name lang="vi">VTV7 HD</display-name>
+    <icon src="https://image1.vnmedia.xyz/logo/vtv7hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010231500 +0700" channel="vtv7hd">
-    <title lang="vi">CUỐN SÁCH CỦA TÔI : SỐ 2 - BẢN ĐỒ TƯ DUY</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251010231500 +0700" stop="20251010234000 +0700" channel="vtv7hd">
-    <title lang="vi">PHIM TÀI LIỆU : XIN MỘT ĐỜI MỘNG MƠ</title>
-    <desc lang="vi">Chương trình này có thời lượng là 25 phút.</desc>
-  </programme>
   <programme start="20251010234000 +0700" stop="20251011000000 +0700" channel="vtv7hd">
     <title lang="vi">KHÔNG THÌ THẦM : SỐ 14 - KINH NGUYỆT</title>
     <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
@@ -2007,11 +1962,8 @@
   </programme>
   <channel id="vtv8hd">
     <display-name lang="vi">VTV8 HD</display-name>
+    <icon src="https://image1.vnmedia.xyz/logo/vtv8hd.jpg" />
   </channel>
-  <programme start="20251010231000 +0700" stop="20251010233000 +0700" channel="vtv8hd">
-    <title lang="vi">GIẢI MÃ CUỘC SỐNG: GIẢI MÃ HUYỀN THOẠI ĐƯỜNG TRƯỜNG SƠN - PHẦN 2</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
   <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv8hd">
     <title lang="vi">KHÁM PHÁ THẾ GIỚI: HƯƠNG VỊ NƯỚC NGA - TẬP 24</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -2250,15 +2202,8 @@
   </programme>
   <channel id="vtv9hd">
     <display-name lang="vi">VTV9 HD</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/vtv9hd.jpg" />
   </channel>
-  <programme start="20251010230000 +0700" stop="20251010232500 +0700" channel="vtv9hd">
-    <title lang="vi">CHẠM CẢM XÚC</title>
-    <desc lang="vi">Chương trình này có thời lượng là 25 phút.</desc>
-  </programme>
-  <programme start="20251010232500 +0700" stop="20251010233000 +0700" channel="vtv9hd">
-    <title lang="vi">CHUYỆN PHỐ PHƯỜNG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
   <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv9hd">
     <title lang="vi">BÍ MẬT THẾ KỶ: NGƯỜI KIẾN TẠO NƯỚC MỸ - TẬP 8</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -2486,4 +2431,109 @@
   <channel id="TNTSports1 HD.uk">
     <display-name lang="vi">TNT SPORTS 1 HD UK</display-name>
   </channel>
+  <programme start="20251010233000 +0700" stop="20251011001500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Sign Up - Into Football</title>
+    <desc lang="vi">Nottingham Forests Chris Wood shares his insights on the resurgence of the traditional number nine. Plus, Joe Hart on the start of the Premier League and Champions League.</desc>
+    <episode-num system="xmltv_ns">24.1.</episode-num>
+  </programme>
+  <programme start="20251011001500 +0700" stop="20251011003000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Premier League Reload</title>
+    <desc lang="vi">A whirlwind catch-up from matchday seven of the Premier League, featuring all the goals and major talking points from Leeds v Spurs, Arsenal v West Ham and more.</desc>
+    <episode-num system="xmltv_ns">24.6.</episode-num>
+  </programme>
+  <programme start="20251011003000 +0700" stop="20251011010000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">TNT Sports Reload</title>
+    <desc lang="vi">The best bits from TNT Sports over the last week, including exclusive interviews, the best action and so much more.</desc>
+    <episode-num system="xmltv_ns">24.40.</episode-num>
+  </programme>
+  <programme start="20251011010000 +0700" stop="20251011040000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: Sale Sharks v Newcastle RB</title>
+    <desc lang="vi">Newcastle Red Bulls seek their first Gallagher PREM win of the season as they travel to face Sale Sharks at CorpAcq Stadium.</desc>
+  </programme>
+  <programme start="20251011040000 +0700" stop="20251011044500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: Mountain Bike World Series</title>
+    <desc lang="vi">Mens UCI Mountain Bike World Series action from the XCC Short Track Elite in Mont Sainte Anne, Canada.</desc>
+  </programme>
+  <programme start="20251011044500 +0700" stop="20251011053000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Sign Up - Into Football</title>
+    <desc lang="vi">Nottingham Forests Chris Wood shares his insights on the resurgence of the traditional number nine. Plus, Joe Hart on the start of the Premier League and Champions League.</desc>
+    <episode-num system="xmltv_ns">24.1.</episode-num>
+  </programme>
+  <programme start="20251011053000 +0700" stop="20251011060000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">MLB: Off The Bat</title>
+    <desc lang="vi">All the latest action from Major League Baseball wrapped up, featuring the leagues top hitters and pitchers.</desc>
+    <episode-num system="xmltv_ns">2024.28.</episode-num>
+  </programme>
+  <programme start="20251011060000 +0700" stop="20251011070000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">MLB Highlights</title>
+    <desc lang="vi">Highlights from Major League Baseball. (10.10)</desc>
+  </programme>
+  <programme start="20251011070000 +0700" stop="20251011103000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live MLB: Tigers @ Mariners</title>
+    <desc lang="vi">Game five of the MLB American League Division Series between Detroit Tigers and Seattle Mariners at T-Mobile Park. Who will win this series decider?</desc>
+  </programme>
+  <programme start="20251011103000 +0700" stop="20251011104500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">TNT Sports Reload</title>
+    <desc lang="vi">The best bits from TNT Sports over the last week, including exclusive interviews, the best action and so much more.</desc>
+    <episode-num system="xmltv_ns">24.40.</episode-num>
+  </programme>
+  <programme start="20251011104500 +0700" stop="20251011190000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live 2nd Test: India v West Indies</title>
+    <desc lang="vi">Day two of the second Test between India and West Indies.</desc>
+  </programme>
+  <programme start="20251011190000 +0700" stop="20251011200000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: Gravel World Championships</title>
+    <desc lang="vi">Cycling action from the Womens UCI Gravel World Championships in the Zuid-Limburg region of the Netherlands. This 131km course features 1,190 metres of elevation gain.</desc>
+  </programme>
+  <programme start="20251011200000 +0700" stop="20251011203000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Grit and Glory</title>
+    <desc lang="vi">As anticipation builds for the seasons first race, we dive into the heart of the UCI Enduro World Cup and meet the elite riders who risk everything for a shot at glory.</desc>
+  </programme>
+  <programme start="20251011203000 +0700" stop="20251011231500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: Northampton v Leicester</title>
+    <desc lang="vi">Action from the Gallagher PREM as Northampton Saints and Leicester Tigers face-off at cinch Stadium. The Tigers won 33-0 when these sides last met.</desc>
+  </programme>
+  <programme start="20251011231500 +0700" stop="20251012014500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: Bath v Gloucester</title>
+    <desc lang="vi">Reigning champions Bath Rugby look to continue their winning start to the Gallagher PREM season as they host Gloucester Rugby at the Recreation Ground.</desc>
+  </programme>
+  <programme start="20251012014500 +0700" stop="20251012024500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Bristol Bears v Exeter Chiefs</title>
+    <desc lang="vi">Action from the Gallagher PREM as Bristol Bears face Exeter Chiefs at Ashton Gate. The Bears have won their last two league encounters with the Chiefs.</desc>
+  </programme>
+  <programme start="20251012024500 +0700" stop="20251012030000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">TNT Sports Reload</title>
+    <desc lang="vi">The best bits from TNT Sports over the last week, including exclusive interviews, the best action and so much more.</desc>
+    <episode-num system="xmltv_ns">24.40.</episode-num>
+  </programme>
+  <programme start="20251012030000 +0700" stop="20251012033000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Fight Week: UFC 320 Review Show</title>
+    <desc lang="vi">A review of UFC 320 at T-Mobile Arena in Las Vegas, Nevada. Magomed Ankalaev put his light heavyweight title on the line against Alex Pereira.</desc>
+  </programme>
+  <programme start="20251012033000 +0700" stop="20251012040000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">UFC Connected</title>
+    <desc lang="vi">Jasmine Jasudavicius shares how an unlikely meeting gave rise to her fighting career. Plus, bantamweight champion Merab Dvalishvili corners his best friend Aljamain Sterling.</desc>
+    <episode-num system="xmltv_ns">24.8.</episode-num>
+  </programme>
+  <programme start="20251012040000 +0700" stop="20251012060000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: UFC Fight Night Prelims</title>
+    <desc lang="vi">Action from the UFC Fight Night Prelims at Farmasi Arena in Rio de Janeiro, Brazil, ahead of the lightweight bout between home favourite Charles Oliveira and Mateusz Gamrot.</desc>
+  </programme>
+  <programme start="20251012060000 +0700" stop="20251012093000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live: UFC Fight Night</title>
+    <desc lang="vi">Action from UFC Fight Night at Farmasi Arena in Rio de Janeiro, Brazil, featuring the lightweight bout between home favourite Charles Oliveira and Mateusz Gamrot.</desc>
+  </programme>
+  <programme start="20251012093000 +0700" stop="20251012094500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">TNT Sports Cricket Reload</title>
+    <desc lang="vi">A look back at the best batting action from the first Test between India and West Indies in Ahmedabad, featuring centuries by KL Rahul, Dhruv Jurel and Ravindra Jadeja.</desc>
+    <episode-num system="xmltv_ns">2.58.</episode-num>
+  </programme>
+  <programme start="20251012094500 +0700" stop="20251012104500 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">India v West Indies - 2nd Test</title>
+    <desc lang="vi">Day two of the second Test between India and West Indies.</desc>
+  </programme>
+  <programme start="20251012104500 +0700" stop="20251012190000 +0700" channel="TNTSports1 HD.uk">
+    <title lang="vi">Live 2nd Test: India v West Indies</title>
+    <desc lang="vi">Day three of the second Test between India and West Indies.</desc>
+  </programme>
 </tv>
