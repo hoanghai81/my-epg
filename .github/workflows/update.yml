@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pytz
+          pip install requests pytz python-dateutil
 
       - name: Run EPG generator
         run: python epg.py
