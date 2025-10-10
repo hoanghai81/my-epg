@@ -2,7 +2,7 @@ import requests
 import gzip
 import xml.etree.ElementTree as ET
 
-URL = "https://lichphatsong.site/schedule/epg.xml.gz"
+URL = "https://vnepg.site/epgu.xml"
 OUTPUT = "docs/tvg_ids.txt"
 
 print("=== BẮT ĐẦU TẢI EPG ===")
