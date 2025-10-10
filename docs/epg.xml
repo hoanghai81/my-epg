@@ -319,10 +319,6 @@
   <channel id="vtv2hd">
     <display-name lang="vi">VTV2 HD</display-name>
   </channel>
-  <programme start="20251010224500 +0700" stop="20251010230000 +0700" channel="vtv2hd">
-    <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
   <programme start="20251010230000 +0700" stop="20251010235000 +0700" channel="vtv2hd">
     <title lang="vi">KHÁM PHÁ THẾ GIỚI : TRÁI ĐẤT MONG MANH - TẬP 8</title>
     <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
@@ -1618,10 +1614,6 @@
   <channel id="vtvcantho">
     <display-name lang="vi">VTV CẦN THƠ HD</display-name>
   </channel>
-  <programme start="20251010224500 +0700" stop="20251010230000 +0700" channel="vtvcantho">
-    <title lang="vi">KÝ ỨC MIỀN TÂY : MÊNH MANG KHÓI BẾP QUÊ NHÀ</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
   <programme start="20251010230000 +0700" stop="20251010233000 +0700" channel="vtvcantho">
     <title lang="vi">SẮC MÀU CÁC DÂN TỘC : NON NƯỚC CAO BẰNG</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -1821,10 +1813,6 @@
   <channel id="vtv7hd">
     <display-name lang="vi">VTV7 HD</display-name>
   </channel>
-  <programme start="20251010224500 +0700" stop="20251010230000 +0700" channel="vtv7hd">
-    <title lang="vi">FOLLOW US : SỐ 11 - IN THE MIDDLE OF NOWHERE</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
   <programme start="20251010230000 +0700" stop="20251010231500 +0700" channel="vtv7hd">
     <title lang="vi">CUỐN SÁCH CỦA TÔI : SỐ 2 - BẢN ĐỒ TƯ DUY</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -2020,10 +2008,6 @@
   <channel id="vtv8hd">
     <display-name lang="vi">VTV8 HD</display-name>
   </channel>
-  <programme start="20251010224000 +0700" stop="20251010231000 +0700" channel="vtv8hd">
-    <title lang="vi">THỜI SỰ</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251010231000 +0700" stop="20251010233000 +0700" channel="vtv8hd">
     <title lang="vi">GIẢI MÃ CUỘC SỐNG: GIẢI MÃ HUYỀN THOẠI ĐƯỜNG TRƯỜNG SƠN - PHẦN 2</title>
     <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
@@ -2499,7 +2483,7 @@
     <title lang="vi">ALO DOCTOR CUỐI TUẦN</title>
     <desc lang="vi">Chương trình này có thời lượng là 29 phút.</desc>
   </programme>
-  <channel id="TNT.Sports.1.HD.uk">
-    <display-name lang="vi">TNT1 SPORTS HD UK</display-name>
+  <channel id="TNTSports1 HD.uk">
+    <display-name lang="vi">TNT SPORTS 1 HD UK</display-name>
   </channel>
 </tv>
