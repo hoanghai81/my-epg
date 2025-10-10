@@ -5,3 +5,7 @@ vtv4hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV4 HD
 vtv5hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV5 HD
 vtv5hdtn | https://lichphatsong.site/schedule/epg.xml.gz | VTV5 TN HD
 vtv5hdtnb | https://lichphatsong.site/schedule/epg.xml.gz | VTV5 TNB HD
+vtvcantho | https://lichphatsong.site/schedule/epg.xml.gz | VTV CẦN THƠ HD
+vtv7hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV7 HD
+vtv8hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV8 HD
+vtv9hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV9 HD
