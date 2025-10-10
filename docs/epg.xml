@@ -1,13 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="my-epg" source-info-name="multi" source-info-url="https://lichphatsong.site/schedule/epg.xml.gz,https://iptv-epg.org/files/epg-gb.xml.gz">
+<tv generator-info-name="my-epg" source-info-name="multi" source-info-url="https://lichphatsong.site/schedule/epg.xml.gz,https://iptv-epg.org/files/epg-gb.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz">
   <channel id="vtv1hd">
     <display-name lang="vi">VTV1 HD</display-name>
     <icon src="https://image4.vnmedia.xyz/logo/vtv1hd.jpg" />
   </channel>
-  <programme start="20251010233000 +0700" stop="20251010234500 +0700" channel="vtv1hd">
-    <title lang="vi">NẺO VỀ NGUỒN CỘI : LỄ HỘI SEN DOLTA CỦA NGƯỜI KHMER</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
   <programme start="20251010234500 +0700" stop="20251011000000 +0700" channel="vtv1hd">
     <title lang="vi">KÝ SỰ : VỀ LẠI CỨ ĐỊA XƯA - TẬP 14</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -574,10 +570,6 @@
     <display-name lang="vi">VTV3 HD</display-name>
     <icon src="https://image4.vnmedia.xyz/logo/vtv3hd.jpg" />
   </channel>
-  <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv3hd">
-    <title lang="vi">LỜI TỰ SỰ : DIỄN VIÊN HUỲNH NGÂN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011001000 +0700" stop="20251011010000 +0700" channel="vtv3hd">
     <title lang="vi">CUỘC SỐNG RỰC RỠ - TẬP 77</title>
     <desc lang="vi">Chương trình này có thời lượng là 50 phút.</desc>
@@ -1580,10 +1572,6 @@
     <display-name lang="vi">VTV CẦN THƠ HD</display-name>
     <icon src="https://image2.vnmedia.xyz/logo/vtvcantho.jpg" />
   </channel>
-  <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtvcantho">
-    <title lang="vi">CẬN CẢNH THỂ THAO</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011000000 +0700" stop="20251011004500 +0700" channel="vtvcantho">
     <title lang="vi">PHIM TRUYỆN</title>
     <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
@@ -1964,10 +1952,6 @@
     <display-name lang="vi">VTV8 HD</display-name>
     <icon src="https://image1.vnmedia.xyz/logo/vtv8hd.jpg" />
   </channel>
-  <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv8hd">
-    <title lang="vi">KHÁM PHÁ THẾ GIỚI: HƯƠNG VỊ NƯỚC NGA - TẬP 24</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011000000 +0700" stop="20251011001500 +0700" channel="vtv8hd">
     <title lang="vi">KÝ SỰ - NHỮNG NGHỆ NHÂN CỦA NÚI RỪNG TÂY NGUYÊN - TẬP 3</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -2204,10 +2188,6 @@
     <display-name lang="vi">VTV9 HD</display-name>
     <icon src="https://image3.vnmedia.xyz/logo/vtv9hd.jpg" />
   </channel>
-  <programme start="20251010233000 +0700" stop="20251011000000 +0700" channel="vtv9hd">
-    <title lang="vi">BÍ MẬT THẾ KỶ: NGƯỜI KIẾN TẠO NƯỚC MỸ - TẬP 8</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011000000 +0700" stop="20251011004500 +0700" channel="vtv9hd">
     <title lang="vi">PHIM TRUYỆN</title>
     <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
@@ -2431,11 +2411,6 @@
   <channel id="TNTSports1 HD.uk">
     <display-name lang="vi">TNT SPORTS 1 HD UK</display-name>
   </channel>
-  <programme start="20251010233000 +0700" stop="20251011001500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Sign Up - Into Football</title>
-    <desc lang="vi">Nottingham Forests Chris Wood shares his insights on the resurgence of the traditional number nine. Plus, Joe Hart on the start of the Premier League and Champions League.</desc>
-    <episode-num system="xmltv_ns">24.1.</episode-num>
-  </programme>
   <programme start="20251011001500 +0700" stop="20251011003000 +0700" channel="TNTSports1 HD.uk">
     <title lang="vi">Premier League Reload</title>
     <desc lang="vi">A whirlwind catch-up from matchday seven of the Premier League, featuring all the goals and major talking points from Leeds v Spurs, Arsenal v West Ham and more.</desc>
@@ -2535,5 +2510,481 @@
   <programme start="20251012104500 +0700" stop="20251012190000 +0700" channel="TNTSports1 HD.uk">
     <title lang="vi">Live 2nd Test: India v West Indies</title>
     <desc lang="vi">Day three of the second Test between India and West Indies.</desc>
+  </programme>
+  <channel id="Sky.Sport.Premier.League.nz">
+    <display-name lang="vi">SKY SPORTS P.L HD NZ</display-name>
+    <icon src="https://images.skyone.co.nz/contentful/dcojl03mw8gy/1E6YMflONVpZdhNXvc0LWo/68443f563a0c6a383edcc2518b1cbae9/Sky_Sport_Premier_League_Logo_Arrow_Box.png" />
+  </channel>
+  <programme start="20251011013000 +0700" stop="20251011020000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP18: BOURNEMOUTH - FROM THE BRINK. In 2024/25, AFC Bournemouth smashed their club record with 56 Premier League points, but less than 20 years earlier, they were drowning in debt and fighting for survival. This is the story of a club that defied the odds.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011020000 +0700" stop="20251011030000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REVIEW</title>
+    <desc lang="vi">SUN 05 OCT. Review covers all the action from Matchweek 7, kicking off with Bournemouth versus Fulham, Arsenal host struggling West Ham in North London, followed by Chelsea taking on Champions, Liverpool, at the Bridge.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011030000 +0700" stop="20251011040000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL BEST OF...</title>
+    <desc lang="vi">PREMIER LEAGUE AMERICAS UNITED. A thrilling showcase of legendary footballers from the Americas who have stepped into the Timeless studio, featuring Tim Howard, Dwight Yorke, Wes Morgan, John Barnes, Brad Friedel, and others.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011040000 +0700" stop="20251011043000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP48: (Subbed) REGGAE RHYTHMS IN THE PREMIER LEAGUE. Reggae Rhythms in the Premier League explores the powerful connection between Jamaica and the world’s most-watched football league, showcasing how the island’s culture, music, and style have influenced.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011043000 +0700" stop="20251011053000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011053000 +0700" stop="20251011060000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE BIG INTERVIEW</title>
+    <desc lang="vi">EP09: CODY GAKPO. Since joining Liverpool in 2023, Cody Gakpo has become a key figure at Anfield – playing a major role in their Premier League title win last season. This week, The Big Interview sits down with the Netherlands international to learn about.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011060000 +0700" stop="20251011063000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP19: (Subbed) YAYA TOURE. We chart the remarkable journey of one of the Premier League’s most iconic midfielders, Yaya Toure, from his humble beginnings in Bouaké, Ivory Coast, to his rise through European football’s elite clubs. We sit down with Touré t.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011063000 +0700" stop="20251011070000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REWIND</title>
+    <desc lang="vi">EP04: STUART DALLAS: LEEDS 20/21. Marcelo Bielsa brought Premier League football back to Leeds in 2020, following a 16 year exile from the top flight. Amidst the backdrop of a global pandemic, Bielsa’s full-throttle tactics made Leeds the story of the sea.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011070000 +0700" stop="20251011080000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL BEST OF...</title>
+    <desc lang="vi">PREMIER LEAGUE DUTCH MASTERS. A high-energy hour showcasing legendary Dutch footballers, including Ruud Gullit, Edwin van der Sar, George Boateng, Mario Melchiot, Jaap Stam and more.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011080000 +0700" stop="20251011083000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">ROBIN VAN PERSIE. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight. From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and refle.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011083000 +0700" stop="20251011090000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP44: (Subbed) ARJAN DE ZEEUW. From a Premier League captain to a Dutch police detective. PL Stories goes behind the scenes with Arjan de Zeeuw as he revisits the places that shaped him, offers a rare glimpse into his life at work, and explores his growin.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011090000 +0700" stop="20251011093000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">EP07. Fast-paced with music, ISO angles, and commentary, Netbusters offers an alternative review of every goal and key moment from the latest round of Premier League fixtures.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011093000 +0700" stop="20251011100000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">ERLING HAALAND SPECIAL. Netbusters provides an alternative look at the weekends matches - all of the goals, key saves, misses and tackles in a fun, fast-paced 26 minutes.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011100000 +0700" stop="20251011110000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">GENERATION xG</title>
+    <desc lang="vi">MON 06 OCT. A deep dive into the tactical trends and statistical insights of modern football with input from players, managers and data experts from the 'fanalyst' community.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011110000 +0700" stop="20251011120000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011120000 +0700" stop="20251011130000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL GOATS</title>
+    <desc lang="vi">EP03: AUSTRALIAN STARS. No Australian has made more Premier League appearances than Mark Schwarzer, so who better to decide on the true Australian GOAT from those who have made the journey from Down Under to the Premier League.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011130000 +0700" stop="20251011133000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">MARK SCHWARZER. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight.  From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and reflec.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011133000 +0700" stop="20251011140000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP15: EDWIN VAN DER SAR. Edwin van der Sar has faced down pressure on the biggest stages in world football, but his toughest battle came after retirement. In 2023, the legendary goalkeeper suffered a life-threatening brain haemorrhage. In this episode Edw.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011140000 +0700" stop="20251011150000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP42: (Subbed) NEURODIVERSITY CELEBRATION. In this PL Stories show, Tim Howard, who has neurodiverse conditions, leads a conversation with past and present players, exploring the challenges and strengths of living with neurodiversity. Through personal sto.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011150000 +0700" stop="20251011160000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REVIEW</title>
+    <desc lang="vi">SUN 05 OCT. Review covers all the action from Matchweek 7, kicking off with Bournemouth versus Fulham, Arsenal host struggling West Ham in North London, followed by Chelsea taking on Champions, Liverpool, at the Bridge.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011160000 +0700" stop="20251011163000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP19: (Subbed) YAYA TOURE. We chart the remarkable journey of one of the Premier League’s most iconic midfielders, Yaya Toure, from his humble beginnings in Bouaké, Ivory Coast, to his rise through European football’s elite clubs. We sit down with Touré t.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011163000 +0700" stop="20251011170000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE BIG INTERVIEW</title>
+    <desc lang="vi">EP09: CODY GAKPO. Since joining Liverpool in 2023, Cody Gakpo has become a key figure at Anfield – playing a major role in their Premier League title win last season. This week, The Big Interview sits down with the Netherlands international to learn about.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011170000 +0700" stop="20251011190000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">Review of the Season</title>
+    <desc lang="vi">2024/2025 (LIV). Relive another extraordinary Premier League campaign as Liverpool soared to an historic 20th league title, Nottingham Forest defied expectations and the promoted sides were strenuously challenged. There were also tactical transformations,.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011190000 +0700" stop="20251011200000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL BEST OF...</title>
+    <desc lang="vi">PREMIER LEAGUE DUTCH MASTERS. A high-energy hour showcasing legendary Dutch footballers, including Ruud Gullit, Edwin van der Sar, George Boateng, Mario Melchiot, Jaap Stam and more.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011200000 +0700" stop="20251011203000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">ROBIN VAN PERSIE. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight. From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and refle.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011203000 +0700" stop="20251011210000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP44: (Subbed) ARJAN DE ZEEUW. From a Premier League captain to a Dutch police detective. PL Stories goes behind the scenes with Arjan de Zeeuw as he revisits the places that shaped him, offers a rare glimpse into his life at work, and explores his growin.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011210000 +0700" stop="20251011213000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">EP07. Fast-paced with music, ISO angles, and commentary, Netbusters offers an alternative review of every goal and key moment from the latest round of Premier League fixtures.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011213000 +0700" stop="20251011220000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">ERLING HAALAND SPECIAL. Netbusters provides an alternative look at the weekends matches - all of the goals, key saves, misses and tackles in a fun, fast-paced 26 minutes.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011220000 +0700" stop="20251011230000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">GENERATION xG</title>
+    <desc lang="vi">MON 06 OCT. A deep dive into the tactical trends and statistical insights of modern football with input from players, managers and data experts from the 'fanalyst' community.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251011230000 +0700" stop="20251012000000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012000000 +0700" stop="20251012010000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL GOATS</title>
+    <desc lang="vi">EP03: AUSTRALIAN STARS. No Australian has made more Premier League appearances than Mark Schwarzer, so who better to decide on the true Australian GOAT from those who have made the journey from Down Under to the Premier League.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012010000 +0700" stop="20251012013000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">MARK SCHWARZER. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight.  From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and reflec.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012013000 +0700" stop="20251012020000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP15: EDWIN VAN DER SAR. Edwin van der Sar has faced down pressure on the biggest stages in world football, but his toughest battle came after retirement. In 2023, the legendary goalkeeper suffered a life-threatening brain haemorrhage. In this episode Edw.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012020000 +0700" stop="20251012030000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP42: (Subbed) NEURODIVERSITY CELEBRATION. In this PL Stories show, Tim Howard, who has neurodiverse conditions, leads a conversation with past and present players, exploring the challenges and strengths of living with neurodiversity. Through personal sto.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012030000 +0700" stop="20251012040000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REVIEW</title>
+    <desc lang="vi">SUN 05 OCT. Review covers all the action from Matchweek 7, kicking off with Bournemouth versus Fulham, Arsenal host struggling West Ham in North London, followed by Chelsea taking on Champions, Liverpool, at the Bridge.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012040000 +0700" stop="20251012043000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP19: (Subbed) YAYA TOURE. We chart the remarkable journey of one of the Premier League’s most iconic midfielders, Yaya Toure, from his humble beginnings in Bouaké, Ivory Coast, to his rise through European football’s elite clubs. We sit down with Touré t.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012043000 +0700" stop="20251012050000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE BIG INTERVIEW</title>
+    <desc lang="vi">EP09: CODY GAKPO. Since joining Liverpool in 2023, Cody Gakpo has become a key figure at Anfield – playing a major role in their Premier League title win last season. This week, The Big Interview sits down with the Netherlands international to learn about.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012050000 +0700" stop="20251012070000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">Review of the Season</title>
+    <desc lang="vi">2024/2025 (LIV). Relive another extraordinary Premier League campaign as Liverpool soared to an historic 20th league title, Nottingham Forest defied expectations and the promoted sides were strenuously challenged. There were also tactical transformations,.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012070000 +0700" stop="20251012080000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL BEST OF...</title>
+    <desc lang="vi">PREMIER LEAGUE FRENCH CONNECTION. A celebration of France’s greatest football icons, featuring Thierry Henry, David Ginola, Robert Pirès, Claude Makélélé, Emmanuel Petit and many more.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012080000 +0700" stop="20251012083000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">THIERRY HENRY. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight. From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and reflect.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012083000 +0700" stop="20251012090000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP12: (Subbed) OLIVIER GIROUD. We follow the remarkable journey of Olivier Giroud, from his Premier League days with Arsenal and Chelsea to Champions League glory and beyond. A World Cup winner known for his elegance and resilience, Giroud’s career has ta.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012090000 +0700" stop="20251012100000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012100000 +0700" stop="20251012110000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REVIEW</title>
+    <desc lang="vi">SUN 05 OCT. Review covers all the action from Matchweek 7, kicking off with Bournemouth versus Fulham, Arsenal host struggling West Ham in North London, followed by Chelsea taking on Champions, Liverpool, at the Bridge.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012110000 +0700" stop="20251012130000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">Review of the Season</title>
+    <desc lang="vi">2023/2024 (MNC). The 2023/24 Premier League season will be forever remembered as one of the greatest campaigns ever. From an absorbing title race, Jürgen Klopp leaving Liverpool to Luton living the dream in the top-flight – Review of the Season documents.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012130000 +0700" stop="20251012133000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">EP07. Fast-paced with music, ISO angles, and commentary, Netbusters offers an alternative review of every goal and key moment from the latest round of Premier League fixtures.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012133000 +0700" stop="20251012140000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP47: (Subbed) MO SALAH. We look back on the extraordinary career of Mohamed Salah, tracing his rise from a small village in Egypt to global football stardom. We speak to those closest to him to highlight his early years, struggles, and determination, she.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012140000 +0700" stop="20251012143000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP18: BOURNEMOUTH - FROM THE BRINK. In 2024/25, AFC Bournemouth smashed their club record with 56 Premier League points, but less than 20 years earlier, they were drowning in debt and fighting for survival. This is the story of a club that defied the odds.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012143000 +0700" stop="20251012153000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012153000 +0700" stop="20251012163000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL MASTERCLASS</title>
+    <desc lang="vi">EP05. Some of the Premier League's biggest stars take us onto the pitch to discuss the techniques and thought processes that allow them to perform at the highest level. Featuring Morgan Rogers, Joelinton, Martin Odegaard and Ryan Gravenberch.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012163000 +0700" stop="20251012173000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">GOALS OF THE SEASON</title>
+    <desc lang="vi">2018/2019 (GB: SALAH, MANE, AUBAMEYANG). We take a look back at some of the most spectacular and important goals from previous Premier League seasons.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012173000 +0700" stop="20251012180000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">NETBUSTERS</title>
+    <desc lang="vi">ERLING HAALAND SPECIAL. Netbusters provides an alternative look at the weekends matches - all of the goals, key saves, misses and tackles in a fun, fast-paced 26 minutes.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012180000 +0700" stop="20251012183000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP03: (Subbed) PL GOALSCORERS. We celebrate the greatest goalscorers in Premier League history; the icons whose instinct, power, and flair have lit up stadiums and etched their names into footballing folklore. From Alan Shearer’s relentless consistency to.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012183000 +0700" stop="20251012190000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP17: (Subbed) MAYA YOSHIDA. Maya Yoshida quietly became one of the Premier League’s most dependable defenders during his years at Southampton, but his influence reached far beyond the pitch. In this episode, we look back at Yoshida’s journey from Japan t.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012190000 +0700" stop="20251012200000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL BEST OF...</title>
+    <desc lang="vi">PREMIER LEAGUE FRENCH CONNECTION. A celebration of France’s greatest football icons, featuring Thierry Henry, David Ginola, Robert Pirès, Claude Makélélé, Emmanuel Petit and many more.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012200000 +0700" stop="20251012203000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL 100</title>
+    <desc lang="vi">THIERRY HENRY. Premier League 100, celebrates some of the leading names to have achieved iconic milestones within England’s top flight. From scoring over 100 goals, to making over 100 clean sheets, we speak to the legends that left their mark and reflect.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012203000 +0700" stop="20251012210000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">PL STORIES</title>
+    <desc lang="vi">EP12: (Subbed) OLIVIER GIROUD. We follow the remarkable journey of Olivier Giroud, from his Premier League days with Arsenal and Chelsea to Champions League glory and beyond. A World Cup winner known for his elegance and resilience, Giroud’s career has ta.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012210000 +0700" stop="20251012220000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">THE CATCH-UP SHOW</title>
+    <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012220000 +0700" stop="20251012230000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REVIEW</title>
+    <desc lang="vi">SUN 05 OCT. Review covers all the action from Matchweek 7, kicking off with Bournemouth versus Fulham, Arsenal host struggling West Ham in North London, followed by Chelsea taking on Champions, Liverpool, at the Bridge.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251012230000 +0700" stop="20251013010000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">Review of the Season</title>
+    <desc lang="vi">2023/2024 (MNC). The 2023/24 Premier League season will be forever remembered as one of the greatest campaigns ever. From an absorbing title race, Jürgen Klopp leaving Liverpool to Luton living the dream in the top-flight – Review of the Season documents.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
   </programme>
 </tv>
