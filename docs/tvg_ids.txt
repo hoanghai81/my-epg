@@ -78,6 +78,7 @@ kaction
 kbsworld
 kcinehd
 khanhhoa
+khanhhoa1
 kix
 kkidshd
 klive1
@@ -96,7 +97,6 @@ musicbox
 nghean
 nhkworld
 ninhbinh
-ninhthuan
 onbibi
 oncine
 onechannel
