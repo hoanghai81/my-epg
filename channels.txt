@@ -1,3 +1,4 @@
+# Vietnam
 vtv1hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV1 HD
 vtv2hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV2 HD
 vtv3hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV3 HD
@@ -9,3 +10,6 @@ vtvcantho | https://lichphatsong.site/schedule/epg.xml.gz | VTV CẦN THƠ HD
 vtv7hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV7 HD
 vtv8hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV8 HD
 vtv9hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV9 HD
+
+#UK
+TNT.Sports.1.HD.uk | https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz | TNT1 SPORTS HD UK
