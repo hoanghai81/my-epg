@@ -1,3 +1,3 @@
-vtv1hd | https://lichphatsong.site/schedule/epg.xml | VTV1
-vtv2hd | https://lichphatsong.site/schedule/epg.xml | VTV2
-vtv3hd | https://lichphatsong.site/schedule/epg.xml | VTV3
+vtv1hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV1 HD
+vtv2hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV2 HD
+vtv3hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV3 HD
