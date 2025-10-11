@@ -1,6 +1,8 @@
-# Danh sách tvg-id (tự động sinh)
-# Cập nhật lúc: 2025-10-11 14:22:30
+# Danh sách tvg-id từ các nguồn trong nguonlps.txt
+# Cập nhật lúc: 2025-10-11 17:05:11
 
+## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
+# Tổng cộng: 179 ID
 abcaustralia
 afnhd
 angiang1
@@ -180,3 +182,796 @@ vtvcantho
 vungtau
 warnertvhd
 woman
+
+## Nguồn: https://iptv-epg.org/files/epg-gb.xml.gz
+# Tổng cộng: 425 ID
+4seven.uk
+5 USA.uk
+5ACTION.uk
+5SELECT.uk
+5STAR+1.uk
+5STAR.uk
+5USA+1.uk
+AAJ TAK.uk
+ARY Digital.uk
+ATN.uk
+Aastha.uk
+Adult Channel.uk
+Ahlebait TV.uk
+Akaal Channel.uk
+Al Jazeera HD.uk
+Animal Planet.uk
+Animal Plnt+1.uk
+Arirang TV HD.uk
+Arise News.uk
+B4U Movies.uk
+B4U Music.uk
+BBC ALBA HD.uk
+BBC Asian Net.uk
+BBC Four HD.uk
+BBC NEWS HD.uk
+BBC One CI HD.uk
+BBC One EMidHD.uk
+BBC One EastHD.uk
+BBC One Lon HD.uk
+BBC One NE HD.uk
+BBC One NI HD.uk
+BBC One NW HD.uk
+BBC One SE HD.uk
+BBC One SW HD.uk
+BBC One ScotHD.uk
+BBC One Sth HD.uk
+BBC One WM HD.uk
+BBC One Wal HD.uk
+BBC One Wst HD.uk
+BBC One YandL HD.uk
+BBC One Yks HD.uk
+BBC Parl HD.uk
+BBC R Cymru 2.uk
+BBC R Cymru.uk
+BBC R Foyle.uk
+BBC R London.uk
+BBC R Scot.uk
+BBC R Ulster.uk
+BBC R Wales.uk
+BBC R1.uk
+BBC R1X.uk
+BBC R2.uk
+BBC R3.uk
+BBC R4 Extra.uk
+BBC R4.uk
+BBC R5L.uk
+BBC R5SX.uk
+BBC R6 Music.uk
+BBC RB 1 HD.uk
+BBC RnGàid.uk
+BBC Three HD.uk
+BBC Two HD.uk
+BBC Two NI HD.uk
+BBC Two Wal HD.uk
+BBC World Sv.uk
+BBCScotlandHD.uk
+BFBS Radio.uk
+BLAZE.uk
+Babenation.uk
+BabyTV.uk
+Best Direct.uk
+Bloomberg HD.uk
+Boomerang HD.uk
+Boomerang+1.uk
+Boomerang.uk
+Brit Asia TV.uk
+CBBC HD.uk
+CBeebies HD.uk
+CHSTV.uk
+CN+1.uk
+CNBC HD.uk
+CNN HD.uk
+COLORS HD.uk
+COLORS.uk
+Capital XTRA.uk
+Capital.uk
+Cartoon Net HD.uk
+Cartoon Netwrk.uk
+Cartoonito.uk
+Challenge.uk
+Channel 4 HD.uk
+Channel 4+1.uk
+Channel 5 HD.uk
+Channel 5+1.uk
+Channel 5.uk
+Channels 24.uk
+Chl Line-up.uk
+Christmas24+.uk
+Christmas24.uk
+Classic FM.uk
+Climax.uk
+Clubland TV.uk
+ColorsCineplex.uk
+ColorsGujarati.uk
+ColorsRishtey.uk
+ComedyCent+1.uk
+ComedyCentHD.uk
+ComedyCentral.uk
+ComedyXtra.uk
+Court TV.uk
+Crime+Inv HD.uk
+Crime+Inv+1.uk
+Crime+Inv.uk
+Cruise1st.tv.uk
+DAYSTAR HD.uk
+DMAX+1.uk
+DMAX.uk
+Deen TV.uk
+Disc.History+1.uk
+Disc.History.uk
+Disc.Sci+1.uk
+Disc.Science.uk
+Disc.Turbo+1.uk
+Disc.Turbo.uk
+Discovery HD.uk
+Discovery+1.uk
+Discovery.uk
+Dunamis TV.uk
+E4 Extra.uk
+E4 HD.uk
+E4+1.uk
+E4.uk
+EWTN Catholic.uk
+Eman Channel.uk
+Euronews.uk
+Eurosport 1 HD.uk
+Eurosport 1.uk
+Eurosport 2 HD.uk
+Eurosport 2.uk
+FRANCE 24 HD.uk
+Faith UK.uk
+Faith World TV.uk
+Favourites HD.uk
+Film4 HD.uk
+Film4+1.uk
+Film4.uk
+Food Network.uk
+Food Netwrk+1.uk
+GB News HD.uk
+GEO News.uk
+GEO TV.uk
+GOD Channel.uk
+GREAT! action.uk
+GREAT! movies+1.uk
+GREAT! movies.uk
+GREAT! tv+1.uk
+GREAT! tv.uk
+GREAT! xmas+1.uk
+GREAT! xmas.uk
+GREAT!action+1.uk
+Gems TV.uk
+Gold Radio.uk
+HGTV+1.uk
+HGTV.uk
+HUM EUROPE.uk
+HUM Masala.uk
+Heart 80s.uk
+Heart 90s.uk
+Heart Dance.uk
+Heart.uk
+High Street TV 1.uk
+High Street TV 2.uk
+High Street TV 3.uk
+HobbyMakerHD.uk
+ID+1.uk
+ID.uk
+IQRA Bangla.uk
+IQRA TV.uk
+ITV Be HD.uk
+ITV1 HD.uk
+ITV1+1.uk
+ITV2 HD.uk
+ITV2+1.uk
+ITV3 HD.uk
+ITV3+1.uk
+ITV4 HD.uk
+ITV4+1.uk
+Ideal World HD.uk
+India Today.uk
+Islam Bangla.uk
+Islam Ch Urdu.uk
+Islam Channel.uk
+Islam TV.uk
+JewelleryMaker.uk
+Kanshi TV.uk
+LBC News.uk
+LBC.uk
+LEGEND XTRA+1.uk
+LEGEND XTRA.uk
+LEGEND.uk
+LFCTV HD.uk
+London Live.uk
+LoveWorld HD.uk
+MATV National.uk
+MTA1 World HD.uk
+MTV 80s.uk
+MTV HD.uk
+MTV HITS.uk
+MTV MUSIC.uk
+MTV XMAS.uk
+MTV.uk
+MUTV HD.uk
+Madani Chnl.uk
+More4 HD.uk
+More4+1.uk
+More4.uk
+MstHveIdeasHD.uk
+Music India.uk
+My Sky.uk
+NDTV World.uk
+NHK World HD.uk
+NOW 70s.uk
+NOW 80s.uk
+NOW ROCK.uk
+NOW XMAS.uk
+NTD.uk
+NTV.uk
+Nat Geo HD.uk
+Nat Geo Wild.uk
+Nat Geo+1.uk
+Nat Geo.uk
+NatGeoWild HD.uk
+New Vision TV.uk
+Nick Jr+1.uk
+Nick Jr. HD.uk
+Nick Jr. Too.uk
+Nick Jr..uk
+Nickelodeon+1.uk
+Nickelodeon.uk
+NickelodeonHD.uk
+Nicktoons.uk
+Noor TV.uk
+PBC.uk
+PBS America.uk
+PCNE Chinese HD.uk
+POP Max+1.uk
+POP Max.uk
+POP+1.uk
+POP.uk
+PTC PUNJABI.uk
+Panjab Radio.uk
+Pitaara.uk
+PoliticsPunjab.uk
+Premier 1 HD.uk
+Premier 2 HD.uk
+QTV Religious.uk
+QUEST HD.uk
+QUEST+1.uk
+QUEST.uk
+QVC Beauty.uk
+QVC Extra.uk
+QVC HD.uk
+QVC Style HD.uk
+Quest Red+1.uk
+Quest Red.uk
+RTÉ 2FM.uk
+RTÉ Lyric fm.uk
+RTÉ R na G.uk
+RTÉ Radio 1.uk
+Racing TV HD.uk
+Racing TV.uk
+Radio X.uk
+Really.uk
+Rewind TV.uk
+S4C HD.uk
+S4C.uk
+SONY MAX 2.uk
+SONY MAX HD.uk
+SONY MAX.uk
+SONY SAB.uk
+SONY TV HD.uk
+SONY TV.uk
+Samaa TV.uk
+Sangat.uk
+Sanskar.uk
+Sikh Channel.uk
+Sky 80s HD.uk
+Sky Action HD.uk
+Sky Arts HD.uk
+Sky Arts.uk
+Sky Atlantic HD.uk
+Sky Atlantic+1.uk
+Sky Atlantic.uk
+Sky Comedy HD.uk
+Sky Comedy.uk
+Sky Crime HD.uk
+Sky Crime+1.uk
+Sky Crime.uk
+Sky Epics HD.uk
+Sky History+1.uk
+Sky History.uk
+Sky History2.uk
+Sky HistoryHD.uk
+Sky Intro.uk
+Sky Kids HD.uk
+Sky Max HD.uk
+Sky Max.uk
+Sky Mix HD.uk
+Sky Nature HD.uk
+Sky Nature.uk
+Sky News HD.uk
+Sky News.uk
+Sky Replay.uk
+Sky ScFi/HorHD.uk
+Sky Sci-Fi HD.uk
+Sky Sci-Fi.uk
+Sky Showcase.uk
+Sky Thriller HD.uk
+Sky Witness HD.uk
+Sky Witness+1.uk
+Sky Witness.uk
+SkyAnimationHD.uk
+SkyChristmasHD.uk
+SkyDocmntrsHD.uk
+SkyDocumntrs.uk
+SkyHistory2HD.uk
+SkyKidsBooksHD.uk
+SkyNewsArabia.uk
+SkyPremiereHD.uk
+SkyShowcase+1.uk
+SkyShowcaseHD.uk
+SkySp F1 HD.uk
+SkySp Fball HD.uk
+SkySp Golf HD.uk
+SkySp Mix HD.uk
+SkySp Mix.uk
+SkySp NFL HD.uk
+SkySp News HD.uk
+SkySp News.uk
+SkySp PL HD.uk
+SkySp Racing HD.uk
+SkySp Racing.uk
+SkySp Tennis HD.uk
+SkySp+ HD.uk
+SkySpBoxOffHD.uk
+SkySpCricket HD.uk
+SkySpMainEvHD.uk
+Smooth.uk
+SonLife.uk
+TBN UK.uk
+TJC HD.uk
+TLC HD.uk
+TLC+1.uk
+TLC.uk
+TNT Sports 1.uk
+TNT Sports 2.uk
+TNT Sports 3.uk
+TNT Sports 4.uk
+TNTSBoxOff2HD.uk
+TNTSBoxOffHD.uk
+TNTSports1 HD.uk
+TNTSports2 HD.uk
+TNTSports3 HD.uk
+TNTSports4 HD.uk
+TRT World HD.uk
+TRT World.uk
+TRUE CRIME X.uk
+TRUE CRIME+1.uk
+TRUE CRIME.uk
+TV One.uk
+TV Warehouse.uk
+TVC News.uk
+TVX 40+.uk
+TWR.uk
+Takbeer TV.uk
+TalkingPictures.uk
+Television X.uk
+Thats Christmas.uk
+Thats Dance.uk
+Thats Fabulous.uk
+Thats Melody.uk
+Thats TV 2.uk
+Thats TV.uk
+Tiny Pop+1.uk
+Tiny Pop.uk
+Together.uk
+Travelxp.uk
+UandAlibi HD.uk
+UandAlibi+1.uk
+UandAlibi.uk
+UandDave HD.uk
+UandDave.uk
+UandDaveJaVu.uk
+UandDrama+1.uk
+UandDrama.uk
+UandEden+1.uk
+UandEden.uk
+UandGold HD.uk
+UandGold+1.uk
+UandGold.uk
+UandW HD.uk
+UandW+1.uk
+UandW.uk
+UandYesterday HD.uk
+UandYesterday+1.uk
+UandYesterday.uk
+Utsav Bharat.uk
+Utsav Gold HD.uk
+Utsav Gold.uk
+Utsav Plus HD.uk
+Utsav Plus.uk
+Virgin Radio.uk
+WION HD.uk
+WRN Europe.uk
+Word Network.uk
+XXX Girl Girl.uk
+Xpanded TV.uk
+Zee Cinema.uk
+Zee Punjabi.uk
+Zee TV HD.uk
+Zee TV.uk
+babesandbrazzers.uk
+iON TV.uk
+revelation.uk
+talkSPORT.uk
+
+## Nguồn: https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz
+# Tổng cộng: 100 ID
+Al.Jazeera.nz
+Animal.Planet.nz
+BBC.Earth.nz
+BBC.First.nz
+BBC.UKTV.nz
+BBC.World.News.nz
+Bravo.+1.nz
+Bravo.PLUS.1.nz
+Bravo.nz
+CBeebies.nz
+CGTN.Documentary.nz
+CGTN:.China.Global.Television.Network.nz
+CH200.nz
+CNBC.nz
+CNN.nz
+Cartoon.Network.nz
+Channel.33.nz
+Colors.nz
+Comedy.Central.nz
+Country.TV.nz
+DAYSTAR.nz
+Discovery.Turbo.nz
+Discovery.nz
+Duke.nz
+ESPN..nz
+ESPN2.nz
+Eden+1.nz
+Eden.+1.nz
+Eden.nz
+Face.TV.nz
+Firstlight.nz
+Fox.News.nz
+George.nz
+HBO.nz
+HGTV.nz
+Hope.Channel.nz
+ID.nz
+JONES!.nz
+Juice.TV.nz
+Living.nz
+MTV.80s.nz
+MTV.Hits.nz
+Nick.Jr.nz
+Nickelodeon.nz
+Parliament.nz
+RNZ.Concert.nz
+RNZ.National.nz
+Radio.Aotearoa.nz
+Real.Crime.nz
+Real.History.nz
+Rialto.nz
+Rush.nz
+SHINE.nz
+Shine.nz
+Sky.5.nz
+Sky.Arena.nz
+Sky.Arts.nz
+Sky.Movies.Action.nz
+Sky.Movies.Classics.nz
+Sky.Movies.Comedy.nz
+Sky.Movies.Family.nz
+Sky.Movies.Greats.nz
+Sky.Movies.Premiere.nz
+Sky.News.nz
+Sky.Open+1.nz
+Sky.Open.nz
+Sky.Sport.1.nz
+Sky.Sport.2.nz
+Sky.Sport.3.nz
+Sky.Sport.4.nz
+Sky.Sport.5.nz
+Sky.Sport.6.nz
+Sky.Sport.7.nz
+Sky.Sport.8.nz
+Sky.Sport.9.nz
+Sky.Sport.Premier.League.nz
+Sky.Sport.Select.nz
+SonLife.nz
+Star.Gold.nz
+Star.Plus.Hindi.nz
+TLC.nz
+TVNZ.1.+1.nz
+TVNZ.1.nz
+TVNZ.1.plus.1.nz
+TVNZ.2.+1.nz
+TVNZ.2.nz
+TVNZ.2.plus.1.nz
+TVNZ.DUKE+1.nz
+TVNZ.DUKE.+1.nz
+TVNZ.DUKE.nz
+Tahu.FM.nz
+Three.+1.nz
+Three.nz
+Trackside.1.nz
+Trackside.2.nz
+Universal.nz
+Vibe.nz
+Wairarapa.TV.nz
+Whakaata.Māori.nz
+eden.nz
+
+## Nguồn: https://vnepg.site/epgu.xml
+# Tổng cộng: 256 ID
+abcaustralia
+afnhd
+angiang1
+angiang2
+angiang3
+angiangradio1
+angiangradio2
+animalhd
+antvhd
+anvienhd
+arirang
+axnhd
+bacninh
+bacninhradio
+bbcearth
+bbclifestyle
+bbcworldnews
+binhduong1
+binhduong2
+binhduongradio
+bloomberg
+boomerang
+boxhits
+boxmovie1
+camau
+camauradio
+cantho1
+cantho2
+cantho3
+canthoradio2
+caobang
+cartoonhd
+cbeebies
+cgtn
+cinemaworldhd
+cinemaxhd
+cna
+cnbc
+cnn
+daklak
+daklakradio
+danang1
+danang2
+davinci
+dienbien
+discoveryasiahd
+discoveryhd
+dmax
+dongnai1
+dongnai2
+dongnai3
+dongnairadio
+dongthap1
+dongthap2
+dongthapradio
+dreamworks
+drfithd
+dw
+fashionhd
+france24eng
+gialai
+haiphong
+haiphong1022
+haiphong3
+haiphong937
+haiphongplus
+hanoi1
+hanoi2
+hanoi90
+hanoi96
+happykids
+hatinh
+hatinhradio
+hbofamily
+hbohd
+hbohits
+hgtv
+historyhd
+hollywoodclassics
+htv1
+htv2hd
+htv3
+htv7hd
+htv9hd
+htvccanhachd
+htvcdulichhd
+htvcgiadinhhd
+htvcphimhd
+htvcphunuhd
+htvcplushd
+htvcthuanviet
+htvkey
+htvthethaohd
+hue
+hungyen
+hungyenradio
+inthebox
+kactionhd
+kbsworld
+kcinehd
+khanhhoa
+khanhhoa1
+khanhhoaradio
+kix
+kkidshd
+klive1
+klive2
+klive3
+kplushd
+ksport1hd
+ksport2hd
+laichau
+lamdong1
+lamdong2
+lamdong3
+langson
+langsonradio
+laocai
+lovenature4k
+man
+mtvlive
+musicbox
+mytv801
+mytv802
+mytv803
+mytv804
+mytv806
+mytv807
+mytv903
+mytv904
+mytv905
+mytv906
+nghean
+ngheanradio
+nhkworld
+ninhbinh
+ninhbinhradio
+onbibi
+oncine
+oneasia
+onechannel
+onfootball
+ongolf
+oninfotv
+onkids
+onlife
+onmovies
+onmusic
+ono2tv
+onphimviet
+onsports
+onsportsnews
+onsportsplus
+onstyle
+ontrending
+onvfamily
+onviedramas
+onviegiaitri
+outdoorhd
+phutho
+planetearthhd
+qpvnhd
+quangngai
+quangninh1
+quangninh3
+quangninhradio1
+quangninhradio2
+quangtri
+quangtriradio
+sctv11hd
+sctv12hd
+sctv13hd
+sctv14hd
+sctv15hd
+sctv16hd
+sctv17hd
+sctv18hd
+sctv19hd
+sctv1hd
+sctv20hd
+sctv21hd
+sctv22hd
+sctv2hd
+sctv3hd
+sctv4hd
+sctv4k
+sctv6hd
+sctv7hd
+sctv8hd
+sctv9hd
+sctvhdpth
+sonla
+sonlaradio
+spotv1
+spotv2
+tayninh1
+tayninh2
+thainguyen
+thainguyenradio
+thanhhoa
+thanhhoaradio
+tlchd
+tuyenquang
+tv360plus1
+tv360plus2
+tv360plus3
+tv360plus4
+tv360plus5
+tv360plus6
+tv360plus7
+tv360plus8
+tv360plus9
+tv5monde
+tvnasia
+tvnmovies
+vietnamtoday
+vinhlong1hd
+vinhlong2hd
+vinhlong3hd
+vinhlong4hd
+vinhlong5hd
+vinhlongradio
+voh610
+voh877
+voh956
+voh999
+vov1
+vov2
+vov247
+vov3
+vov4hcm
+vov4mt
+vov4scl
+vov4tb
+vov4tn
+vov5
+vovgtduyenhai
+vovgthcm
+vovgthn
+vovgtmekong
+vtv1hd
+vtv2hd
+vtv3hd
+vtv4hd
+vtv5hd
+vtv5hdtn
+vtv5hdtnb
+vtv7hd
+vtv8hd
+vtv9hd
+vtvcantho
+vungtau
+vungtauradio
+warnertvhd
+woman
+wsport
+
+=== Tổng cộng tất cả nguồn: 960 ID ===
+=== Thành công: 4 | Thất bại: 0 ===
