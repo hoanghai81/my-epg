@@ -1,4 +1,7 @@
 ===== Vietnam =====
+onviegiaitri | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE GIẢI TRÍ
+onviedramas | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE DRAMAS
+vinhlong1hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 1
 vtv1hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV1 HD
 vtv2hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV2 HD
 vtv3hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV3 HD
