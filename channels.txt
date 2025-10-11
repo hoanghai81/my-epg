@@ -2,6 +2,10 @@
 onviegiaitri | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE GIẢI TRÍ
 onviedramas | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE DRAMAS
 vinhlong1hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 1
+vinhlong2hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 2
+vinhlong3hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 3
+vinhlong4hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 4
+vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 vtv1hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV1 HD
 vtv2hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV2 HD
 vtv3hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV3 HD
