@@ -21,5 +21,5 @@ http://example.com/stream/sctv2.m3u8
 #EXTINF:-1 tvg-id="ON-Sports" group-title="VTVcab",ON Sports
 http://example.com/stream/onsports.m3u8
 
-#EXTINF:-1 tvg-id="ON-Vie-Giai-Tri" group-title="VTVcab",ON Vie Giải Trí
+#EXTINF:-1 tvg-id="onviegiaitri" group-title="VTVcab",ON Vie Giải Trí
 http://example.com/stream/on-vie-gt.m3u8
