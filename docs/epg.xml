@@ -1,21 +1,283 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="my-epg" source-info-name="multi" source-info-url="https://lichphatsong.site/schedule/epg.xml.gz,https://iptv-epg.org/files/epg-gb.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz">
+  <channel id="afnhd">
+    <display-name lang="vi">AFN</display-name>
+    <icon src="https://image3.vnmedia.xyz/logo/afnhd.png" />
+  </channel>
+  <programme start="20251011223000 +0700" stop="20251011230000 +0700" channel="afnhd">
+    <title lang="vi">MAXIMUM FOODIE - S2 - ĐỈNH CAO ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Foodie tối đa giới thiệu tấm thảm phong phú của ẩm thực toàn cầu; Từ với các đầu bếp hàng đầu, đến theo đuổi các thành phần kỳ lạ.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/d2e3985c9dffcb64bb094a5f8c878e60/1760116532/schedule/afnhd/maximumfoodies2dinhcaoamthucmua2.webp" />
+  </programme>
+  <programme start="20251011230000 +0700" stop="20251011232500 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/cf7c35f454f09e59179c2a1fc0035f06/1760116532/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251011232500 +0700" stop="20251011235500 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/cf7c35f454f09e59179c2a1fc0035f06/1760116532/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251011235500 +0700" stop="20251012000000 +0700" channel="afnhd">
+    <title lang="vi">FOODPRINTS - S2 - DẤU ẤN ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Đầu bếp Sandy Daza tiếp tục hành trình ẩm thực của mình, làm nổi bật những sự thật thú vị và những câu đố về con người, địa điểm và, tất nhiên, thực phẩm và nhiều thực phẩm hơn!</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/eed454b4e5d3433ffb69073c6ab7ee55/1760116532/schedule/afnhd/foodprintss2dauanamthucmua2.webp" />
+  </programme>
+  <programme start="20251012002000 +0700" stop="20251012005000 +0700" channel="afnhd">
+    <title lang="vi">FOODPRINTS - S2 - DẤU ẤN ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Đầu bếp Sandy Daza tiếp tục hành trình ẩm thực của mình, làm nổi bật những sự thật thú vị và những câu đố về con người, địa điểm và, tất nhiên, thực phẩm và nhiều thực phẩm hơn!</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/eed454b4e5d3433ffb69073c6ab7ee55/1760116532/schedule/afnhd/foodprintss2dauanamthucmua2.webp" />
+  </programme>
+  <programme start="20251012005000 +0700" stop="20251012014500 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/4ff47b4ceb941f62ba1f2f10c9345fa4/1760116533/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012014500 +0700" stop="20251012021000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/24655b8d1844e9335b6d4ed4a4e99c32/1760116533/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012021000 +0700" stop="20251012024000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/24655b8d1844e9335b6d4ed4a4e99c32/1760116533/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012024000 +0700" stop="20251012033500 +0700" channel="afnhd">
+    <title lang="vi">FOOD PARADISE INTERNATIONAL - S2 - THIÊN ĐƯỜNG ẨM THỰC QUỐC TẾ (MÙA 2)</title>
+    <desc lang="vi">Thực phẩm đặc biệt nhất của Trái đất: Cà ri miệng đến burritos habanero.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/20e39850c95ca28143391de6efaba993/1760116533/schedule/afnhd/foodparadiseinternationals2thienduongamthucquoctemua2.webp" />
+  </programme>
+  <programme start="20251012033500 +0700" stop="20251012043000 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/4ff47b4ceb941f62ba1f2f10c9345fa4/1760116533/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012043000 +0700" stop="20251012050000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/24655b8d1844e9335b6d4ed4a4e99c32/1760116533/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012050000 +0700" stop="20251012052500 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/4a25ac37b3f5900677b660ee4e8128ea/1760116534/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012052500 +0700" stop="20251012055000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/4a25ac37b3f5900677b660ee4e8128ea/1760116534/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012055000 +0700" stop="20251012064500 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/ef9ade4146a3e70d2856d90e035745cb/1760116534/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012064500 +0700" stop="20251012071000 +0700" channel="afnhd">
+    <title lang="vi">DISCOVERING LOCAL RAMEN BY CAR - S2 - KHÁM PHÁ HƯƠNG VỊ RAMEN (MÙA 2)</title>
+    <desc lang="vi">Tập phim này đưa chúng ta vào một chuyến ramen lái xe đến tỉnh Saga, Kyushu. Điểm dừng đầu tiên là lái xe Tori, nơi thức ăn linh hồn của Imari, Yakitori, là món ăn đặc trưng.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/2ddc8b4225551875687248ad735bb00f/1760116534/schedule/afnhd/discoveringlocalramenbycars2khamphahuongviramenmua2.webp" />
+  </programme>
+  <programme start="20251012071000 +0700" stop="20251012074000 +0700" channel="afnhd">
+    <title lang="vi">DISCOVERING LOCAL RAMEN BY CAR - S1 - KHÁM PHÁ HƯƠNG VỊ RAMEN (MÙA 1)</title>
+    <desc lang="vi">Tập phim này đưa chúng ta vào một chuyến ramen lái xe đến tỉnh Saga, Kyushu. Điểm dừng đầu tiên là lái xe Tori, nơi thức ăn linh hồn của Imari, Yakitori, là món ăn đặc trưng.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/7b84a65fc0b879e97fa42c324a317448/1760116534/schedule/afnhd/discoveringlocalramenbycars1khamphahuongviramenmua1.webp" />
+  </programme>
+  <programme start="20251012074000 +0700" stop="20251012080500 +0700" channel="afnhd">
+    <title lang="vi">THE CHOCOLATE QUEEN - S5 - NỮ HOÀNG SÔCÔLA (MÙA 5)</title>
+    <desc lang="vi">Nữ hoàng sô cô la Kristen Tibbs chia sẻ những lời khuyên, thủ thuật và bí mật thông minh cực kỳ sáng tạo để làm cho việc làm bánh tại nhà tuyệt vời.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/2e589c27f99cf76cc14bf3285b0a3793/1760116534/schedule/afnhd/thechocolatequeens5nuhoangsocolamua5.webp" />
+  </programme>
+  <programme start="20251012080500 +0700" stop="20251012083500 +0700" channel="afnhd">
+    <title lang="vi">THE CHOCOLATE QUEEN - S5 - NỮ HOÀNG SÔCÔLA (MÙA 5)</title>
+    <desc lang="vi">Nữ hoàng sô cô la Kristen Tibbs chia sẻ những lời khuyên, thủ thuật và bí mật thông minh cực kỳ sáng tạo để làm cho việc làm bánh tại nhà tuyệt vời.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/2e589c27f99cf76cc14bf3285b0a3793/1760116534/schedule/afnhd/thechocolatequeens5nuhoangsocolamua5.webp" />
+  </programme>
+  <programme start="20251012083500 +0700" stop="20251012090000 +0700" channel="afnhd">
+    <title lang="vi">EVERYDAY GOURMET - S12 - ĂN NGON MỖI NGÀY (MÙA 12)</title>
+    <desc lang="vi">Justine Schofield truyền cảm hứng cho các đầu bếp gia đình để ra khỏi nhà bếp của họ bằng cách đơn giản hóa thức ăn cho người sành ăn.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/27cc4310e05c0c1a973f29830dbb1a63/1760116535/schedule/afnhd/everydaygourmets12anngonmoingaymua12.webp" />
+  </programme>
+  <programme start="20251012090000 +0700" stop="20251012093000 +0700" channel="afnhd">
+    <title lang="vi">EVERYDAY GOURMET - S12 - ĂN NGON MỖI NGÀY (MÙA 12)</title>
+    <desc lang="vi">Justine Schofield truyền cảm hứng cho các đầu bếp gia đình để ra khỏi nhà bếp của họ bằng cách đơn giản hóa thức ăn cho người sành ăn.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/27cc4310e05c0c1a973f29830dbb1a63/1760116535/schedule/afnhd/everydaygourmets12anngonmoingaymua12.webp" />
+  </programme>
+  <programme start="20251012093000 +0700" stop="20251012102500 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/18a600ecacef1ad7955d706afe8253de/1760116535/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012102500 +0700" stop="20251012105000 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/6a52bcbf08a984cc0c54b2f56f5458dd/1760116535/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251012105000 +0700" stop="20251012112000 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/6a52bcbf08a984cc0c54b2f56f5458dd/1760116535/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251012112000 +0700" stop="20251012121500 +0700" channel="afnhd">
+    <title lang="vi">MAKAN ON WHEELS - S1 - VI VU KHÁM PHÁ ẨM THỰC (MÙA 1)</title>
+    <desc lang="vi">Chủ nhà Bryan, Herman và đầu bếp Melvyn bắt đầu một chuyến đi đến Malaysia trong một chiếc xe tải thực phẩm để trao đổi ẩm thực giữa Singapore và Malaysia.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/5d9354021f1990e9d502d5da1eb5b95b/1760116535/schedule/afnhd/makanonwheelss1vivukhamphaamthucmua1.webp" />
+  </programme>
+  <programme start="20251012121500 +0700" stop="20251012124000 +0700" channel="afnhd">
+    <title lang="vi">MEAN STREET GOURMET - S1 - CÂU CHUYỆN QUA MÓN ĂN ĐƯỜNG PHỐ (MÙA 1)</title>
+    <desc lang="vi">Chúng tôi ghé thăm các quầy hàng thực phẩm gia đình ở các thành phố ven biển Trung Quốc cho các món ăn đặc trưng của họ bao gồm bánh kếp hàu, thịt lợn chua ngọt, salad da cá và nhiều hơn nữa.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/207d9d1c88ef56a1edbe37ed3dd5b912/1760116536/schedule/afnhd/meanstreetgourmets1cauchuyenquamonanduongphomua1.webp" />
+  </programme>
+  <programme start="20251012124000 +0700" stop="20251012131000 +0700" channel="afnhd">
+    <title lang="vi">MEAN STREET GOURMET - S1 - CÂU CHUYỆN QUA MÓN ĂN ĐƯỜNG PHỐ (MÙA 1)</title>
+    <desc lang="vi">Chúng tôi ghé thăm các quầy hàng thực phẩm gia đình ở các thành phố ven biển Trung Quốc cho các món ăn đặc trưng của họ bao gồm bánh kếp hàu, thịt lợn chua ngọt, salad da cá và nhiều hơn nữa.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/207d9d1c88ef56a1edbe37ed3dd5b912/1760116536/schedule/afnhd/meanstreetgourmets1cauchuyenquamonanduongphomua1.webp" />
+  </programme>
+  <programme start="20251012131000 +0700" stop="20251012133500 +0700" channel="afnhd">
+    <title lang="vi">FRENCH GOURMET WITH JUSTINE SCHOFIELD - S1 - MÓN PHÁP TUYỆT HẢO (MÙA 1)</title>
+    <desc lang="vi">Bắt tay vào một cuộc phiêu lưu ẩm thực qua miền Nam nước Pháp với Cook nổi tiếng Justine Scholfield trong 'Người sành ăn Pháp'.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/6ee4b6e83833a93ca6a7ffaf443723c3/1760116536/schedule/afnhd/frenchgourmetwithjustineschofields1monphaptuyethaomua1.webp" />
+  </programme>
+  <programme start="20251012133500 +0700" stop="20251012140500 +0700" channel="afnhd">
+    <title lang="vi">FRENCH GOURMET WITH JUSTINE SCHOFIELD - S1 - MÓN PHÁP TUYỆT HẢO (MÙA 1)</title>
+    <desc lang="vi">Bắt tay vào một cuộc phiêu lưu ẩm thực qua miền Nam nước Pháp với Cook nổi tiếng Justine Scholfield trong 'Người sành ăn Pháp'.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/6ee4b6e83833a93ca6a7ffaf443723c3/1760116536/schedule/afnhd/frenchgourmetwithjustineschofields1monphaptuyethaomua1.webp" />
+  </programme>
+  <programme start="20251012140500 +0700" stop="20251012150000 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/681fbe4f8563d9a5ab337498b59c2b7b/1760116536/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012150000 +0700" stop="20251012153000 +0700" channel="afnhd">
+    <title lang="vi">THE CHOCOLATE QUEEN - S5 - NỮ HOÀNG SÔCÔLA (MÙA 5)</title>
+    <desc lang="vi">Nữ hoàng sô cô la Kristen Tibbs chia sẻ những lời khuyên, thủ thuật và bí mật thông minh cực kỳ sáng tạo để làm cho việc làm bánh tại nhà tuyệt vời.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/530e8af42888ca6198468bef04990ba3/1760116536/schedule/afnhd/thechocolatequeens5nuhoangsocolamua5.webp" />
+  </programme>
+  <programme start="20251012153000 +0700" stop="20251012160000 +0700" channel="afnhd">
+    <title lang="vi">THE CHOCOLATE QUEEN - S5 - NỮ HOÀNG SÔCÔLA (MÙA 5)</title>
+    <desc lang="vi">Nữ hoàng sô cô la Kristen Tibbs chia sẻ những lời khuyên, thủ thuật và bí mật thông minh cực kỳ sáng tạo để làm cho việc làm bánh tại nhà tuyệt vời.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/e45e00ceb5f10891b2508de99bdb6262/1760116537/schedule/afnhd/thechocolatequeens5nuhoangsocolamua5.webp" />
+  </programme>
+  <programme start="20251012160000 +0700" stop="20251012170000 +0700" channel="afnhd">
+    <title lang="vi">FOOD PARADISE INTERNATIONAL - S2 - THIÊN ĐƯỜNG ẨM THỰC QUỐC TẾ (MÙA 2)</title>
+    <desc lang="vi">Thực phẩm đặc biệt nhất của Trái đất: Cà ri miệng đến burritos habanero.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/57996ea40c16deef94bcd1fa32d878a4/1760116537/schedule/afnhd/foodparadiseinternationals2thienduongamthucquoctemua2.webp" />
+  </programme>
+  <programme start="20251012170000 +0700" stop="20251012173000 +0700" channel="afnhd">
+    <title lang="vi">DISCOVERING LOCAL RAMEN BY CAR - S2 - KHÁM PHÁ HƯƠNG VỊ RAMEN (MÙA 2)</title>
+    <desc lang="vi">Tập phim này đưa chúng ta vào một chuyến ramen lái xe đến tỉnh Saga, Kyushu. Điểm dừng đầu tiên là lái xe Tori, nơi thức ăn linh hồn của Imari, Yakitori, là món ăn đặc trưng.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/c2cbbec6c332a896de1660414067cd0a/1760116537/schedule/afnhd/discoveringlocalramenbycars2khamphahuongviramenmua2.webp" />
+  </programme>
+  <programme start="20251012173000 +0700" stop="20251012180000 +0700" channel="afnhd">
+    <title lang="vi">DISCOVERING LOCAL RAMEN BY CAR - S1 - KHÁM PHÁ HƯƠNG VỊ RAMEN (MÙA 1)</title>
+    <desc lang="vi">Tập phim này đưa chúng ta vào một chuyến ramen lái xe đến tỉnh Saga, Kyushu. Điểm dừng đầu tiên là lái xe Tori, nơi thức ăn linh hồn của Imari, Yakitori, là món ăn đặc trưng.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/fbb96b8fc92ead9cdb7cc64d40bba747/1760116537/schedule/afnhd/discoveringlocalramenbycars1khamphahuongviramenmua1.webp" />
+  </programme>
+  <programme start="20251012180000 +0700" stop="20251012183000 +0700" channel="afnhd">
+    <title lang="vi">MAXIMUM FOODIE - S2 - ĐỈNH CAO ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Foodie tối đa giới thiệu tấm thảm phong phú của ẩm thực toàn cầu; Từ với các đầu bếp hàng đầu, đến theo đuổi các thành phần kỳ lạ.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/520f6ed4b43baef3a73aee009ac2c67d/1760116537/schedule/afnhd/maximumfoodies2dinhcaoamthucmua2.webp" />
+  </programme>
+  <programme start="20251012183000 +0700" stop="20251012190000 +0700" channel="afnhd">
+    <title lang="vi">MAXIMUM FOODIE - S2 - ĐỈNH CAO ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Foodie tối đa giới thiệu tấm thảm phong phú của ẩm thực toàn cầu; Từ với các đầu bếp hàng đầu, đến theo đuổi các thành phần kỳ lạ.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/520f6ed4b43baef3a73aee009ac2c67d/1760116537/schedule/afnhd/maximumfoodies2dinhcaoamthucmua2.webp" />
+  </programme>
+  <programme start="20251012190000 +0700" stop="20251012193000 +0700" channel="afnhd">
+    <title lang="vi">FOODPRINTS - S2 - DẤU ẤN ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Đầu bếp Sandy Daza tiếp tục hành trình ẩm thực của mình, làm nổi bật những sự thật thú vị và những câu đố về con người, địa điểm và, tất nhiên, thực phẩm và nhiều thực phẩm hơn!</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/249b10f48a9f006f52e2853e422fe499/1760116538/schedule/afnhd/foodprintss2dauanamthucmua2.webp" />
+  </programme>
+  <programme start="20251012193000 +0700" stop="20251012200000 +0700" channel="afnhd">
+    <title lang="vi">FOODPRINTS - S2 - DẤU ẤN ẨM THỰC (MÙA 2)</title>
+    <desc lang="vi">Đầu bếp Sandy Daza tiếp tục hành trình ẩm thực của mình, làm nổi bật những sự thật thú vị và những câu đố về con người, địa điểm và, tất nhiên, thực phẩm và nhiều thực phẩm hơn!</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/249b10f48a9f006f52e2853e422fe499/1760116538/schedule/afnhd/foodprintss2dauanamthucmua2.webp" />
+  </programme>
+  <programme start="20251012200000 +0700" stop="20251012210000 +0700" channel="afnhd">
+    <title lang="vi">TRAVEL WITH PARENTS - S1 - DU LỊCH CÙNG BỐ MẸ (MÙA 1)</title>
+    <desc lang="vi">Jiang Han đưa cha mình vào chương trình, đi du lịch đến Đài Loan cùng Axian và mẹ. Ở Kaohsiung, họ đã vào một phòng kiểm soát bằng giọng nói thông minh.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/6a7be3e598b26e5edf5a0090349a4649/1760116538/schedule/afnhd/travelwithparentss1dulichcungbomemua1.webp" />
+  </programme>
+  <programme start="20251012210000 +0700" stop="20251012213000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/02e7382f776c575efa30a3dd889ce067/1760116538/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012213000 +0700" stop="20251012220000 +0700" channel="afnhd">
+    <title lang="vi">THE COOK UP WITH ADAM LIAW - S4 - NẤU ĂN ĐÀM ĐẠO CÙNG ADAM LIAW (MÙA 4)</title>
+    <desc lang="vi">Đầu bếp Adam Liaw mời những vị khách đặc biệt, bao gồm những người nổi tiếng và đầu bếp, vào bếp của anh ấy để giúp anh ấy nấu một số bữa ăn ngon.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image4.vnmedia.xyz/02e7382f776c575efa30a3dd889ce067/1760116538/schedule/afnhd/thecookupwithadamliaws4nauandamdaocungadamliawmua4.webp" />
+  </programme>
+  <programme start="20251012220000 +0700" stop="20251012223000 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/ec9cddc16a65e2d684ca929c54bf05a3/1760116538/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251012223000 +0700" stop="20251012230000 +0700" channel="afnhd">
+    <title lang="vi">KAMPUNG FOODSTEPS - S1 - KHÁM PHÁ ẨM THỰC QUÊ NHÀ (MÙA 1)</title>
+    <desc lang="vi">Kampung Foodsteps sắp bắt đầu cuộc hành trình về quê hương với Darren (Wen Jie) và khách để khám phá các món ngon địa phương và đắm chìm trong văn hóa địa phương phong phú.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image2.vnmedia.xyz/ec9cddc16a65e2d684ca929c54bf05a3/1760116538/schedule/afnhd/kampungfoodstepss1khamphaamthucquenhamua1.webp" />
+  </programme>
+  <programme start="20251012230000 +0700" stop="20251012235500 +0700" channel="afnhd">
+    <title lang="vi">FOOD PARADISE INTERNATIONAL - S2 - THIÊN ĐƯỜNG ẨM THỰC QUỐC TẾ (MÙA 2)</title>
+    <desc lang="vi">Thực phẩm đặc biệt nhất của Trái đất: Cà ri miệng đến burritos habanero.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image1.vnmedia.xyz/4046195b37d524319529803a2ec94308/1760116539/schedule/afnhd/foodparadiseinternationals2thienduongamthucquoctemua2.webp" />
+  </programme>
+  <programme start="20251012235500 +0700" stop="20251013000000 +0700" channel="afnhd">
+    <title lang="vi">FRENCH GOURMET WITH JUSTINE SCHOFIELD - S1 - MÓN PHÁP TUYỆT HẢO (MÙA 1)</title>
+    <desc lang="vi">Bắt tay vào một cuộc phiêu lưu ẩm thực qua miền Nam nước Pháp với Cook nổi tiếng Justine Scholfield trong 'Người sành ăn Pháp'.</desc>
+    <category lang="vi">Lối sống, giải trí, sở thích: thức ăn</category>
+    <icon src="https://image3.vnmedia.xyz/0b69c1fc227cb3d56ef35b91111db32c/1760116539/schedule/afnhd/frenchgourmetwithjustineschofields1monphaptuyethaomua1.webp" />
+  </programme>
   <channel id="vinhlong1hd">
     <display-name lang="vi">VĨNH LONG 1</display-name>
-    <icon src="https://image1.vnmedia.xyz/logo/vinhlong1hd.jpg" />
+    <icon src="https://image4.vnmedia.xyz/logo/vinhlong1hd.jpg" />
   </channel>
-  <programme start="20251011205500 +0700" stop="20251011214658 +0700" channel="vinhlong1hd">
-    <title lang="vi">GIẢI TRÍ TRUYỀN HÌNH: CHINH PHỤC ĐAM MÊ 2025</title>
-    <desc lang="vi">Chương trình này có thời lượng là 51 phút.</desc>
-  </programme>
-  <programme start="20251011214658 +0700" stop="20251011220107 +0700" channel="vinhlong1hd">
-    <title lang="vi">PHIM SITCOM: TRONG NHÀ NGOÀI NGÕ - TẬP 132</title>
-    <desc lang="vi">Chương trình này có thời lượng là 14 phút.</desc>
-  </programme>
-  <programme start="20251011220107 +0700" stop="20251011223129 +0700" channel="vinhlong1hd">
-    <title lang="vi">PHIM ẤN ĐỘ: NÀNG DÂU HÀO MÔN - TẬP 41</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011223129 +0700" stop="20251011230202 +0700" channel="vinhlong1hd">
     <title lang="vi">PHIM TRUNG QUỐC: LƯU CÔNG KỲ ÁN - TẬP 25</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -250,20 +512,8 @@
   </programme>
   <channel id="vinhlong2hd">
     <display-name lang="vi">VĨNH LONG 2</display-name>
-    <icon src="https://image1.vnmedia.xyz/logo/vinhlong2hd.jpg" />
+    <icon src="https://image2.vnmedia.xyz/logo/vinhlong2hd.jpg" />
   </channel>
-  <programme start="20251011205500 +0700" stop="20251011215114 +0700" channel="vinhlong2hd">
-    <title lang="vi">PHIM VIỆT NAM: HỒ SƠ LỬA - MẬT DANH D9(PHẦN 1) - TẬP 10</title>
-    <desc lang="vi">Chương trình này có thời lượng là 56 phút.</desc>
-  </programme>
-  <programme start="20251011215114 +0700" stop="20251011220652 +0700" channel="vinhlong2hd">
-    <title lang="vi">HƯƠNG SẮC VIỆT NAM</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011220652 +0700" stop="20251011222202 +0700" channel="vinhlong2hd">
-    <title lang="vi">THẾ GIỚI 24H</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
   <programme start="20251011222202 +0700" stop="20251011224424 +0700" channel="vinhlong2hd">
     <title lang="vi">CHUYỆN XƯA TÍCH CŨ: BỨC TRANH KỲ BÍ - TẬP 6</title>
     <desc lang="vi">Chương trình này có thời lượng là 22 phút.</desc>
@@ -440,14 +690,6 @@
     <display-name lang="vi">VĨNH LONG 3</display-name>
     <icon src="https://image1.vnmedia.xyz/logo/vinhlong3hd.jpg" />
   </channel>
-  <programme start="20251011205821 +0700" stop="20251011214447 +0700" channel="vinhlong3hd">
-    <title lang="vi">PHIM VIỆT NAM: TÌNH YÊU VÀ KHO BÁU - T.11</title>
-    <desc lang="vi">Chương trình này có thời lượng là 46 phút.</desc>
-  </programme>
-  <programme start="20251011214447 +0700" stop="20251011222932 +0700" channel="vinhlong3hd">
-    <title lang="vi">PHIM VIỆT NAM: HƯƠNG BƯỞI - T.32</title>
-    <desc lang="vi">Chương trình này có thời lượng là 44 phút.</desc>
-  </programme>
   <programme start="20251011222932 +0700" stop="20251011231638 +0700" channel="vinhlong3hd">
     <title lang="vi">GIẢI TRÍ TRUYỀN HÌNH: NGHỆ SĨ THẦN TƯỢNG</title>
     <desc lang="vi">Chương trình này có thời lượng là 47 phút.</desc>
@@ -594,7 +836,7 @@
   </programme>
   <channel id="vinhlong4hd">
     <display-name lang="vi">VĨNH LONG 4</display-name>
-    <icon src="https://image1.vnmedia.xyz/logo/vinhlong4hd.png" />
+    <icon src="https://image3.vnmedia.xyz/logo/vinhlong4hd.png" />
   </channel>
   <programme start="20251011222922 +0700" stop="20251011231518 +0700" channel="vinhlong4hd">
     <title lang="vi">PHIM VIỆT NAM: ĐI QUA MÙA MƯA - T.35</title>
@@ -800,10 +1042,6 @@
     <display-name lang="vi">VĨNH LONG 5</display-name>
     <icon src="https://image2.vnmedia.xyz/logo/vinhlong5hd.jpg" />
   </channel>
-  <programme start="20251011211452 +0700" stop="20251011220000 +0700" channel="vinhlong5hd">
-    <title lang="vi">PHIM VIỆT NAM: VUA BÁNH MÌ - T.39</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251012050101 +0700" stop="20251012051153 +0700" channel="vinhlong5hd">
     <title lang="vi">KHÁM PHÁ VIỆT NAM: CÔNG VIÊN ĐÁ CUỐI DÃY TRƯỜNG SƠN</title>
     <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
@@ -954,24 +1192,8 @@
   </programme>
   <channel id="onlife">
     <display-name lang="vi">ON LIFE</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/on-life.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/on-life.jpg" />
   </channel>
-  <programme start="20251011204500 +0700" stop="20251011210000 +0700" channel="onlife">
-    <title lang="vi">THƯƠNG NHỚ MIỀN TÂY - TẬP 33</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011210000 +0700" stop="20251011213000 +0700" channel="onlife">
-    <title lang="vi">NGHỆ THUẬT HỘI HỌA (40) - TẬP 37</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011220000 +0700" channel="onlife">
-    <title lang="vi">ĐI LÀ ĐẾN - TẬP 12</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011222000 +0700" channel="onlife">
-    <title lang="vi">STREET VIỆT NAM (93) - TẬP 38 SUA ND1</title>
-    <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
-  </programme>
   <programme start="20251011222000 +0700" stop="20251011225000 +0700" channel="onlife">
     <title lang="vi">PHIM TÀI LIỆU VĂN HÓA NGHỆ THUẬT TẬP 9</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -1246,7 +1468,7 @@
   </programme>
   <channel id="onviegiaitri">
     <display-name lang="vi">ON VIE GIẢI TRÍ</display-name>
-    <icon src="https://image2.vnmedia.xyz/logo/on-viegiaitri.jpg" />
+    <icon src="https://image4.vnmedia.xyz/logo/on-viegiaitri.jpg" />
   </channel>
   <programme start="20251011223000 +0700" stop="20251011230000 +0700" channel="onviegiaitri">
     <title lang="vi">AI LÀ SỐ 1? TẬP 3 P2</title>
@@ -1382,16 +1604,8 @@
   </programme>
   <channel id="onviedramas">
     <display-name lang="vi">ON VIE DRAMAS</display-name>
-    <icon src="https://image1.vnmedia.xyz/logo/on-viedramas.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/on-viedramas.jpg" />
   </channel>
-  <programme start="20251011210000 +0700" stop="20251011220000 +0700" channel="onviedramas">
-    <title lang="vi">CÁM ƠN BÁC SĨ - TẬP 29</title>
-    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011230000 +0700" channel="onviedramas">
-    <title lang="vi">QUÝ ÔNG GOÁ VỢ - TẬP 79</title>
-    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
-  </programme>
   <programme start="20251011230000 +0700" stop="20251012000000 +0700" channel="onviedramas">
     <title lang="vi">NÓI CHO TÔI ĐIỀU ƯỚC CỦA BẠN - TẬP 3</title>
     <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
@@ -1502,13 +1716,8 @@
   </programme>
   <channel id="vtv1hd">
     <display-name lang="vi">VTV1 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv1hd.jpg" />
+    <icon src="https://image2.vnmedia.xyz/logo/vtv1hd.jpg" />
   </channel>
-  <programme start="20251011213000 +0700" stop="20251011221500 +0700" channel="vtv1hd">
-    <title lang="vi">PHIM TÀI LIỆU</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-    <icon src="https://image1.vnmedia.xyz/94a4d46ba91541e526050bf35d265893/1760116228/schedule/vtv1hd/phimtailieu.webp" />
-  </programme>
   <programme start="20251011221500 +0700" stop="20251011223500 +0700" channel="vtv1hd">
     <title lang="vi">ÁNH SÁNG TRI THỨC</title>
     <desc lang="vi">Chương trình này có thời lượng là 20 phút.</desc>
@@ -1798,24 +2007,8 @@
   </programme>
   <channel id="vtv2hd">
     <display-name lang="vi">VTV2 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv2hd.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/vtv2hd.jpg" />
   </channel>
-  <programme start="20251011204500 +0700" stop="20251011210000 +0700" channel="vtv2hd">
-    <title lang="vi">SÁCH HAY THAY ĐỔI CUỘC ĐỜI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011210000 +0700" stop="20251011213000 +0700" channel="vtv2hd">
-    <title lang="vi">NHỮNG MẢNH GHÉP CỦA CUỘC SỐNG : DÒNG CHẢY SÔNG HỒNG - TẬP 1</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011220000 +0700" channel="vtv2hd">
-    <title lang="vi">KHÁM PHÁ THẾ GIỚI : HƯƠNG VỊ NƯỚC NGA - TẬP 6</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011223000 +0700" channel="vtv2hd">
-    <title lang="vi">360° THỂ THAO</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
   <programme start="20251011223000 +0700" stop="20251011224500 +0700" channel="vtv2hd">
     <title lang="vi">KÝ SỰ : LỐI THƯƠNG ĐƯỜNG NHỚ</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -2074,12 +2267,8 @@
   </programme>
   <channel id="vtv3hd">
     <display-name lang="vi">VTV3 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv3hd.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/vtv3hd.jpg" />
   </channel>
-  <programme start="20251011213000 +0700" stop="20251011233000 +0700" channel="vtv3hd">
-    <title lang="vi">GIAO LƯU NGHỆ THUẬT</title>
-    <desc lang="vi">Chương trình này có thời lượng là 2 giờ.</desc>
-  </programme>
   <programme start="20251011233000 +0700" stop="20251012000000 +0700" channel="vtv3hd">
     <title lang="vi">LỜI TỰ SỰ : DIỄN VIÊN LÃNH THANH</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -2316,32 +2505,8 @@
   </programme>
   <channel id="vtv4hd">
     <display-name lang="vi">VTV4 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv4hd.jpg" />
+    <icon src="https://image1.vnmedia.xyz/logo/vtv4hd.jpg" />
   </channel>
-  <programme start="20251011210000 +0700" stop="20251011213000 +0700" channel="vtv4hd">
-    <title lang="vi">BẢN TIN TIẾNG VIỆT 21H</title>
-    <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011213500 +0700" channel="vtv4hd">
-    <title lang="vi">SỨC SỐNG THỂ THAO</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
-  <programme start="20251011213500 +0700" stop="20251011214000 +0700" channel="vtv4hd">
-    <title lang="vi">THỜI TIẾT DU LỊCH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
-  <programme start="20251011214000 +0700" stop="20251011215500 +0700" channel="vtv4hd">
-    <title lang="vi">TIỂU PHẨM HÀI : GẶP NHAU ĐỂ CƯỜI - TẬP 30</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011215500 +0700" stop="20251011221000 +0700" channel="vtv4hd">
-    <title lang="vi">TÁC PHẨM MỚI : VỀ LẠI LÀNG XƯA</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011221000 +0700" stop="20251011221500 +0700" channel="vtv4hd">
-    <title lang="vi">NHỊP ĐẬP VIỆT NAM : NGHỀ ĐÓNG XUỒNG GHE Ở HÒA LONG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
   <programme start="20251011221500 +0700" stop="20251011230000 +0700" channel="vtv4hd">
     <title lang="vi">PHIM TRUYỆN : YÊU LẠI TỪ ĐẦU - TẬP 28</title>
     <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
@@ -2546,18 +2711,6 @@
     <display-name lang="vi">VTV5 HD</display-name>
     <icon src="https://image1.vnmedia.xyz/logo/vtv5hd.jpg" />
   </channel>
-  <programme start="20251011210000 +0700" stop="20251011211500 +0700" channel="vtv5hd">
-    <title lang="vi">VTV5 KẾT NỐI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011211500 +0700" stop="20251011213000 +0700" channel="vtv5hd">
-    <title lang="vi">TRANG VĂN HÓA</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011221500 +0700" channel="vtv5hd">
-    <title lang="vi">PHIM TRUYỆN: HÃY GỌI TÔI LÀ SẾP</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251011221500 +0700" stop="20251011230000 +0700" channel="vtv5hd">
     <title lang="vi">LỜI TỰ SỰ</title>
     <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
@@ -2752,28 +2905,8 @@
   </programme>
   <channel id="vtv5hdtn">
     <display-name lang="vi">VTV5 TN HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv5hdtn.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/vtv5hdtn.jpg" />
   </channel>
-  <programme start="20251011210000 +0700" stop="20251011211500 +0700" channel="vtv5hdtn">
-    <title lang="vi">HÀNH TRÌNH CỦA NHỮNG ĐÔI CHÂN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011211500 +0700" stop="20251011213000 +0700" channel="vtv5hdtn">
-    <title lang="vi">GIAI ĐIỆU CUỘC SỐNG</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011214500 +0700" channel="vtv5hdtn">
-    <title lang="vi">VTV5 TÂY NGUYÊN KẾT NỐI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011214500 +0700" stop="20251011220000 +0700" channel="vtv5hdtn">
-    <title lang="vi">CÙNG CON TRƯỞNG THÀNH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011224500 +0700" channel="vtv5hdtn">
-    <title lang="vi">PHIM TRUYỆN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251011224500 +0700" stop="20251011231500 +0700" channel="vtv5hdtn">
     <title lang="vi">CƠ THỂ BẠN NÓI GÌ?</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -2988,24 +3121,8 @@
   </programme>
   <channel id="vtv5hdtnb">
     <display-name lang="vi">VTV5 TNB HD</display-name>
-    <icon src="https://image2.vnmedia.xyz/logo/vtv5hdtnb.jpg" />
+    <icon src="https://image1.vnmedia.xyz/logo/vtv5hdtnb.jpg" />
   </channel>
-  <programme start="20251011211500 +0700" stop="20251011213000 +0700" channel="vtv5hdtnb">
-    <title lang="vi">VTV5 TÂY NAM BỘ KẾT NỐI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011214500 +0700" channel="vtv5hdtnb">
-    <title lang="vi">TRANG VĂN HÓA</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011214500 +0700" stop="20251011220000 +0700" channel="vtv5hdtnb">
-    <title lang="vi">THƯƠNG NHỚ MIỀN TÂY</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011224500 +0700" channel="vtv5hdtnb">
-    <title lang="vi">PHIM TRUYỆN</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251011224500 +0700" stop="20251011230000 +0700" channel="vtv5hdtnb">
     <title lang="vi">KIẾN THỨC VÀ CUỘC SỐNG</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -3184,21 +3301,8 @@
   </programme>
   <channel id="vtvcantho">
     <display-name lang="vi">VTV CẦN THƠ HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtvcantho.jpg" />
+    <icon src="https://image1.vnmedia.xyz/logo/vtvcantho.jpg" />
   </channel>
-  <programme start="20251011213000 +0700" stop="20251011214000 +0700" channel="vtvcantho">
-    <title lang="vi">MIỀN TÂY HÔM NAY - TIN NHANH</title>
-    <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
-    <icon src="https://image4.vnmedia.xyz/c999397417f363162e8e8ec4839aaab6/1760116256/schedule/vtvcantho/mientayhomnaytinnhanh.webp" />
-  </programme>
-  <programme start="20251011214000 +0700" stop="20251011214500 +0700" channel="vtvcantho">
-    <title lang="vi">BẢN TIN THỂ THAO</title>
-    <desc lang="vi">Chương trình này có thời lượng là 5 phút.</desc>
-  </programme>
-  <programme start="20251011214500 +0700" stop="20251011223000 +0700" channel="vtvcantho">
-    <title lang="vi">PHIM TRUYỆN : ĐÁNH CẮP GIẤC MƠ - TẬP 18</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251011223000 +0700" stop="20251011224500 +0700" channel="vtvcantho">
     <title lang="vi">KINH TẾ ĐỒNG BẰNG : CHẤT LƯỢNG NHÂN LỰC - CHÌA KHÓA CẠNH TRANH CỦA VÙNG ĐBSCL</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -3406,26 +3510,8 @@
   </programme>
   <channel id="vtv7hd">
     <display-name lang="vi">VTV7 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv7hd.jpg" />
+    <icon src="https://image1.vnmedia.xyz/logo/vtv7hd.jpg" />
   </channel>
-  <programme start="20251011205000 +0700" stop="20251011210000 +0700" channel="vtv7hd">
-    <title lang="vi">CHUYỆN KỂ CỦA NHỮNG CHÚ CỪU</title>
-    <desc lang="vi">Chương trình này có thời lượng là 10 phút.</desc>
-    <icon src="https://image3.vnmedia.xyz/b5dfdf8d82ebde81d5be600870803551/1760116258/schedule/vtv7hd/chuyenkecuanhungchucuu.webp" />
-  </programme>
-  <programme start="20251011210000 +0700" stop="20251011214500 +0700" channel="vtv7hd">
-    <title lang="vi">THẦY CÔ CHÚNG TA ĐÃ THAY ĐỔI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
-  <programme start="20251011214500 +0700" stop="20251011220000 +0700" channel="vtv7hd">
-    <title lang="vi">HỌC TIẾNG ANH QUA BÀI HÁT</title>
-    <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
-    <icon src="https://image2.vnmedia.xyz/1310cc7e4575defec50f66eee8599f54/1760116258/schedule/vtv7hd/hoctienganhquabaihat.webp" />
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011224500 +0700" channel="vtv7hd">
-    <title lang="vi">JUMPING WITH TOEIC</title>
-    <desc lang="vi">Chương trình này có thời lượng là 45 phút.</desc>
-  </programme>
   <programme start="20251011224500 +0700" stop="20251011230000 +0700" channel="vtv7hd">
     <title lang="vi">FOLLOW US</title>
     <desc lang="vi">Chương trình này có thời lượng là 15 phút.</desc>
@@ -3629,14 +3715,6 @@
     <display-name lang="vi">VTV8 HD</display-name>
     <icon src="https://image1.vnmedia.xyz/logo/vtv8hd.jpg" />
   </channel>
-  <programme start="20251011211500 +0700" stop="20251011214000 +0700" channel="vtv8hd">
-    <title lang="vi">PHIM TÀI LIỆU: BẢN HÙNG CA TRÊN ĐẤT LỬA</title>
-    <desc lang="vi">Chương trình này có thời lượng là 25 phút.</desc>
-  </programme>
-  <programme start="20251011214000 +0700" stop="20251011224000 +0700" channel="vtv8hd">
-    <title lang="vi">GIẢI MÃ SỨC KHỎE: ĐÔNG TRÙNG HẠ THẢO VỚI SỨC KHỎE NGƯỜI CAO TUỔI</title>
-    <desc lang="vi">Chương trình này có thời lượng là 1 giờ.</desc>
-  </programme>
   <programme start="20251011224000 +0700" stop="20251011231000 +0700" channel="vtv8hd">
     <title lang="vi">THỜI SỰ</title>
     <desc lang="vi">Chương trình này có thời lượng là 30 phút.</desc>
@@ -3899,7 +3977,7 @@
   </programme>
   <channel id="vtv9hd">
     <display-name lang="vi">VTV9 HD</display-name>
-    <icon src="https://image4.vnmedia.xyz/logo/vtv9hd.jpg" />
+    <icon src="https://image3.vnmedia.xyz/logo/vtv9hd.jpg" />
   </channel>
   <programme start="20251011224500 +0700" stop="20251011230000 +0700" channel="vtv9hd">
     <title lang="vi">CƯỜI ƠI CƯỜI : DUYÊN TRỜI BAN</title>
@@ -4156,144 +4234,10 @@
   <channel id="TNTSports1 HD.uk">
     <display-name lang="vi">TNT SPORTS 1 HD UK</display-name>
   </channel>
-  <programme start="20251011231500 +0700" stop="20251012014500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: Bath v Gloucester</title>
-    <desc lang="vi">Reigning champions Bath Rugby look to continue their winning start to the Gallagher PREM season as they host Gloucester Rugby at the Recreation Ground.</desc>
-  </programme>
-  <programme start="20251012014500 +0700" stop="20251012024500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Bristol Bears v Exeter Chiefs</title>
-    <desc lang="vi">Action from the Gallagher PREM as Bristol Bears face Exeter Chiefs at Ashton Gate. The Bears have won their last two league encounters with the Chiefs.</desc>
-  </programme>
-  <programme start="20251012024500 +0700" stop="20251012030000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">TNT Sports Reload</title>
-    <desc lang="vi">The best bits from TNT Sports over the last week, including exclusive interviews, the best action and so much more.</desc>
-    <episode-num system="xmltv_ns">24.40.</episode-num>
-  </programme>
-  <programme start="20251012030000 +0700" stop="20251012033000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Fight Week: UFC 320 Review Show</title>
-    <desc lang="vi">A review of UFC 320 at T-Mobile Arena in Las Vegas, Nevada. Magomed Ankalaev put his light heavyweight title on the line against Alex Pereira.</desc>
-  </programme>
-  <programme start="20251012033000 +0700" stop="20251012040000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">UFC Connected</title>
-    <desc lang="vi">Jasmine Jasudavicius shares how an unlikely meeting gave rise to her fighting career. Plus, bantamweight champion Merab Dvalishvili corners his best friend Aljamain Sterling.</desc>
-    <episode-num system="xmltv_ns">24.8.</episode-num>
-  </programme>
-  <programme start="20251012040000 +0700" stop="20251012060000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: UFC Fight Night Prelims</title>
-    <desc lang="vi">Action from the UFC Fight Night Prelims at Farmasi Arena in Rio de Janeiro, Brazil, ahead of the lightweight bout between home favourite Charles Oliveira and Mateusz Gamrot.</desc>
-  </programme>
-  <programme start="20251012060000 +0700" stop="20251012093000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: UFC Fight Night</title>
-    <desc lang="vi">Action from UFC Fight Night at Farmasi Arena in Rio de Janeiro, Brazil, featuring the lightweight bout between home favourite Charles Oliveira and Mateusz Gamrot.</desc>
-  </programme>
-  <programme start="20251012093000 +0700" stop="20251012094500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">TNT Sports Cricket Reload</title>
-    <desc lang="vi">A look back at the best batting action from the first Test between India and West Indies in Ahmedabad, featuring centuries by KL Rahul, Dhruv Jurel and Ravindra Jadeja.</desc>
-    <episode-num system="xmltv_ns">2.58.</episode-num>
-  </programme>
-  <programme start="20251012094500 +0700" stop="20251012104500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">India v West Indies - 2nd Test</title>
-    <desc lang="vi">Day two of the second Test between India and West Indies at Arun Jaitley Stadium in Delhi. The hosts will be looking to pile on the runs after scoring 318 for two on day one.</desc>
-  </programme>
-  <programme start="20251012104500 +0700" stop="20251012190000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live 2nd Test: India v West Indies</title>
-    <desc lang="vi">Day three of the second Test between India and West Indies at Arun Jaitley Stadium in Delhi.</desc>
-  </programme>
-  <programme start="20251012190000 +0700" stop="20251012191500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">TNT Sports Cricket Reload</title>
-    <desc lang="vi">A look back at the first ODI between West Indies and Pakistan at Brian Lara Cricket Academy in Trinidad and Tobago. Hassan Nawaz would impressive for the visitors.</desc>
-    <episode-num system="xmltv_ns">2.30.</episode-num>
-  </programme>
-  <programme start="20251012191500 +0700" stop="20251012193000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">TNT Sports Cricket Reload</title>
-    <desc lang="vi">A look back at the second One Day International between West Indies and Pakistan at the Brian Lara Cricket Academy, as Roston Chase and Sherfane Rutherford put on a show.</desc>
-    <episode-num system="xmltv_ns">2.31.</episode-num>
-  </programme>
-  <programme start="20251012193000 +0700" stop="20251012200000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">UEFA Champions League Magazine</title>
-    <desc lang="vi">We look back at how Jose Mourinho has evolved through his legendary 25-year career. And, we explore the unique bond between Eintracht Frankfurt and their passionate fanbase.</desc>
-    <episode-num system="xmltv_ns">.5.</episode-num>
-  </programme>
-  <programme start="20251012200000 +0700" stop="20251012203000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">PL Stories: Yaya Toure</title>
-    <desc lang="vi">We chart the remarkable journey of Yaya Toure, from his humble beginnings in Ivory Coast to his key role in Manchester Citys emergence as a dominant force in the Premier League.</desc>
-    <episode-num system="xmltv_ns">4.18.</episode-num>
-  </programme>
-  <programme start="20251012203000 +0700" stop="20251012233000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: Harlequins v Saracens</title>
-    <desc lang="vi">Saracens look to make it three Gallagher PREM wins from three as they travel to face winless Harlequins at Twickenham Stoop.</desc>
-  </programme>
-  <programme start="20251012233000 +0700" stop="20251013000000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Mountain Bike World Series Women</title>
-    <desc lang="vi">Womens UCI Mountain Bike World Series action from the DHI Elite Final at Mont Sainte Anne in Canada.</desc>
-  </programme>
-  <programme start="20251013000000 +0700" stop="20251013023000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: Mountain Bike World Series</title>
-    <desc lang="vi">Womens UCI Mountain Bike World Series action from the XCO Olympic Elite at Mont Sainte Anne in Canada.</desc>
-  </programme>
-  <programme start="20251013023000 +0700" stop="20251013041500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live: Mountain Bike World Series</title>
-    <desc lang="vi">Mens UCI Mountain Bike World Series action from the XCO Olympic Elite at Mont Sainte Anne in Canada.</desc>
-  </programme>
-  <programme start="20251013041500 +0700" stop="20251013054500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Rocky and Wrighty: From Brockley To The Big Time</title>
-    <desc lang="vi">The extraordinary story of how a young David Rocastles meteoric rise to stardom inspired another legend in the shape of Ian Wright.</desc>
-  </programme>
-  <programme start="20251013054500 +0700" stop="20251013061500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">MLB: Off The Bat</title>
-    <desc lang="vi">All the latest action from Major League Baseball wrapped up, featuring the leagues top hitters and pitchers.</desc>
-    <episode-num system="xmltv_ns">2024.28.</episode-num>
-  </programme>
-  <programme start="20251013061500 +0700" stop="20251013064500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">MLB Highlights</title>
-    <desc lang="vi">Highlights from Major League Baseball. (12.10)</desc>
-  </programme>
-  <programme start="20251013064500 +0700" stop="20251013070000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Training Day</title>
-    <desc lang="vi">Kenny Allstar and StillRyan join forces to take on the world of baseball. Through a series of challenges, the two battle it out to see whos the next MVP.</desc>
-    <episode-num system="xmltv_ns">23.8.</episode-num>
-  </programme>
-  <programme start="20251013070000 +0700" stop="20251013103000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">MLB</title>
-    <desc lang="vi">Action from MLB Postseason.</desc>
-  </programme>
-  <programme start="20251013103000 +0700" stop="20251013104500 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">TNT Sports Cricket Reload</title>
-    <desc lang="vi">A look back at the carnage on the final day of the third Test between West Indies and Australia at Sabina Park, as the hosts slumped to their worst-ever Test innings.</desc>
-    <episode-num system="xmltv_ns">2.20.</episode-num>
-  </programme>
-  <programme start="20251013104500 +0700" stop="20251013190000 +0700" channel="TNTSports1 HD.uk">
-    <title lang="vi">Live 2nd Test: India v West Indies</title>
-    <desc lang="vi">Day four of the second Test between India and West Indies.</desc>
-  </programme>
   <channel id="Sky.Sport.Premier.League.nz">
     <display-name lang="vi">SKY SPORTS P.L HD NZ</display-name>
     <icon src="https://images.skyone.co.nz/contentful/dcojl03mw8gy/1E6YMflONVpZdhNXvc0LWo/68443f563a0c6a383edcc2518b1cbae9/Sky_Sport_Premier_League_Logo_Arrow_Box.png" />
   </channel>
-  <programme start="20251011210000 +0700" stop="20251011213000 +0700" channel="Sky.Sport.Premier.League.nz">
-    <title lang="vi">NETBUSTERS</title>
-    <desc lang="vi">EP07. Fast-paced with music, ISO angles, and commentary, Netbusters offers an alternative review of every goal and key moment from the latest round of Premier League fixtures.</desc>
-    <category lang="en">Show</category>
-    <category lang="en">Series</category>
-    <rating system="NZ">
-      </rating>
-  </programme>
-  <programme start="20251011213000 +0700" stop="20251011220000 +0700" channel="Sky.Sport.Premier.League.nz">
-    <title lang="vi">NETBUSTERS</title>
-    <desc lang="vi">ERLING HAALAND SPECIAL. Netbusters provides an alternative look at the weekends matches - all of the goals, key saves, misses and tackles in a fun, fast-paced 26 minutes.</desc>
-    <category lang="en">Show</category>
-    <category lang="en">Series</category>
-    <rating system="NZ">
-      </rating>
-  </programme>
-  <programme start="20251011220000 +0700" stop="20251011230000 +0700" channel="Sky.Sport.Premier.League.nz">
-    <title lang="vi">GENERATION xG</title>
-    <desc lang="vi">MON 06 OCT. A deep dive into the tactical trends and statistical insights of modern football with input from players, managers and data experts from the 'fanalyst' community.</desc>
-    <category lang="en">Show</category>
-    <category lang="en">Series</category>
-    <rating system="NZ">
-      </rating>
-  </programme>
   <programme start="20251011230000 +0700" stop="20251012000000 +0700" channel="Sky.Sport.Premier.League.nz">
     <title lang="vi">THE CATCH-UP SHOW</title>
     <desc lang="vi">EP08. The Catch-Up Show is your chance to relive the 'best bits' from across the Premier League week with a compilation of all PLP content and programming.</desc>
@@ -4729,6 +4673,22 @@
   <programme start="20251013203000 +0700" stop="20251013210000 +0700" channel="Sky.Sport.Premier.League.nz">
     <title lang="vi">REWIND</title>
     <desc lang="vi">EP13: DIMITAR BERBATOV: MUN 10/11. One of the most elegant players ever to grace the beautiful game, Dimitar Berbatov reached his peak in the red of Manchester United. The Bulgarian recalls his journey, from humble beginnings to becoming a Premier League.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251013210000 +0700" stop="20251013213000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">REWIND</title>
+    <desc lang="vi">EP01: PAUL SCHOLES - MY GREATEST RIVALRY. One of the greatest players of his generation revisits some of the iconic Manchester United v Liverpool clashes that he was a part of. We hear the stories behind the images from the greatest rivalry in English foo.</desc>
+    <category lang="en">Show</category>
+    <category lang="en">Series</category>
+    <rating system="NZ">
+      </rating>
+  </programme>
+  <programme start="20251013213000 +0700" stop="20251013233000 +0700" channel="Sky.Sport.Premier.League.nz">
+    <title lang="vi">Classic Match</title>
+    <desc lang="vi">LIV v MUN. We delve into the Premier League archive to bring you a Classic Match from the 2010/2011 season.</desc>
     <category lang="en">Show</category>
     <category lang="en">Series</category>
     <rating system="NZ">
