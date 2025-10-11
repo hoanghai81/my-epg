@@ -1,36 +1,34 @@
-name: Update EPG
+name: Extract TVG IDs
 
 on:
   schedule:
-    # 18:00 UTC = 01:00 sáng giờ Hà Nội (UTC+7)
-    - cron: "0 18 * * *"
+    - cron: "0 19 * * *"  # 2h sáng giờ Hà Nội (UTC+7)
   workflow_dispatch:
 
 jobs:
-  build:
+  extract_tvg_ids:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: 3.11
 
       - name: Install dependencies
-        run: |
-          pip install requests pytz python-dateutil
+        run: pip install requests pytz colorama
 
-      - name: Run EPG generator
-        run: python epg.py
+      - name: Run TVG ID extractor
+        run: python scripts/extract_tvg_ids.py
 
-      - name: Commit and push EPG
+      - name: Commit and push results
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add docs/epg.xml
-          git commit -m "Auto-update EPG $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/tvg_ids.txt
+          git commit -m "Auto update tvg_ids.txt" || echo "Không có thay đổi"
           git push
           
