@@ -36,6 +36,7 @@ vtv9hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV9 HD
 
 ===== UK =====
 TNTSports1 HD.uk | https://iptv-epg.org/files/epg-gb.xml.gz | TNT SPORTS 1 HD UK
+400480 | https://epg.pw/api/epg.xml?lang=en&channel_id=400480 | TNT SPORTS 2 HD UK
 
 
 
