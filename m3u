@@ -12,10 +12,10 @@ http://example.com/stream/vtv3.m3u8
 #EXTINF:-1 tvg-id="VTV4" group-title="VTV",VTV4 HD
 http://example.com/stream/vtv4.m3u8
 
-#EXTINF:-1 tvg-id="SCTV1" group-title="SCTV",SCTV1
+#EXTINF:-1 tvg-id="TNTSports1 HD.uk" group-title="SPORT",TNT SPORT 1 UK
 http://example.com/stream/sctv1.m3u8
 
-#EXTINF:-1 tvg-id="SCTV2" group-title="SCTV",SCTV2
+#EXTINF:-1 tvg-id="Sky.Sport.Premier.League.nz" group-title="SPORT",SKY SPORT P.L NZ
 http://example.com/stream/sctv2.m3u8
 
 #EXTINF:-1 tvg-id="ON-Sports" group-title="VTVcab",ON Sports
