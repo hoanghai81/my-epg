@@ -1,3 +1,7 @@
+===== DE =====
+
+10781 | https://epg.pw/api/epg.xml?lang=en&channel_id=10781 | SKY SPORT F1 DE
+
 ===== Vietnam =====
 
 ==SCTV==
