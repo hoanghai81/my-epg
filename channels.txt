@@ -1,5 +1,12 @@
 ===== Vietnam =====
 
+==SCTV==
+
+sctv4hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 4
+sctv3hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 3
+sctv2hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 2
+sctv1hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 1
+
 == THIẾT YẾU==
 qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
