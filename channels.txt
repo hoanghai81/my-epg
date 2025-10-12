@@ -1,6 +1,6 @@
 ===== US =====
 
-465236 | https://epg.pw/xmltv/epg_lite.xml.gz | TENNIS CHANNEL US
+465236 | https://epg.pw/api/epg.xml?lang=en&channel_id=465236 | TENNIS CHANNEL US
 
 
 ===== DE =====
