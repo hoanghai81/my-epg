@@ -1,1 +1,34 @@
+name: Update EPG Test
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 19 * * *" # 2h sáng giờ Việt Nam (19h UTC)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pytz requests
+
+      - name: Run epgtest.py
+        run: python epgtest.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/epgtest.xml
+          git commit -m "Auto update EPG test" || echo "No changes"
+          git push
+          
