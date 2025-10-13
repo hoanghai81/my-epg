@@ -73,6 +73,7 @@ vietnamtoday | https://lichphatsong.site/schedule/epg.xml.gz | VETNAM TODAY
 
 
 ===== UK =====
+sky-sports-apl | https://iptvx.one/EPG_LITE | SKY SPORTS P.L UK
 sky-sports-arena | https://iptvx.one/EPG_LITE | SKY SPORTS + UK
 sky-sports-maine | https://iptvx.one/EPG_LITE | SKY SPORTS M.E UK
 sky-sports-football | https://iptvx.one/EPG_LITE | SKY SPORTS F.B UK 
