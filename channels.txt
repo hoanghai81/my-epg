@@ -30,6 +30,7 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+bbcearth | https://lichphatsong.site/schedule/epg.xml.gz | BBC EARTH
 axnhd | https://lichphatsong.site/schedule/epg.xml.gz | AXN
 animalhd | https://lichphatsong.site/schedule/epg.xml.gz | ANIMAL PLANET
 planetearthhd | https://lichphatsong.site/schedule/epg.xml.gz | PLANET EARTH
