@@ -1,3 +1,5 @@
+# id | url | display-name | logo-url (tùy chọn)
+
 ===== OTHER =====
 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
