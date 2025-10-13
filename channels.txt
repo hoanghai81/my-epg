@@ -30,6 +30,7 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+axnhd | https://lichphatsong.site/schedule/epg.xml.gz | AXN
 animalhd | https://lichphatsong.site/schedule/epg.xml.gz | ANIMAL PLANET
 planetearthhd | https://lichphatsong.site/schedule/epg.xml.gz | PLANET EARTH
 davinci | https://lichphatsong.site/schedule/epg.xml.gz | DAVINCI
