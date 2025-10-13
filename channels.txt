@@ -38,6 +38,9 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 angiang1 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 1
 angiang2 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 2
 angiang3 | https://vnepg.site/epgu.xml | AN GIANG 3
+cantho1 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 1 
+cantho2 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 2
+cantho3 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 3
 vinhlong1hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 1
 vinhlong2hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 2
 vinhlong3hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 3
