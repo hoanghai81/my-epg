@@ -1,3 +1,7 @@
+===== OTHER =====
+
+supertennis | https://iptvx.one/EPG_LITE | SuperTennis
+
 ===== US =====
 
 465236 | https://epg.pw/api/epg.xml?lang=en&channel_id=465236 | TENNIS CHANNEL US
@@ -54,11 +58,9 @@ vtv8hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV8 HD
 vtv9hd | https://lichphatsong.site/schedule/epg.xml.gz | VTV9 HD
 
 
-
 ===== UK =====
 TNTSports1 HD.uk | https://iptv-epg.org/files/epg-gb.xml.gz | TNT SPORTS 1 HD UK
 400480 | https://epg.pw/api/epg.xml?lang=en&channel_id=400480 | TNT SPORTS 2 HD UK
-
 
 
 ===== NZ =====
