@@ -26,6 +26,7 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+planetearthhd | https://lichphatsong.site/schedule/epg.xml.gz | PLANET EARTH
 davinci | https://lichphatsong.site/schedule/epg.xml.gz | DAVINCI
 kix | https://lichphatsong.site/schedule/epg.xml.gz | KIK
 afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
