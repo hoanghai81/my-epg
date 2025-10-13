@@ -34,6 +34,7 @@ vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
 ==VTVCAB==
 
+onkids | https://lichphatsong.site/schedule/epg.xml.gz | ON KIDS
 onlife | https://lichphatsong.site/schedule/epg.xml.gz | ON LIFE
 onviegiaitri | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE GIẢI TRÍ
 onviedramas | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE DRAMAS
