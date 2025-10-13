@@ -89,6 +89,9 @@ bt-sport3 | https://iptvx.one/EPG_LITE | TNT SPORTS 3 HD UK
 bt-sport1 | https://iptvx.one/EPG_LITE | TNT SPORTS 1 HD UK
 bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
+===== RU =====
+
+match-tv | https://iptvx.one/EPG_LITE | Матч! ТВ
 
 ===== NZ =====
 Sky.Sport.Premier.League.nz | https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz | SKY SPORTS P.L HD NZ
