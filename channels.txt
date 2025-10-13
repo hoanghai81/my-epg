@@ -39,6 +39,7 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+bacninh | https://lichphatsong.site/schedule/epg.xml.gz | BẮC NINH
 angiang1 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 1
 angiang2 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 2
 angiang3 | https://vnepg.site/epgu.xml | AN GIANG 3
