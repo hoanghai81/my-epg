@@ -1,6 +1,7 @@
 # id | url | display-name | logo-url (tùy chọn)
 
 ===== OTHER =====
+USA.Network.HD.us2 | https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz | USA NETWORK US 
 446961 | https://epg.pw/xmltv/epg.xml | Fox Sports 506 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
