@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2025-10-14 02:07:32
+# Cập nhật lúc: 2025-10-14 18:42:42
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 179 ID
@@ -182,6 +182,201 @@ vtvcantho
 vungtau
 warnertvhd
 woman
+
+## Nguồn: https://iptv-epg.org/files/epg-vn.xml
+# Tổng cộng: 192 ID
+801.vn
+802.vn
+803.vn
+804.vn
+806.vn
+807.vn
+903.vn
+904.vn
+905.vn
+906.vn
+ABC Australia.vn
+ANTV.vn
+AXN HD.vn
+An Giang.vn
+Animal Plannet HD.vn
+Arirang.vn
+Asian Food Network (HD).vn
+BBC EARTH HD.vn
+BBC LIFE STYLE HD.vn
+BBC News HD.vn
+BTV6 - Shopping 24h.vn
+BTV9 - An Vien TV.vn
+Bloomberg HD.vn
+Boomerang.vn
+Box Hits (HD).vn
+Bình Dương 1 HD.vn
+Bình Dương 2.vn
+Bình Phước.vn
+Bình Thuận.vn
+Bình Định TV.vn
+Bạc Lieu TV.vn
+Bắc Giang TV.vn
+Bắc Kạn TV.vn
+Bắc Ninh HD.vn
+Bến Tre TV.vn
+CBEEBIES HD.vn
+CINEMAWORLD HD.vn
+CNN HD.vn
+Cao Bằng TV.vn
+CartoonNetwork HD.vn
+Channel News Asia HD.vn
+Cà Mau.vn
+Cần Thơ TV.vn
+DISCOVERY ASIA HD.vn
+DW-HD.vn
+DaVinci HD.vn
+DakLak TV.vn
+DakNong TV.vn
+Discovery(HD).vn
+FTV(HD).vn
+France24.vn
+Gia Lai TV.vn
+HTV Key (HD).vn
+HTV Phụ Nữ (HD).vn
+HTV Thuần Việt HD.vn
+HTV Thuần Việt.vn
+HTV Thể thao.vn
+HTV1 HD.vn
+HTV2 HD.vn
+HTV3 HD.vn
+HTV7 HD.vn
+HTV9 HD.vn
+HTVC Ca Nhạc (HD).vn
+HTVC Du Lịch Cuộc Sống (HD).vn
+HTVC Gia Đình (HD).vn
+HTVC Phim HD.vn
+HTVC Plus HD.vn
+Huế TV1.vn
+Hà Giang TV.vn
+Hà Nam.vn
+Hà Nội 1 HD.vn
+Hà Nội 2 HD.vn
+Hà Tĩnh TV HD.vn
+Hòa Bình TV.vn
+Hưng Yen TV HD.vn
+Hải Dương TV.vn
+Hải Phòng TV HD.vn
+Hậu Giang TV.vn
+K+ ACTION (HD).vn
+K+ ACTION.vn
+K+ CINE (HD).vn
+K+ CINE.vn
+K+ Kids (HD).vn
+K+ Kids.vn
+K+ SPORT1 (HD).vn
+K+ SPORT1.vn
+K+ SPORT2 (HD).vn
+K+ SPORT2.vn
+Khánh Hòa.vn
+Kien Giang (HD).vn
+KonTum TV.vn
+Lai Châu TV.vn
+Long An.vn
+Lào Cai TV.vn
+Lâm Đồng TV.vn
+Lạng Sơn TV HD.vn
+Music Box (HD).vn
+NHK World Japan HD.vn
+Nam Định TV.vn
+Nghệ An (HD).vn
+Ninh Bình TV.vn
+Ninh Thuận TV.vn
+ON Bibi HD.vn
+ON Cine HD.vn
+ON E Channel.vn
+ON Football (HD).vn
+ON Golf.vn
+ON InfoTV HD.vn
+ON Kids (HD).vn
+ON Life (HD).vn
+ON MOVIES (HD).vn
+ON MUSIC HD.vn
+ON O2TV HD.vn
+ON Phim Việt HD.vn
+ON Sports (HD).vn
+ON Sports News.vn
+ON Style TV HD.vn
+ON Trending HD.vn
+ON Vfamily HD.vn
+ON Vie Dramas.vn
+ON Vie Giải trí.vn
+On Sports+ HD.vn
+Outdoor HD.vn
+PhuYenTV.vn
+Phú Thọ TV (HD).vn
+QPVN (HD).vn
+Quảng Bình.vn
+Quảng Nam.vn
+Quảng Ngai TV (HD).vn
+Quảng Ninh1 (QTV1) HD.vn
+Quảng Ninh3 (QTV3) HD.vn
+Quảng Trị HD.vn
+SCTV - Phim Tổng hợp.vn
+SCTV 22 - SSportT1.vn
+SCTV1.vn
+SCTV11.vn
+SCTV12.vn
+SCTV13.vn
+SCTV14.vn
+SCTV15 - SSportT2.vn
+SCTV16.vn
+SCTV17 - Ssport.vn
+SCTV18.vn
+SCTV19.vn
+SCTV2.vn
+SCTV20.vn
+SCTV21.vn
+SCTV3.vn
+SCTV4.vn
+SCTV6.vn
+SCTV7.vn
+SCTV8.vn
+SCTV9.vn
+SPOTV (HD).vn
+SPOTV2 (HD).vn
+Soc Trăng.vn
+Sơn La TV.vn
+THP+.vn
+TLC HD.vn
+TV5 MONDE.vn
+Thanh Hoa TV HD.vn
+Thái Bình TV.vn
+Thái Nguyen TV1 HD.vn
+Tiền Giang HD.vn
+Trà Vinh TV.vn
+Tuyen Quang TV.vn
+Tây Ninh HD.vn
+VTV Cần Thơ.vn
+VTV1 HD.vn
+VTV2 HD.vn
+VTV3 HD.vn
+VTV4 HD.vn
+VTV5 HD.vn
+VTV5 Tây Nam Bộ (HD).vn
+VTV5 Tây Nguyen (HD).vn
+VTV7 HD.vn
+VTV8 HD.vn
+VTV9 HD.vn
+Vĩnh Long 1 HD.vn
+Vĩnh Long 2 HD.vn
+Vĩnh Long 3 HD.vn
+Vĩnh Long 4 HD.vn
+Vĩnh Phúc.vn
+Vũng Tàu HD.vn
+Warner HD.vn
+Yen Bái TV.vn
+Điện Bien TV.vn
+Đà Nẵng 1.vn
+Đà Nẵng 2.vn
+Đồng Nai 1 HD.vn
+Đồng Nai 2.vn
+Đồng Tháp.vn
 
 ## Nguồn: https://iptv-epg.org/files/epg-gb.xml.gz
 # Tổng cộng: 425 ID
@@ -973,5 +1168,5 @@ warnertvhd
 woman
 wsport
 
-=== Tổng cộng tất cả nguồn: 960 ID ===
-=== Thành công: 4 | Thất bại: 0 ===
+=== Tổng cộng tất cả nguồn: 1152 ID ===
+=== Thành công: 5 | Thất bại: 0 ===
