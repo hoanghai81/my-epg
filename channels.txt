@@ -67,6 +67,11 @@ htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & 
 
 ==VTVCAB==
 
+oncine | https://lichphatsong.site/schedule/epg.xml.gz | ON CINE
+onechannel | https://lichphatsong.site/schedule/epg.xml.gz | ON E CHANNEL
+onfootball | https://lichphatsong.site/schedule/epg.xml.gz | ON FOOTBALL
+ongolf | https://lichphatsong.site/schedule/epg.xml.gz | ON GOLF 
+
 onbibi | https://lichphatsong.site/schedule/epg.xml.gz | ON BIBI 
 onkids | https://lichphatsong.site/schedule/epg.xml.gz | ON KIDS
 onlife | https://lichphatsong.site/schedule/epg.xml.gz | ON LIFE
