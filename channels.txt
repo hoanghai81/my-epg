@@ -63,6 +63,11 @@ vinhlong4hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 4
 vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
 ==HTV==
+htvkey | https://lichphatsong.site/schedule/epg.xml.gz | HTV KEY
+htv9hd | https://lichphatsong.site/schedule/epg.xml.gz | HTV9
+htv7hd | https://lichphatsong.site/schedule/epg.xml.gz | HTV7
+htv3 | https://lichphatsong.site/schedule/epg.xml.gz | HTV3
+htv1 | https://lichphatsong.site/schedule/epg.xml.gz | HTV1 
 
 htv2hd | https://lichphatsong.site/schedule/epg.xml.gz | HTV2
 htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & CUỘC SỐNG
