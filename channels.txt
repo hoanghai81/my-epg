@@ -30,6 +30,8 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+abcaustralia | https://lichphatsong.site/schedule/epg.xml.gz | ABC AUSTRALIA 
+arirang | https://lichphatsong.site/schedule/epg.xml.gz | ARIRANG 
 bbcearth | https://lichphatsong.site/schedule/epg.xml.gz | BBC EARTH
 axnhd | https://lichphatsong.site/schedule/epg.xml.gz | AXN
 animalhd | https://lichphatsong.site/schedule/epg.xml.gz | ANIMAL PLANET
