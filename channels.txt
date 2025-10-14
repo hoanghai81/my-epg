@@ -30,6 +30,8 @@ qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
+
+boxhits | https://lichphatsong.site/schedule/epg.xml.gz | BOX HITS 
 bloomberg | https://lichphatsong.site/schedule/epg.xml.gz | BLOOMBERG
 bbcworldnews | https://lichphatsong.site/schedule/epg.xml.gz | BBC WORLD NEWS 
 bbclifestyle | https://lichphatsong.site/schedule/epg.xml.gz | BBC LIFESTYLE 
