@@ -116,4 +116,8 @@ sky-sport-hd2 | https://iptvx.one/EPG_LITE | SKY SPORTS 2 NZ
 
 ===== KPLUS =====
 
+kaction | https://lichphatsong.site/schedule/epg.xml.gz | K+ ACTION 
+kkidshd | https://lichphatsong.site/schedule/epg.xml.gz | K+ KIDS
+ksport1hd | https://lichphatsong.site/schedule/epg.xml.gz | K+ SPORT1
+ksport2hd | https://lichphatsong.site/schedule/epg.xml.gz | K+ SPORT2
 kcinehd | https://lichphatsong.site/schedule/epg.xml.gz | K+ CINE
