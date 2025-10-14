@@ -67,6 +67,12 @@ htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & 
 
 ==VTVCAB==
 
+oninfotv | https://lichphatsong.site/schedule/epg.xml.gz | ON INFOTV
+onmovies | https://lichphatsong.site/schedule/epg.xml.gz | ON MOVIES
+onmusic | https://lichphatsong.site/schedule/epg.xml.gz | ON MUSIC
+ono2tv | https://lichphatsong.site/schedule/epg.xml.gz | ON O2TV
+onphimviet | https://lichphatsong.site/schedule/epg.xml.gz | ON PHIM VIỆT
+
 oncine | https://lichphatsong.site/schedule/epg.xml.gz | ON CINE
 onechannel | https://lichphatsong.site/schedule/epg.xml.gz | ON E CHANNEL
 onfootball | https://lichphatsong.site/schedule/epg.xml.gz | ON FOOTBALL
