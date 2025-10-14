@@ -30,7 +30,7 @@ qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
-
+bbclifestyle | https://lichphatsong.site/schedule/epg.xml.gz | BBC LIFESTYLE 
 abcaustralia | https://lichphatsong.site/schedule/epg.xml.gz | ABC AUSTRALIA 
 arirang | https://lichphatsong.site/schedule/epg.xml.gz | ARIRANG 
 bbcearth | https://lichphatsong.site/schedule/epg.xml.gz | BBC EARTH
