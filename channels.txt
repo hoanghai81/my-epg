@@ -67,6 +67,7 @@ htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & 
 
 ==VTVCAB==
 
+onbibi | https://lichphatsong.site/schedule/epg.xml.gz | ON BIBI 
 onkids | https://lichphatsong.site/schedule/epg.xml.gz | ON KIDS
 onlife | https://lichphatsong.site/schedule/epg.xml.gz | ON LIFE
 onviegiaitri | https://lichphatsong.site/schedule/epg.xml.gz | ON VIE GIẢI TRÍ
