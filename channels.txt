@@ -30,6 +30,7 @@ qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
+bbcworldnews | https://lichphatsong.site/schedule/epg.xml.gz | BBC WORLD NEWS 
 bbclifestyle | https://lichphatsong.site/schedule/epg.xml.gz | BBC LIFESTYLE 
 abcaustralia | https://lichphatsong.site/schedule/epg.xml.gz | ABC AUSTRALIA 
 arirang | https://lichphatsong.site/schedule/epg.xml.gz | ARIRANG 
