@@ -94,6 +94,8 @@ bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
 ===== RU =====
 
+match-football3 | https://iptvx.one/EPG7 | Матч! Футбол 3
+match-football2 | https://iptvx.one/EPG7 | Матч! Футбол 2
 match-football1 | https://iptvx.one/EPG7 | Матч! Футбол 1 
 match-tv | https://iptvx.one/EPG_LITE | Матч! ТВ
 
