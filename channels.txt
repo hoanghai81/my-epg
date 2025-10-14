@@ -1,7 +1,7 @@
 # id | url | display-name | logo-url (tùy chọn)
 
 ===== OTHER =====
-Boomerang.msky | https://raw.githubusercontent.com/hoanghai81/lps_crawler/refs/heads/main/boomerang.xml | CARTOONITO
+Boomerang.msky | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
 465006 | https://epg.pw/xmltv/epg.xml.gz | USA NETWORK US 
 446961 | https://epg.pw/xmltv/epg.xml | Fox Sports 506 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
