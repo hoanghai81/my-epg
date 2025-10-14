@@ -67,6 +67,8 @@ htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & 
 
 ==VTVCAB==
 
+onsports | https://lichphatsong.site/schedule/epg.xml.gz | ON SPORTS 
+
 onsportsnews | https://lichphatsong.site/schedule/epg.xml.gz | ON SPORTS NEWS
 onsportsplus | https://lichphatsong.site/schedule/epg.xml.gz | ON SPORTS PLUS
 onstyle | https://lichphatsong.site/schedule/epg.xml.gz | ON STYLE
