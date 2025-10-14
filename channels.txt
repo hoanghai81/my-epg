@@ -56,6 +56,11 @@ vinhlong3hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 3
 vinhlong4hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 4
 vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
+==HTV==
+
+htv2hd | https://lichphatsong.site/schedule/epg.xml.gz | HTV2
+htvcdulichhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC DU LỊCH & CUỘC SỐNG
+
 ==VTVCAB==
 
 onkids | https://lichphatsong.site/schedule/epg.xml.gz | ON KIDS
