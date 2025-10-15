@@ -19,6 +19,9 @@ supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ==SCTV==
 
+sctv9hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 9
+sctv8hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 8
+sctv7hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 7
 sctv6hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 6
 sctv4k | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 4K
 sctv4hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 4
