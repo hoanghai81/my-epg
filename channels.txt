@@ -50,6 +50,12 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+quangninh1 | https://lichphatsong.site/schedule/epg.xml.gz | QUẢNG NINH 1
+quangngai | https://lichphatsong.site/schedule/epg.xml.gz | QUẢNG NGÃI
+phutho | https://lichphatsong.site/schedule/epg.xml.gz | PHÚ THỌ
+ninhbinh | https://lichphatsong.site/schedule/epg.xml.gz | NINH BÌNH
+nghean | https://lichphatsong.site/schedule/epg.xml.gz | NGHỆ AN
+
 laocai | https://lichphatsong.site/schedule/epg.xml.gz | LÀO CAI
 langson | https://lichphatsong.site/schedule/epg.xml.gz | LẠNG SƠN
 lamdong3 | https://lichphatsong.site/schedule/epg.xml.gz | LÂM ĐỒNG 3
