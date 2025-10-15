@@ -50,6 +50,10 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+tuyenquang | https://lichphatsong.site/schedule/epg.xml.gz | TUYÊN QUANG
+thanhhoa | https://lichphatsong.site/schedule/epg.xml.gz | THANH HÓA
+thainguyen | https://lichphatsong.site/schedule/epg.xml.gz | THÁI NGUYÊN
+
 tayninh2 | https://lichphatsong.site/schedule/epg.xml.gz | TÂY NINH 2
 tayninh1 | https://lichphatsong.site/schedule/epg.xml.gz | TÂY NINH 1
 sonla | https://lichphatsong.site/schedule/epg.xml.gz | SƠN LA
