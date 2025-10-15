@@ -50,6 +50,12 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+khanhhoa | https://lichphatsong.site/schedule/epg.xml.gz | KHÁNH HÒA
+hungyen | https://lichphatsong.site/schedule/epg.xml.gz | HƯNG YÊN
+hue | https://lichphatsong.site/schedule/epg.xml.gz | HUẾ
+hatinh | https://lichphatsong.site/schedule/epg.xml.gz | HÀ TĨNH
+hanoi2 | https://lichphatsong.site/schedule/epg.xml.gz | HÀ NỘI 2 
+
 hanoi1 | https://lichphatsong.site/schedule/epg.xml.gz | HÀ NỘI 1
 haiphongplus | https://lichphatsong.site/schedule/epg.xml.gz | HẢI PHÒNG PLUS
 haiphong3 | https://lichphatsong.site/schedule/epg.xml.gz | HẢI PHÒNG 3
