@@ -34,6 +34,12 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+cinemaxhd | https://lichphatsong.site/schedule/epg.xml.gz | CINEMAX
+cinemaworldhd | https://lichphatsong.site/schedule/epg.xml.gz | CINEMA WORLDHD
+cbeebies | https://lichphatsong.site/schedule/epg.xml.gz | CBEEBIES
+cartoonhd | https://lichphatsong.site/schedule/epg.xml.gz | CARTOON NETWORK
+boxmovie1 | https://lichphatsong.site/schedule/epg.xml.gz | BOX MOVIE 1 
+
 boxhits | https://lichphatsong.site/schedule/epg.xml.gz | BOX HITS 
 bloomberg | https://lichphatsong.site/schedule/epg.xml.gz | BLOOMBERG
 bbcworldnews | https://lichphatsong.site/schedule/epg.xml.gz | BBC WORLD NEWS 
