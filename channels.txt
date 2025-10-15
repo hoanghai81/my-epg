@@ -50,6 +50,12 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+danang2 | https://lichphatsong.site/schedule/epg.xml.gz | ĐÀ NẴNG 2
+danang1 | https://lichphatsong.site/schedule/epg.xml.gz | ĐÀ NẴNG 1
+daklak | https://lichphatsong.site/schedule/epg.xml.gz | DAK LAK
+caobang | https://lichphatsong.site/schedule/epg.xml.gz | CAO BẰNG
+camau | https://lichphatsong.site/schedule/epg.xml.gz | CÀ MAU
+
 bacninh | https://lichphatsong.site/schedule/epg.xml.gz | BẮC NINH
 angiang1 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 1
 angiang2 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 2
