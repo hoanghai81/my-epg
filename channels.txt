@@ -33,6 +33,11 @@ qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
+discoveryhd | https://lichphatsong.site/schedule/epg.xml.gz | DISCOVERY
+discoveryasiahd | https://lichphatsong.site/schedule/epg.xml.gz | DISCOVERY ASIA
+cnn | https://lichphatsong.site/schedule/epg.xml.gz | CNN
+cnbc | https://lichphatsong.site/schedule/epg.xml.gz | CNBC
+cna | https://lichphatsong.site/schedule/epg.xml.gz | CNA 
 
 cinemaxhd | https://lichphatsong.site/schedule/epg.xml.gz | CINEMAX
 cinemaworldhd | https://lichphatsong.site/schedule/epg.xml.gz | CINEMA WORLDHD
