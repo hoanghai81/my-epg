@@ -34,6 +34,14 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+warnertvhd | https://lichphatsong.site/schedule/epg.xml.gz | WARNER TV
+tv5monde | https://lichphatsong.site/schedule/epg.xml.gz | TV5 MONDE
+tlchd | https://lichphatsong.site/schedule/epg.xml.gz | TLC
+outdoorhd | https://lichphatsong.site/schedule/epg.xml.gz | OUTDOOR
+spotv2 | https://lichphatsong.site/schedule/epg.xml.gz | SPOTV 2
+spotv1 | https://lichphatsong.site/schedule/epg.xml.gz | SPOTV 1
+women | https://lichphatsong.site/schedule/epg.xml.gz | WOMEN 
+
 nhkworld | https://lichphatsong.site/schedule/epg.xml.gz | NHK WORLD
 musicbox | https://lichphatsong.site/schedule/epg.xml.gz | MUSIC BOX
 man | https://lichphatsong.site/schedule/epg.xml.gz | MAN
