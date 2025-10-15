@@ -65,6 +65,8 @@ vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
 ==HTV==
 
+htvcthuanviethd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC THUẦN VIỆT
+htvthethaohd | https://lichphatsong.site/schedule/epg.xml.gz | HTV THỂ THAO
 htvcplushd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC PLUS
 htvcphunuhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC PHỤ NỮ
 htvcphimhd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC PHIM
