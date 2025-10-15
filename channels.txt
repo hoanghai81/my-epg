@@ -50,6 +50,12 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+laocai | https://lichphatsong.site/schedule/epg.xml.gz | LÀO CAI
+langson | https://lichphatsong.site/schedule/epg.xml.gz | LẠNG SƠN
+lamdong3 | https://lichphatsong.site/schedule/epg.xml.gz | LÂM ĐỒNG 3
+lamdong1 | https://lichphatsong.site/schedule/epg.xml.gz | LÂM ĐỒNG 1
+laichau | https://lichphatsong.site/schedule/epg.xml.gz | LAI CHÂU
+
 khanhhoa | https://lichphatsong.site/schedule/epg.xml.gz | KHÁNH HÒA
 hungyen | https://lichphatsong.site/schedule/epg.xml.gz | HƯNG YÊN
 hue | https://lichphatsong.site/schedule/epg.xml.gz | HUẾ
