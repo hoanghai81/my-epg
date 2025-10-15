@@ -33,6 +33,13 @@ qpvnhd | https://vnepg.site/epgu.xml | QPVN
 antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
+
+fashionhd | https://lichphatsong.site/schedule/epg.xml.gz | FASHION
+dw | https://lichphatsong.site/schedule/epg.xml.gz | DW
+drfithd | https://lichphatsong.site/schedule/epg.xml.gz | DR FIT
+dreamworks | https://lichphatsong.site/schedule/epg.xml.gz | DREAMWORKS
+dmax | https://lichphatsong.site/schedule/epg.xml.gz | DMAX 
+
 discoveryhd | https://lichphatsong.site/schedule/epg.xml.gz | DISCOVERY
 discoveryasiahd | https://lichphatsong.site/schedule/epg.xml.gz | DISCOVERY ASIA
 cnn | https://lichphatsong.site/schedule/epg.xml.gz | CNN
