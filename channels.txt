@@ -50,6 +50,12 @@ afnhd | https://lichphatsong.site/schedule/epg.xml.gz | AFN
 
 ==ĐỊA PHƯƠNG==
 
+hanoi1 | https://lichphatsong.site/schedule/epg.xml.gz | HÀ NỘI 1
+haiphongplus | https://lichphatsong.site/schedule/epg.xml.gz | HẢI PHÒNG PLUS
+haiphong3 | https://lichphatsong.site/schedule/epg.xml.gz | HẢI PHÒNG 3
+haiphong | https://lichphatsong.site/schedule/epg.xml.gz | HẢI PHÒNG
+gialai | https://lichphatsong.site/schedule/epg.xml.gz | GIA LAI
+
 dongthap2 | https://lichphatsong.site/schedule/epg.xml.gz | ĐỒNG THÁP 2
 dongthap1 | https://lichphatsong.site/schedule/epg.xml.gz | ĐỒNG THÁP 1
 dongnai2 | https://lichphatsong.site/schedule/epg.xml.gz | ĐỒNG NAI 2
