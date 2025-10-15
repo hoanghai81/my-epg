@@ -19,6 +19,11 @@ supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ==SCTV==
 
+sctvhdpth | https://lichphatsong.site/schedule/epg.xml.gz | SCTV PHIM TỔNG HỢP
+sctv22hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 22
+sctv21hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 21
+sctv20hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 20
+
 sctv19hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 19
 sctv18hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 18
 sctv17hd | https://lichphatsong.site/schedule/epg.xml.gz | SCTV 17
