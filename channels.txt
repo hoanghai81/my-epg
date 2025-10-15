@@ -34,6 +34,12 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+hollywoodclassics | https://lichphatsong.site/schedule/epg.xml.gz | HOLLYWOOD CLASSICS
+historyhd | https://lichphatsong.site/schedule/epg.xml.gz | HISTORY
+hgtv | https://lichphatsong.site/schedule/epg.xml.gz | HGTV
+hbohd | https://lichphatsong.site/schedule/epg.xml.gz | HBO
+france24eng | https://lichphatsong.site/schedule/epg.xml.gz | FRANCE24
+
 fashionhd | https://lichphatsong.site/schedule/epg.xml.gz | FASHION
 dw | https://lichphatsong.site/schedule/epg.xml.gz | DW
 drfithd | https://lichphatsong.site/schedule/epg.xml.gz | DR FIT
