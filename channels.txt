@@ -34,6 +34,12 @@ antvhd | https://vnepg.site/epgu.xml | ANTV
 
 ==QUỐC TẾ==
 
+nhkworld | https://lichphatsong.site/schedule/epg.xml.gz | NHK WORLD
+musicbox | https://lichphatsong.site/schedule/epg.xml.gz | MUSIC BOX
+man | https://lichphatsong.site/schedule/epg.xml.gz | MAN
+kbsworld | https://lichphatsong.site/schedule/epg.xml.gz | KBS WORLD
+inthebox | https://lichphatsong.site/schedule/epg.xml.gz | IN THE BOX
+
 hollywoodclassics | https://lichphatsong.site/schedule/epg.xml.gz | HOLLYWOOD CLASSICS
 historyhd | https://lichphatsong.site/schedule/epg.xml.gz | HISTORY
 hgtv | https://lichphatsong.site/schedule/epg.xml.gz | HGTV
