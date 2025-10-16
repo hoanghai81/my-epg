@@ -71,6 +71,7 @@ hollywoodclassics | https://lichphatsong.site/schedule/epg.xml.gz | HOLLYWOOD CL
 historyhd | https://lichphatsong.site/schedule/epg.xml.gz | HISTORY
 hgtv | https://lichphatsong.site/schedule/epg.xml.gz | HGTV
 hbohd | https://lichphatsong.site/schedule/epg.xml.gz | HBO
+happykids | https://lichphatsong.site/schedule/epg.xml.gz | HAPPY KIDS 
 france24eng | https://lichphatsong.site/schedule/epg.xml.gz | FRANCE24
 
 fashionhd | https://lichphatsong.site/schedule/epg.xml.gz | FASHION
