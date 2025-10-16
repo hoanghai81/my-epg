@@ -1,6 +1,7 @@
 # id | url | display-name | logo-url (tùy chọn)
 
 ===== OTHER =====
+Now.Sports.Premier.League.2.hk | https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz | NOW SPORTS P.L 2 HK 
 cartoonito | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
 465006 | https://epg.pw/xmltv/epg.xml.gz | USA NETWORK US 
 446961 | https://epg.pw/xmltv/epg.xml | Fox Sports 506 
