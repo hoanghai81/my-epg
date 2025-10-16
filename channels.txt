@@ -169,6 +169,9 @@ vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
 ==HTV==
 
+binhduong1 | https://lichphatsong.site/schedule/epg.xml.gz | BTV1
+binhduong2 | https://lichphatsong.site/schedule/epg.xml.gz | BTV2 
+
 htvcthuanviethd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC THUẦN VIỆT
 htvthethaohd | https://lichphatsong.site/schedule/epg.xml.gz | HTV THỂ THAO
 htvcplushd | https://lichphatsong.site/schedule/epg.xml.gz | HTVC PLUS
