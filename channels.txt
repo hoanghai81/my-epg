@@ -169,6 +169,8 @@ vinhlong5hd | https://lichphatsong.site/schedule/epg.xml.gz | VĨNH LONG 5
 
 ==HTV==
 
+vungtau | https://lichphatsong.site/schedule/epg.xml.gz | BRT 
+
 binhduong1 | https://lichphatsong.site/schedule/epg.xml.gz | BTV1
 binhduong2 | https://lichphatsong.site/schedule/epg.xml.gz | BTV2 
 
