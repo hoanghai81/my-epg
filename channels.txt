@@ -157,7 +157,7 @@ camau | https://lichphatsong.site/schedule/epg.xml.gz | CÀ MAU
 bacninh | https://lichphatsong.site/schedule/epg.xml.gz | BẮC NINH
 angiang1 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 1
 angiang2 | https://lichphatsong.site/schedule/epg.xml.gz | AN GIANG 2
-angiang3 | https://vnepg.site/epgu.xml | AN GIANG 3
+atv3kg2 | https://haivu.rawtv.top/lps_crawler/atv3kg2.xml | AN GIANG 3
 cantho1 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 1 
 cantho2 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 2
 cantho3 | https://lichphatsong.site/schedule/epg.xml.gz | CẦN THƠ 3
