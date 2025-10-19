@@ -1,6 +1,6 @@
 #EXTM3U 
 
-#EXTINF:-1 tvg-id="boomerang" group-title="OTHER",CARTOONITO
+#EXTINF:-1 tvg-id="espn1-nl" group-title="OTHER",ESPN 1 NL
 http://example.com/stream/vtv1.m3u8
 
 #EXTINF:-1 tvg-id="angiang2test" group-title="OTHER",AN GIANG 2 TEST
