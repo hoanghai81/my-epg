@@ -2,6 +2,12 @@
 
 ===== OTHER =====
 
+eleven-sport5-pt | https://iptvx.one/EPG7 | DAZN 5 PT
+eleven-sport4-pt | https://iptvx.one/EPG7 | DAZN 4 PT
+eleven-sport3-pt | https://iptvx.one/EPG7 | DAZN 3 PT
+eleven-sport2-pt | https://iptvx.one/EPG7 | DAZN 2 PT
+eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
+
 boomerang | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
