@@ -257,8 +257,8 @@ bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
 ===== RU =====
 
-eurosport1 | https://lichphatsong.site/schedule/epg.xml.gz | EUROSPORT 1
-eurosport2 | https://lichphatsong.site/schedule/epg.xml.gz | EUROSPORT 2
+eurosport1 | https://iptvx.one/EPG7 | EUROSPORT 1
+eurosport2 | https://iptvx.one/EPG7 | EUROSPORT 2
 
 match-igra | https://iptvx.one/EPG7 | Матч! Игра
 match-premier | https://iptvx.one/EPG7 | Матч! Премьер
