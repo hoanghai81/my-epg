@@ -1,5 +1,11 @@
 # id | url | display-name | logo-url (tùy chọn)
 
+===== OTHER =====
+
+===== FR =====
+
+===== NL =====
+
 ===== PL =====
 
 polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
