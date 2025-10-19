@@ -15,7 +15,7 @@ import traceback
 CHANNEL_FILE = "channels.txt"
 OUTPUT_FILE = "docs/epgtest.xml"
 TIMEZONE = pytz.timezone("Asia/Ho_Chi_Minh")
-DAYS = 2  # today + next day
+DAYS = 1  # today + next day
 
 def log(msg=""):
     print(msg, flush=True)
