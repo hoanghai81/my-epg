@@ -2,11 +2,7 @@
 
 ===== OTHER =====
 
-412140 | https://a.rawtv.top/hubpremier1 | HUB PREMIER 1
-Now.Sports.Premier.League.2.hk | https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz | NOW SPORTS P.L 2 HK 
 boomerang | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
-465006 | https://epg.pw/xmltv/epg.xml.gz | USA NETWORK US 
-446961 | https://epg.pw/xmltv/epg.xml | Fox Sports 506 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== US =====
@@ -257,10 +253,6 @@ match-football3 | https://iptvx.one/EPG7 | Матч! Футбол 3
 match-football2 | https://iptvx.one/EPG7 | Матч! Футбол 2
 match-football1 | https://iptvx.one/EPG7 | Матч! Футбол 1 
 match-tv | https://iptvx.one/EPG_LITE | Матч! ТВ
-
-===== NZ =====
-Sky.Sport.Premier.League.nz | https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz | SKY SPORTS P.L HD NZ
-sky-sport-hd2 | https://iptvx.one/EPG_LITE | SKY SPORTS 2 NZ
 
 ===== KPLUS =====
 
