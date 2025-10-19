@@ -1,5 +1,9 @@
 # id | url | display-name | logo-url (tùy chọn)
 
+===== OTHER =====
+
+love-nature-4k | https://iptvx.one/EPG7 | LOVE NATURE 4K RU
+
 ===== ES =====
 
 406544 | https://a.rawtv.top/dazn1es | DAZN 1 ES
