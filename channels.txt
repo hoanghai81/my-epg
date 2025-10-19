@@ -1,13 +1,8 @@
 # id | url | display-name | logo-url (tùy chọn)
 
-===== OTHER =====
+===== PL =====
 
-national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
-
-nat-geo-wild | https://iptvx.one/EPG7 | NAT GEO WILD RU
-
-love-nature-4k | https://iptvx.one/EPG7 | LOVE NATURE 4K RU
-
+polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 ===== ES =====
 
 406544 | https://a.rawtv.top/dazn1es | DAZN 1 ES
@@ -266,6 +261,12 @@ bt-sport1 | https://iptvx.one/EPG_LITE | TNT SPORTS 1 HD UK
 bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
 ===== RU =====
+
+national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
+
+nat-geo-wild | https://iptvx.one/EPG7 | NAT GEO WILD RU
+
+love-nature-4k | https://iptvx.one/EPG7 | LOVE NATURE 4K RU
 
 viasat-nature | https://iptvx.one/EPG7 | VIJU NATURE RU
 
