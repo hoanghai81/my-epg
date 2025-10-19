@@ -2,7 +2,15 @@
 
 ===== OTHER =====
 
+supertennis | https://iptvx.one/EPG_LITE | SuperTennis
+
 ===== FR =====
+
+bein-sport-1-fr | https://iptvx.one/EPG7 | BEIN SPORT 1 FR
+
+bein-sport-2-fr | https://iptvx.one/EPG7 | BEIN SPORT 2 FR
+
+bein-sport-3-fr | https://iptvx.one/EPG7 | BEIN SPORT 3 FR
 
 ===== NL =====
 
@@ -20,9 +28,6 @@ eleven-sport4-pt | https://iptvx.one/EPG7 | DAZN 4 PT
 eleven-sport3-pt | https://iptvx.one/EPG7 | DAZN 3 PT
 eleven-sport2-pt | https://iptvx.one/EPG7 | DAZN 2 PT
 eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
-
-boomerang | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
-supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== US =====
 
@@ -71,6 +76,8 @@ qpvnhd | https://lichphatsong.site/schedule/epg.xml.gz | QPVN
 antvhd | https://lichphatsong.site/schedule/epg.xml.gz | ANTV
 
 ==QUỐC TẾ==
+
+boomerang | https://haivu.rawtv.top/lps_crawler/boomerang.xml | CARTOONITO
 
 warnertvhd | https://lichphatsong.site/schedule/epg.xml.gz | WARNER TV
 tv5monde | https://lichphatsong.site/schedule/epg.xml.gz | TV5 MONDE
