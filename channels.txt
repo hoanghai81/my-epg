@@ -1,6 +1,10 @@
 # id | url | display-name | logo-url (tùy chọn)
 
-===== OTHER =====
+===== ES =====
+
+406544 | https://a.rawtv.top/dazn1es | DAZN 1 ES
+
+===== PT =====
 
 eleven-sport5-pt | https://iptvx.one/EPG7 | DAZN 5 PT
 eleven-sport4-pt | https://iptvx.one/EPG7 | DAZN 4 PT
