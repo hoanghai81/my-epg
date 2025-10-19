@@ -14,6 +14,14 @@ bein-sport-3-fr | https://iptvx.one/EPG7 | BEIN SPORT 3 FR
 
 ===== NL =====
 
+espn4-nl | https://iptvx.one/EPG7 | ESPN 4 NL
+
+espn3-nl | https://iptvx.one/EPG7 | ESPN 3 NL
+
+espn2-nl | https://iptvx.one/EPG7 | ESPN 2 NL
+
+espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
+
 ziggo-sport6-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 6 NL
 
 ziggo-sport2-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 2 NL
