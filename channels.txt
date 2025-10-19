@@ -14,6 +14,12 @@ bein-sport-3-fr | https://iptvx.one/EPG7 | BEIN SPORT 3 FR
 
 ===== NL =====
 
+ziggo-sport6-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 6 NL
+
+ziggo-sport2-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 2 NL
+
+ziggo-sport1-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 1 NL
+
 ===== PL =====
 
 polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
