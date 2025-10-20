@@ -32,6 +32,10 @@ ziggo-sport1-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 1 NL
 
 ===== PL =====
 
+eurosport2-pl | https://iptvx.one/EPG7 | EUROSPORT 2 PL
+
+eurosport1-pl | https://iptvx.one/EPG7 | EUROSPORT 1 PL
+
 polsat-sport-extra | https://iptvx.one/EPG7 | POLSAT SPORT 2 PL
 
 polsat-sport | https://iptvx.one/EPG7 | POLSAT SPORT 1 PL
