@@ -86,6 +86,9 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 ===== US =====
 
+espn-us | https://iptvx.one/EPG7 | ESPN US
+espn2-us | https://iptvx.one/EPG7 | ESPN 2 US
+
 465236 | https://epg.pw/api/epg.xml?lang=en&channel_id=465236 | TENNIS CHANNEL US
 
 
