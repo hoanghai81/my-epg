@@ -112,6 +112,8 @@ espn2-us | https://iptvx.one/EPG7 | ESPN 2 US
 
 ===== DE =====
 
+sky-sport-bl1 | https://iptvx.one/EPG_LITE | SKY SPORT BUNDLESLIGA 1 DE
+
 sportdigital-fussball | https://iptvx.one/EPG7 | SPORT DIGITAL FUSSBALL DE
 
 motorvision-p-de | https://iptvx.one/EPG_LITE | MOTORVISION DE
