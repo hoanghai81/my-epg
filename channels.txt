@@ -54,6 +54,8 @@ polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 
 ===== ES =====
 
+m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
+
 m-plus-deport6-es | https://iptvx.one/EPG7 | M+ DEPORTES 6 ES
 
 m-plus-deport5-es | https://iptvx.one/EPG7 | M+ DEPORTES 5 ES
