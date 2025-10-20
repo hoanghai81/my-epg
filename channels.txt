@@ -83,6 +83,8 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 ===== DE =====
 
+sportdigital-fussball | https://iptvx.one/EPG7 | SPORT DIGITAL FUSSBALL DE
+
 motorvision-p-de | https://iptvx.one/EPG_LITE | MOTORVISION DE
 
 daznbar2 | https://iptvx.one/EPG_LITE | DAZN 2 DE
