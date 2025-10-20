@@ -54,6 +54,8 @@ polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 
 ===== ES =====
 
+dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
+
 dazn-laliga-es | https://iptvx.one/EPG7 | DAZN LALIGA ES
 
 m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
@@ -69,6 +71,8 @@ m-plus-deport3-es | https://iptvx.one/EPG7 | M+ DEPORTES 3 ES
 m-plus-deport2-es | https://iptvx.one/EPG7 | M+ DEPORTES 2 ES
 
 m-plus-deport-es | https://iptvx.one/EPG7 | M+ DEPORTES ES
+
+dazn2-es | https://iptvx.one/EPG7 | DAZN 2 ES
 
 406544 | https://a.rawtv.top/dazn1es | DAZN 1 ES
 
