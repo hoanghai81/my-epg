@@ -100,6 +100,10 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 ===== US =====
 
+FS2.HD.us2 | https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz | FS2 US
+
+FS1.HD.us2 | https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz | FS1 US
+
 espn-us | https://iptvx.one/EPG7 | ESPN US
 espn2-us | https://iptvx.one/EPG7 | ESPN 2 US
 
