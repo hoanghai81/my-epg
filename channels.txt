@@ -126,7 +126,7 @@ daznbar1 | https://iptvx.one/EPG_LITE | DAZN 1 DE
 
 Sky.Nature.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY NATURE DE 
 
-10781 | https://epg.pw/api/epg.xml?lang=en&channel_id=10781 | SKY SPORT F1 DE
+sky-sport-f1-de | https://iptvx.one/EPG7 | SKY SPORT F1 DE
 
 ===== Vietnam =====
 
