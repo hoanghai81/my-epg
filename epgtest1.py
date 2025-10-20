@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # epgtest1.py
-# Extended: auto-translate non-Vietnamese/English titles & descriptions before export.
+# Tự động lấy EPG, lọc theo thời gian, dịch sang tiếng Anh nếu không phải tiếng Việt/Anh.
+# Xuất ra: docs/epgtest1.xml + log dịch docs/epgtest1.log
 
 import os
 import gzip
@@ -10,18 +11,21 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import pytz
 import traceback
-from langdetect import detect, DetectorFactory
 from deep_translator import GoogleTranslator
+from langdetect import detect, DetectorFactory
 
-DetectorFactory.seed = 0  # for consistent language detection
+DetectorFactory.seed = 0  # fix random detect
 
 CHANNEL_FILE = "channels.txt"
 OUTPUT_FILE = "docs/epgtest1.xml"
+LOG_FILE = "docs/epgtest1.log"
 TIMEZONE = pytz.timezone("Asia/Ho_Chi_Minh")
-DAYS = 1  # today + next day
+DAYS = 1  # Hôm nay + ngày mai
 
 def log(msg=""):
     print(msg, flush=True)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(msg + "\n")
 
 def safe_makedirs(path):
     d = os.path.dirname(path)
@@ -38,22 +42,21 @@ def decode_content_bytes(content, url):
     if len(content) >= 2 and content[:2] == b'\x1f\x8b':
         try:
             txt = gzip.decompress(content).decode("utf-8", errors="ignore")
-            return txt, "gzip (magic)"
+            return txt, "gzip"
         except Exception:
             with gzip.GzipFile(fileobj=io.BytesIO(content)) as f:
                 txt = f.read().decode("utf-8", errors="ignore")
-                return txt, "gzip (fallback)"
-    try:
-        txt = content.decode("utf-8", errors="ignore")
-        return txt, "plain"
-    except Exception:
-        txt = gzip.decompress(content).decode("utf-8", errors="ignore")
-        return txt, "gzip (force)"
+                return txt, "gzip(fallback)"
+    else:
+        try:
+            return content.decode("utf-8", errors="ignore"), "plain"
+        except Exception:
+            txt = gzip.decompress(content).decode("utf-8", errors="ignore")
+            return txt, "gzip(fallback2)"
 
 def parse_xml_text(xml_text, url):
     try:
-        root = ET.fromstring(xml_text)
-        return root
+        return ET.fromstring(xml_text)
     except ET.ParseError as e:
         raise ValueError(f"XML parse error for {url}: {e}")
 
@@ -64,125 +67,103 @@ def read_channels_file():
     with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            if "|" not in line:
+            if not line or line.startswith("#") or "|" not in line:
                 continue
             parts = [p.strip() for p in line.split("|")]
             if len(parts) < 3:
                 continue
-            channels.append({
-                "id": parts[0],
-                "url": parts[1],
-                "name": parts[2],
-            })
+            channels.append({"id": parts[0], "url": parts[1], "name": parts[2]})
     return channels
 
-def translate_if_needed(text):
-    """Detect language and translate to English if not Vietnamese or English."""
-    if not text.strip():
-        return text, None
+def detect_lang_safe(text):
     try:
         lang = detect(text)
+        return lang
     except Exception:
-        return text, None
-    if lang in ("vi", "en"):
-        return text, lang
+        return "unknown"
+
+def translate_text_if_needed(text, translator):
+    if not text.strip():
+        return text, False
+    lang = detect_lang_safe(text)
+    if lang in ["vi", "en"]:
+        return text, False
     try:
-        translated = GoogleTranslator(source="auto", target="en").translate(text)
-        return translated, lang
+        translated = translator.translate(text)
+        return translated, True
     except Exception:
-        return text, lang
+        return text, False
 
 def main():
-    log("=== BẮT ĐẦU SINH EPG TEST ===")
+    safe_makedirs(LOG_FILE)
+    open(LOG_FILE, "w").close()  # clear old log
+    log("=== BẮT ĐẦU SINH EPG VÀ DỊCH TỰ ĐỘNG ===")
+
+    try:
+        translator = GoogleTranslator(source="auto", target="en")
+    except Exception as e:
+        log(f"[!] Không thể khởi tạo translator: {e}")
+        return
+
     try:
         channels = read_channels_file()
     except Exception as e:
         log(f"[!] Cannot read channels file: {e}")
         return
 
-    log(f"=> Tổng kênh trong channels.txt: {len(channels)}")
+    log(f"=> Tổng số kênh: {len(channels)}")
     now = datetime.now(TIMEZONE)
     end_time = now + timedelta(days=DAYS)
-    log(f"=> Window: {now} -> {end_time} ({TIMEZONE})\n")
+    log(f"=> Thời gian lấy EPG: {now} -> {end_time}\n")
 
     all_channels_meta = {}
     all_programmes = []
     source_results = {}
-    url_to_channel_ids = {}
+    translated_channels = set()
 
+    url_to_channel_ids = {}
     for ch in channels:
         url_to_channel_ids.setdefault(ch["url"], []).append(ch)
 
     for src_url, ch_list in url_to_channel_ids.items():
-        log(f"=> Downloading: {src_url}")
+        log(f"=> Đang tải: {src_url}")
         source_results[src_url] = {"ok": False, "error": None, "channels": 0, "programmes": 0}
-        try:
-            content_bytes, headers = download_content(src_url)
-        except Exception as e:
-            msg = f"Download error: {e}"
-            source_results[src_url]["error"] = msg
-            log(f"[!] {msg}")
-            continue
 
         try:
+            content_bytes, _ = download_content(src_url)
             xml_text, how = decode_content_bytes(content_bytes, src_url)
-            log(f"   -> decoded ({how}), length={len(xml_text)}")
-        except Exception as e:
-            msg = f"Decode error: {e}"
-            source_results[src_url]["error"] = msg
-            log(f"[!] {msg}")
-            continue
-
-        try:
             root = parse_xml_text(xml_text, src_url)
-            if root is None or root.tag is None:
-                raise ValueError("Empty or invalid root")
-            log(f"   -> Parsed root tag: {root.tag}")
+            source_results[src_url]["ok"] = True
+            log(f"   -> Parsed root tag: {root.tag} ({how})")
         except Exception as e:
-            msg = f"Parse error: {e}"
-            source_results[src_url]["error"] = msg
-            log(f"[!] {msg}")
+            source_results[src_url]["error"] = str(e)
+            log(f"[!] Lỗi đọc nguồn {src_url}: {e}")
             continue
 
-        source_results[src_url]["ok"] = True
         channels_in_source = {}
         for ch_node in root.findall("channel"):
             cid = ch_node.attrib.get("id", "").strip()
             if not cid:
                 continue
-            dname = None
-            dn = ch_node.find("display-name")
-            if dn is not None and dn.text:
-                dname = dn.text.strip()
-            icon = None
-            ic = ch_node.find("icon")
-            if ic is not None and "src" in ic.attrib:
-                icon = ic.attrib["src"]
+            dname = ch_node.findtext("display-name", "").strip()
+            icon_el = ch_node.find("icon")
+            icon = icon_el.attrib["src"] if (icon_el is not None and "src" in icon_el.attrib) else None
             channels_in_source[cid.lower()] = {"id": cid, "name": dname, "icon": icon}
 
         source_results[src_url]["channels"] = len(channels_in_source)
-        progs_found_total = 0
 
         for requested in ch_list:
             req_id = requested["id"]
             req_id_l = req_id.lower()
-
-            meta = channels_in_source.get(req_id_l)
+            meta = channels_in_source.get(req_id_l, None)
             if meta:
-                all_channels_meta[requested["id"]] = {
-                    "id": requested["id"],
+                all_channels_meta[req_id] = {
+                    "id": req_id,
                     "name": meta.get("name") or requested["name"],
                     "logo": meta.get("icon")
                 }
             else:
-                all_channels_meta[requested["id"]] = {
-                    "id": requested["id"],
-                    "name": requested["name"],
-                    "logo": None
-                }
-                log(f"   - Warning: channel metadata for '{requested['id']}' not found in source; using fallback display name")
+                all_channels_meta[req_id] = {"id": req_id, "name": requested["name"], "logo": None}
 
             found = 0
             for p in root.findall("programme"):
@@ -190,55 +171,42 @@ def main():
                 if ch_attr.lower() != req_id_l:
                     continue
                 start_str = p.attrib.get("start", "")
-                dt = None
-                if start_str:
-                    try:
-                        dt = datetime.strptime(start_str[:14], "%Y%m%d%H%M%S")
-                        dt = TIMEZONE.localize(dt)
-                    except Exception:
-                        try:
-                            from dateutil import parser as dateparser
-                            dt = dateparser.parse(start_str)
-                            if dt.tzinfo is None:
-                                dt = TIMEZONE.localize(dt)
-                            else:
-                                dt = dt.astimezone(TIMEZONE)
-                        except Exception:
-                            dt = None
-
-                if dt is None or not (now <= dt <= end_time):
+                try:
+                    dt = datetime.strptime(start_str[:14], "%Y%m%d%H%M%S")
+                    dt = TIMEZONE.localize(dt)
+                except Exception:
+                    continue
+                if not (now <= dt <= end_time):
                     continue
 
-                title, desc = "", ""
-                tnode = p.find("title")
-                if tnode is not None and tnode.text:
-                    title = tnode.text.strip()
-                dnode = p.find("desc")
-                if dnode is not None and dnode.text:
-                    desc = dnode.text.strip()
+                title = p.findtext("title", "").strip()
+                desc = p.findtext("desc", "").strip()
+
+                title_new, changed_t = translate_text_if_needed(title, translator)
+                desc_new, changed_d = translate_text_if_needed(desc, translator)
+
+                if changed_t or changed_d:
+                    translated_channels.add(req_id)
 
                 all_programmes.append({
                     "start": p.attrib.get("start", ""),
                     "stop": p.attrib.get("stop", ""),
-                    "channel": requested["id"],
-                    "title": title,
-                    "desc": desc
+                    "channel": req_id,
+                    "title": title_new,
+                    "desc": desc_new
                 })
                 found += 1
+            source_results[src_url]["programmes"] += found
+            log(f"   - {req_id} -> {found} programmes")
 
-            progs_found_total += found
-            log(f"   - {requested['id']} -> matched {found} programmes")
-
-        source_results[src_url]["programmes"] = progs_found_total
-        log(f"   -> total programmes matched from this source: {progs_found_total}\n")
-
+    # Write output XML
     safe_makedirs(OUTPUT_FILE)
     try:
-        root_out = ET.Element("tv", attrib={"generator-info-name": "my-epg test"})
+        root_out = ET.Element("tv", attrib={"generator-info-name": "my-epg translate"})
         for cid, meta in all_channels_meta.items():
             ch_el = ET.SubElement(root_out, "channel", id=meta["id"])
             dn = ET.SubElement(ch_el, "display-name")
-            dn.text = meta.get("name") or meta["id"]
+            dn.text = meta["name"] or meta["id"]
             if meta.get("logo"):
                 ET.SubElement(ch_el, "icon", src=meta["logo"])
 
@@ -251,84 +219,24 @@ def main():
                 d_el.text = p["desc"]
 
         ET.ElementTree(root_out).write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-        log(f"-> written {OUTPUT_FILE} ({len(all_programmes)} programmes, {len(all_channels_meta)} channels)\n")
+        log(f"-> Đã tạo {OUTPUT_FILE} ({len(all_programmes)} programmes)\n")
     except Exception as e:
-        log(f"[!] Error writing output file: {e}")
+        log(f"[!] Lỗi ghi file: {e}")
         traceback.print_exc()
         return
 
-    # === Translation phase ===
-    log("=== TRANSLATION PHASE ===")
-    try:
-        tree = ET.parse(OUTPUT_FILE)
-        root = tree.getroot()
-        translation_report = {}
-        total_translated = 0
-
-        for prog in root.findall("programme"):
-            ch_id = prog.attrib.get("channel", "")
-            t_node = prog.find("title")
-            d_node = prog.find("desc")
-
-            if t_node is not None and t_node.text:
-                translated, lang = translate_if_needed(t_node.text)
-                if lang and lang not in ("vi", "en"):
-                    if ch_id not in translation_report:
-                        translation_report[ch_id] = {"count": 0, "langs": set()}
-                    translation_report[ch_id]["count"] += 1
-                    translation_report[ch_id]["langs"].add(lang)
-                    total_translated += 1
-                t_node.text = translated
-
-            if d_node is not None and d_node.text:
-                translated, lang = translate_if_needed(d_node.text)
-                if lang and lang not in ("vi", "en"):
-                    if ch_id not in translation_report:
-                        translation_report[ch_id] = {"count": 0, "langs": set()}
-                    translation_report[ch_id]["count"] += 1
-                    translation_report[ch_id]["langs"].add(lang)
-                    total_translated += 1
-                d_node.text = translated
-
-        tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
-        log(f"-> Updated translations written to {OUTPUT_FILE}")
-
-        log("\n=== TRANSLATION SUMMARY ===")
-        for ch_id, info in translation_report.items():
-            langs = ", ".join(info["langs"])
-            log(f"- Channel {ch_id}: translated {info['count']} entries (from {langs})")
-        log(f"Total translated entries: {total_translated}")
-    except Exception as e:
-        log(f"[!] Translation phase failed: {e}")
-
-    # === SUMMARY ===
-    log("\n=== FINAL SUMMARY ===")
-    log(f"Total channels requested: {len(channels)}")
-    per_channel_counts = {ch["id"]: 0 for ch in channels}
-    for p in all_programmes:
-        per_channel_counts.setdefault(p["channel"], 0)
-        per_channel_counts[p["channel"]] += 1
-    for ch in channels:
-        cnt = per_channel_counts.get(ch["id"], 0)
-        log(f"- {ch['id']} ({ch['name']}): {cnt}")
-    log(f"Total programmes: {len(all_programmes)}")
-
-    ok_count = sum(1 for s in source_results.values() if s["ok"])
-    fail_count = sum(1 for s in source_results.values() if not s["ok"])
-    log("\n=== SOURCE SUMMARY ===")
-    for src, info in source_results.items():
-        if info["ok"]:
-            log(f"- OK: {src} -> channels_in_source={info['channels']} programmes_matched={info['programmes']}")
-        else:
-            log(f"- FAIL: {src} -> error: {info['error']}")
-    log(f"Sources OK: {ok_count} | Failed: {fail_count}")
+    # Summary
+    log("=== TỔNG KẾT ===")
+    log(f"Tổng số chương trình: {len(all_programmes)}")
+    log(f"Kênh có dịch nội dung: {len(translated_channels)}")
+    for cid in sorted(translated_channels):
+        log(f"  - {cid}")
     log("\n=== HOÀN TẤT ===")
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        log("=== UNHANDLED EXCEPTION ===")
+        log("=== LỖI TOÀN CỤC ===")
         log(str(e))
         traceback.print_exc()
-        raise
