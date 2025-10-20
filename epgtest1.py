@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # epgtest1.py
 # Test EPG loader: supports .xml.gz, .xml, and "API" links that return XML content
-# Reads channels from channels.txt and writes docs/epgtest.xml
+# Reads channels from channels.txt and writes docs/epgtest1.xml
 # Improved error reporting and final summary with per-source errors.
 
 import os
