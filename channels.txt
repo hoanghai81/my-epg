@@ -32,6 +32,14 @@ ziggo-sport1-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 1 NL
 
 ===== PL =====
 
+canal-pl-sport-4 | https://iptvx.one/EPG7 | CANAL+ SPORT 4 PL
+
+canal-pl-sport-3 | https://iptvx.one/EPG7 | CANAL+ SPORT 3 PL
+
+canal-pl-sport-2 | https://iptvx.one/EPG7 | CANAL+ SPORT 2 PL
+
+canal-pl-sport-1 | https://iptvx.one/EPG7 | CANAL+ SPORT PL
+
 extreme-pl | https://iptvx.one/EPG7 | EXTREME SPORT PL
 
 eleven-sports-4 | https://iptvx.one/EPG7 | ELEVEN SPORTS 4 PL
