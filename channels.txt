@@ -2,6 +2,8 @@
 
 ===== OTHER =====
 
+403251 | https://epg.pw/api/epg.xml?lang=en&timezone=QXNpYS9Ib19DaGlfTWluaA%3D%3D&channel_id=403251 | SKY SPORT 1 DE 
+
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== FR =====
