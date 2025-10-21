@@ -1,10 +1,11 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+eurosport1 | https://iptvx.one/EPG7 | EUROSPORT 1
+eurosport2 | https://iptvx.one/EPG7 | EUROSPORT 2
 setanta-sports-plus | RU | SETANTA SPORTS 2 RU
-
 setanta-sports | RU | SETANTA SPORTS 1 RU
-
 match-igra | RU | Матч! Игра
+
 match-premier | RU | Матч! Премьер
 match-football3 | RU | Матч! Футбол 3
 match-football2 | RU | Матч! Футбол 2
