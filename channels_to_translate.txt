@@ -24,6 +24,14 @@ m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
 
 ===== RU =====
 
+national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
+
+nat-geo-wild | https://iptvx.one/EPG7 | NAT GEO WILD RU
+
+love-nature-4k | https://iptvx.one/EPG7 | LOVE NATURE 4K RU
+
+viasat-nature | https://iptvx.one/EPG7 | VIJU NATURE RU
+
 eurosport1 | https://iptvx.one/EPG7 | EUROSPORT 1
 eurosport2 | https://iptvx.one/EPG7 | EUROSPORT 2
 setanta-sports-plus | RU | SETANTA SPORTS 2 RU
