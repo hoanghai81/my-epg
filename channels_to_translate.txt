@@ -6,6 +6,21 @@ espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
 
 ===== PL =====
 
+canal-pl-sport-4 | https://iptvx.one/EPG7 | CANAL+ SPORT 4 PL
+
+canal-pl-sport-3 | https://iptvx.one/EPG7 | CANAL+ SPORT 3 PL
+
+canal-pl-sport-2 | https://iptvx.one/EPG7 | CANAL+ SPORT 2 PL
+
+canal-pl-sport-1 | https://iptvx.one/EPG7 | CANAL+ SPORT PL
+
+
+eleven-sports-4 | https://iptvx.one/EPG7 | ELEVEN SPORTS 4 PL
+
+eleven-sports-3 | https://iptvx.one/EPG7 | ELEVEN SPORTS 3 PL
+
+eleven-sports-2 | https://iptvx.one/EPG7 | ELEVEN SPORTS 2 PL
+
 eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
 polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 
