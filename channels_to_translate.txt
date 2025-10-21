@@ -1,5 +1,11 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+===== PL =====
+
+eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
+
+===== RU =====
+
 eurosport1 | https://iptvx.one/EPG7 | EUROSPORT 1
 eurosport2 | https://iptvx.one/EPG7 | EUROSPORT 2
 setanta-sports-plus | RU | SETANTA SPORTS 2 RU
