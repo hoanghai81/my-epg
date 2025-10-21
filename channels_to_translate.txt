@@ -25,6 +25,12 @@ m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
 
 ===== DE =====
 
+Sky.Sport.2.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY SPORT 2 DE
+
+Sky.Sport.1.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY SPORT 1 DE 
+
+sportdigital-fussball | https://iptvx.one/EPG7 | SPORT DIGITAL FUSSBALL DE
+
 daznbar2 | https://iptvx.one/EPG_LITE | DAZN 2 DE
 
 daznbar1 | https://iptvx.one/EPG_LITE | DAZN 1 DE
