@@ -10,6 +10,8 @@ eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
 
 ===== ES =====
 
+dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
+
 m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
 
 ===== RU =====
