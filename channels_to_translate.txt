@@ -7,6 +7,7 @@ espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
 ===== PL =====
 
 eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
+polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 
 ===== PT =====
 
@@ -21,6 +22,10 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
 
 m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
+
+===== DE =====
+
+Sky.Nature.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY NATURE DE
 
 ===== RU =====
 
