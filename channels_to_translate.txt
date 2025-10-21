@@ -6,6 +6,20 @@ espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
 
 ===== PL =====
 
+eurosport2-pl | https://iptvx.one/EPG7 | EUROSPORT 2 PL
+
+eurosport1-pl | https://iptvx.one/EPG7 | EUROSPORT 1 PL
+
+polsat-sport-extra | https://iptvx.one/EPG7 | POLSAT SPORT 2 PL
+
+polsat-sport | https://iptvx.one/EPG7 | POLSAT SPORT 1 PL
+
+polsat-sport-pr2 | https://iptvx.one/EPG7 | POLSAT SPORT PREMIUM 2 PL
+
+polsat-sport-pr1 | https://iptvx.one/EPG7 | POLSAT SPORT PREMIUM 1 PL
+
+tvp-sport | https://iptvx.one/EPG7 | TVP SPORT PL
+
 canal-pl-sport-4 | https://iptvx.one/EPG7 | CANAL+ SPORT 4 PL
 
 canal-pl-sport-3 | https://iptvx.one/EPG7 | CANAL+ SPORT 3 PL
