@@ -1,5 +1,9 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+setanta-sports-plus | RU | SETANTA SPORTS 2 RU
+
+setanta-sports | RU | SETANTA SPORTS 1 RU
+
 match-igra | RU | Матч! Игра
 match-premier | RU | Матч! Премьер
 match-football3 | RU | Матч! Футбол 3
