@@ -1,5 +1,11 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+===== FR =====
+
+bein-sport-1-fr | https://iptvx.one/EPG7 | BEIN SPORT 1 FR
+
+bein-sport-2-fr | https://iptvx.one/EPG7 | BEIN SPORT 2 FR
+
 ===== NL =====
 
 espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
