@@ -8,6 +8,14 @@ espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
 
 eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
 
+===== PT =====
+
+eleven-sport5-pt | https://iptvx.one/EPG7 | DAZN 5 PT
+eleven-sport4-pt | https://iptvx.one/EPG7 | DAZN 4 PT
+eleven-sport3-pt | https://iptvx.one/EPG7 | DAZN 3 PT
+eleven-sport2-pt | https://iptvx.one/EPG7 | DAZN 2 PT
+eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
+
 ===== ES =====
 
 dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
