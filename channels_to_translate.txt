@@ -1,5 +1,9 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+===== NL =====
+
+espn1-nl | https://iptvx.one/EPG7 | ESPN 1 NL
+
 ===== PL =====
 
 eleven-sports-1 | https://iptvx.one/EPG7 | ELEVEN SPORTS 1 PL
