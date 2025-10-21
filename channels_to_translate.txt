@@ -1,4 +1,4 @@
-
+# channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
 match-igra | RU | Матч! Игра
 match-premier | RU | Матч! Премьер
