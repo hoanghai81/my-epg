@@ -108,6 +108,10 @@ Sky.Nature.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY
 
 ===== RU =====
 
+match-planeta | https://iptvx.one/EPG7 | МАТЧ! Планета RU
+
+match-boets | https://iptvx.one/EPG7 | Матч! Боец RU
+
 okko-football | https://iptvx.one/EPG7 | Окко Футбол
 
 national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
