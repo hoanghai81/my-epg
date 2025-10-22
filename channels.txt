@@ -364,6 +364,10 @@ bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
 ===== RU =====
 
+match-planeta | https://iptvx.one/EPG7 | МАТЧ! Планета RU
+
+match-boets | https://iptvx.one/EPG7 | Матч! Боец RU
+
 okko-football | https://iptvx.one/EPG7 | Окко Футбол
 setanta-sports-plus | https://iptvx.one/EPG7 | SETANTA SPORTS 2 RU
 
