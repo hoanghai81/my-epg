@@ -26,6 +26,8 @@ ziggo-sport1-nl | https://iptvx.one/EPG7 | ZIGGO SPORT 1 NL
 
 ===== PL =====
 
+motowizja-pl | https://iptvx.one/EPG7 | MOTOWIZJA PL
+
 eurosport2-pl | https://iptvx.one/EPG7 | EUROSPORT 2 PL
 
 eurosport1-pl | https://iptvx.one/EPG7 | EUROSPORT 1 PL
