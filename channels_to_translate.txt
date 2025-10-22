@@ -106,6 +106,8 @@ Sky.Nature.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY
 
 ===== RU =====
 
+Окко.Спорт | https://iptvx.one/EPG7 | Окко Спорт HD
+
 national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
 
 nat-geo-wild | https://iptvx.one/EPG7 | NAT GEO WILD RU
