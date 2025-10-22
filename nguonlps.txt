@@ -1,4 +1,5 @@
 https://lichphatsong.site/schedule/epg.xml.gz
+https://epg.pw/xmltv/epg_RU.xml
 https://epg.pw/xmltv/epg_RU.xml.gz
 https://iptv-epg.org/files/epg-vn.xml
 https://iptv-epg.org/files/epg-gb.xml.gz
