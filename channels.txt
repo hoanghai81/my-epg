@@ -364,7 +364,7 @@ bt-sport2 | https://iptvx.one/EPG_LITE | TNT SPORTS 2 HD UK
 
 ===== RU =====
 
-okko-sport | https://iptvx.one/EPG7 | Окко Спорт HD
+okko-football | https://iptvx.one/EPG7 | Окко Футбол
 setanta-sports-plus | https://iptvx.one/EPG7 | SETANTA SPORTS 2 RU
 
 setanta-sports | https://iptvx.one/EPG7 | SETANTA SPORTS 1 RU
