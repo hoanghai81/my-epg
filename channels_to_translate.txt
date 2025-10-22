@@ -2,6 +2,8 @@
 
 ===== FR =====
 
+bein-sport-3-fr | https://iptvx.one/EPG7 | BEIN SPORT 3 FR
+
 bein-sport-1-fr | https://iptvx.one/EPG7 | BEIN SPORT 1 FR
 
 bein-sport-2-fr | https://iptvx.one/EPG7 | BEIN SPORT 2 FR
@@ -68,7 +70,25 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
 
+dazn-laliga-es | https://iptvx.one/EPG7 | DAZN LALIGA ES
+
 m-plus-laliga-es | https://iptvx.one/EPG7 | M+ LALIGA ES
+
+m-plus-deport6-es | https://iptvx.one/EPG7 | M+ DEPORTES 6 ES
+
+m-plus-deport5-es | https://iptvx.one/EPG7 | M+ DEPORTES 5 ES
+
+m-plus-deport4-es | https://iptvx.one/EPG7 | M+ DEPORTES 4 ES
+
+m-plus-deport3-es | https://iptvx.one/EPG7 | M+ DEPORTES 3 ES
+
+m-plus-deport2-es | https://iptvx.one/EPG7 | M+ DEPORTES 2 ES
+
+m-plus-deport-es | https://iptvx.one/EPG7 | M+ DEPORTES ES
+
+dazn2-es | https://iptvx.one/EPG7 | DAZN 2 ES
+
+406544 | https://a.rawtv.top/dazn1es | DAZN 1 ES
 
 ===== DE =====
 
