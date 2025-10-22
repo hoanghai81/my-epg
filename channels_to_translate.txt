@@ -70,6 +70,12 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 ===== ES =====
 
+M+.Liga.de.Campeones..4.es | https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz | M+ Liga de Campeones 4 ES
+
+M+.Liga.de.Campeones..3.es | https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz | M+ Liga de Campeones 3 ES
+
+M+.Liga.de.Campeones.2.es | https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz | M+ Liga de Campeones 2 ES
+
 m-plus-ligac-es | https://iptvx.one/EPG7 | M+ Liga de Campeones ES
 
 dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
