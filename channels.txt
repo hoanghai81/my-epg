@@ -67,7 +67,7 @@ polsat-viasat-nature | https://iptvx.one/EPG7 | POLSAT VIASAT NATURE PL
 
 ===== ES =====
 
-Movistar.Plus.es | https://lichphatsong.site/schedule/epg.xml.gz | MOVISTAR PLUS ES 
+Movistar.Plus.es | https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz | MOVISTAR PLUS ES 
 
 M+.Liga.de.Campeones..4.es | https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz | M+ Liga de Campeones 4 ES
 
