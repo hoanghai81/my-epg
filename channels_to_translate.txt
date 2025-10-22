@@ -70,6 +70,8 @@ eleven-sport1-pt | https://iptvx.one/EPG7 | DAZN 1 PT
 
 ===== ES =====
 
+m-plus-ligac-es | https://iptvx.one/EPG7 | M+ Liga de Campeones ES
+
 dazn-f1-es | https://iptvx.one/EPG7 | DAZN F1 ES
 
 dazn-laliga-es | https://iptvx.one/EPG7 | DAZN LALIGA ES
