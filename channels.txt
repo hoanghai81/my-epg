@@ -2,6 +2,8 @@
 
 ===== OTHER =====
 
+471429 | https://epg.pw/xmltv/epg_NZ.xml.gz | REDBULL
+
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== FR =====
