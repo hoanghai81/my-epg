@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2025-10-23 02:08:52
+# Cập nhật lúc: 2025-10-24 02:08:30
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
-# Tổng cộng: 179 ID
+# Tổng cộng: 180 ID
 abcaustralia
 afnhd
 angiang1
@@ -27,6 +27,7 @@ cantho2
 cantho3
 caobang
 cartoonhd
+cartoonito
 cbeebies
 cinemaworldhd
 cinemaxhd
@@ -184,7 +185,7 @@ warnertvhd
 woman
 
 ## Nguồn: https://epg.pw/xmltv/epg_RU.xml
-# Tổng cộng: 3316 ID
+# Tổng cộng: 3317 ID
 101877
 101907
 104548
@@ -1897,7 +1898,6 @@ woman
 472230
 472231
 472232
-472233
 472237
 472238
 472374
@@ -1923,14 +1923,16 @@ woman
 473656
 473657
 473658
-473820
-473821
 473822
-473823
-473824
-473826
-473827
 473828
+473961
+473962
+473963
+473964
+473965
+473966
+473967
+473968
 51580
 5734
 5735
@@ -3503,7 +3505,7 @@ woman
 95399
 
 ## Nguồn: https://epg.pw/xmltv/epg_RU.xml.gz
-# Tổng cộng: 3316 ID
+# Tổng cộng: 3317 ID
 101877
 101907
 104548
@@ -5216,7 +5218,6 @@ woman
 472230
 472231
 472232
-472233
 472237
 472238
 472374
@@ -5242,14 +5243,16 @@ woman
 473656
 473657
 473658
-473820
-473821
 473822
-473823
-473824
-473826
-473827
 473828
+473961
+473962
+473963
+473964
+473965
+473966
+473967
+473968
 51580
 5734
 5735
@@ -7547,5 +7550,5 @@ Wairarapa.TV.nz
 Whakaata.Māori.nz
 eden.nz
 
-=== Tổng cộng tất cả nguồn: 7528 ID ===
+=== Tổng cộng tất cả nguồn: 7531 ID ===
 === Thành công: 6 | Thất bại: 1 ===
