@@ -125,6 +125,8 @@ tennis-cnl-us | https://iptvx.one/EPG7 | TENNIS CHANNEL US
 
 ===== DE =====
 
+Sky.Sport.Austria.1.HD.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY SPORT AUSTRIA 1 DE
+
 sport1-plus-de | https://iptvx.one/EPG7 | SPORT1+ DE
 
 Sky.Sport.2.de | https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz | SKY SPORT 2 DE
