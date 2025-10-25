@@ -1,5 +1,13 @@
 # id | url | display-name | logo-url (tùy chọn)
 
+===== OTHER =====
+
+471429 | https://epg.pw/xmltv/epg_NZ.xml.gz | REDBULL
+
+supertennis | https://iptvx.one/EPG_LITE | SuperTennis
+
+===== TR =====
+
 bein-sports-1-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 1 TR
 
 bein-sports-2-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 2 TR
@@ -9,12 +17,6 @@ bein-sports-3-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 3 TR
 bein-sports-4-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 4 TR
 
 bein-sports-haber-tr | https://iptvx.one/EPG_LITE | BEIN SPORTS HABER TR
-
-===== OTHER =====
-
-471429 | https://epg.pw/xmltv/epg_NZ.xml.gz | REDBULL
-
-supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== FR =====
 
