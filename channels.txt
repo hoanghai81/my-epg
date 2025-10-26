@@ -2,6 +2,8 @@
 
 ===== OTHER =====
 
+Canal.ESPN.(Argentina).ar | https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz | ESPN AR 
+
 471429 | https://epg.pw/xmltv/epg_NZ.xml.gz | REDBULL
 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
