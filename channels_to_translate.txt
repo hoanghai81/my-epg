@@ -1,5 +1,9 @@
 # channel id | mã ngôn ngữ gốc | display-name (tùy chọn) | logo-url (tùy chọn)
 
+===== OTHER =====
+
+Canal.ESPN.(Argentina).ar | https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz | ESPN AR
+
 ===== TR =====
 
 bein-sports-1-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 1 TR
