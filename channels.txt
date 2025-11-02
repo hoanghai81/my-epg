@@ -6,7 +6,7 @@ world-fashion-channel-en | https://iptvx.one/EPG_LITE | WORLD FASHION CHANNEL EN
 
 Canal.ESPN.(Argentina).ar | https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz | ESPN AR 
 
-471429 | https://epg.pw/xmltv/epg_NZ.xml.gz | REDBULL
+471429 | https://epg.pw/api/epg.xml?lang=en&timezone=QXNpYS9Ib19DaGlfTWluaA%3D%3D&channel_id=471429 | REDBULL
 
 supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
