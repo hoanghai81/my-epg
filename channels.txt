@@ -2,6 +2,8 @@
 
 ===== OTHER =====
 
+fuel-tv-hd | https://iptvx.one/EPG_LITE | Fuel TV
+
 world-fashion-channel-en | https://iptvx.one/EPG_LITE | WORLD FASHION CHANNEL EN
 
 Canal.ESPN.(Argentina).ar | https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz | ESPN AR 
