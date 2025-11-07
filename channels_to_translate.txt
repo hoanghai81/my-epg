@@ -146,8 +146,6 @@ match-planeta | https://iptvx.one/EPG7 | МАТЧ! Планета RU
 
 match-boets | https://iptvx.one/EPG7 | Матч! Боец RU
 
-okko-football | https://iptvx.one/EPG7 | Окко Футбол
-
 national-geographic | https://iptvx.one/EPG7 | NATIONAL GEOGRAPHIC RU
 
 nat-geo-wild | https://iptvx.one/EPG7 | NAT GEO WILD RU
