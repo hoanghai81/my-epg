@@ -405,7 +405,6 @@ match-planeta | https://iptvx.one/EPG7 | МАТЧ! Планета RU
 
 match-boets | https://iptvx.one/EPG7 | Матч! Боец RU
 
-okko-football | https://iptvx.one/EPG7 | Окко Футбол
 setanta-sports-plus | https://iptvx.one/EPG7 | SETANTA SPORTS 2 RU
 
 setanta-sports | https://iptvx.one/EPG7 | SETANTA SPORTS 1 RU
