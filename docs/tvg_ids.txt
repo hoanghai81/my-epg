@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2025-11-25 02:07:18
+# Cập nhật lúc: 2025-11-26 02:09:03
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
-# Tổng cộng: 180 ID
+# Tổng cộng: 179 ID
 abcaustralia
 afnhd
 angiang1
@@ -180,7 +180,6 @@ vtv7hd
 vtv8hd
 vtv9hd
 vtvcantho
-vungtau
 warnertvhd
 woman
 
@@ -521,5 +520,5 @@ wedo movies.de
 wetter.com TV.de
 ÜLKE TV.de
 
-=== Tổng cộng tất cả nguồn: 514 ID ===
+=== Tổng cộng tất cả nguồn: 513 ID ===
 === Thành công: 2 | Thất bại: 1 ===
