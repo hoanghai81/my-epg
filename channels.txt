@@ -14,6 +14,24 @@ supertennis | https://iptvx.one/EPG_LITE | SuperTennis
 
 ===== NZ =====
 
+sky-sport-hd1 | https://iptvx.one/EPG_LITE | sky sport 1 NZ
+
+sky-sport-hd2 | https://iptvx.one/EPG_LITE | sky sport 2 NZ
+
+sky-sport-hd3 | https://iptvx.one/EPG_LITE | sky sport 3 NZ
+
+sky-sport-hd4 | https://iptvx.one/EPG_LITE | sky sport 4 NZ
+
+sky-sport-hd5 | https://iptvx.one/EPG_LITE | sky sport 5 NZ
+
+sky-sport-hd6 | https://iptvx.one/EPG_LITE | sky sport 6 NZ
+
+sky-sport-hd7 | https://iptvx.one/EPG_LITE | sky sport 7 NZ
+
+sky-sport-hd8 | https://iptvx.one/EPG_LITE | sky sport 8 NZ
+
+sky-sport-hd9 | https://iptvx.one/EPG_LITE | sky sport 9 NZ
+
 ===== TR =====
 
 bein-sports-1-tr | https://iptvx.one/EPG_LITE | BEIN-SPORTS 1 TR
