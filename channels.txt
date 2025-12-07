@@ -2,6 +2,8 @@
 
 ===== OTHER =====
 
+cbs-sports-network-us | https://iptvx.one/EPG_LITE | cbs sports network us
+
 fuel-tv-hd | https://iptvx.one/EPG_LITE | Fuel TV
 
 world-fashion-channel-en | https://iptvx.one/EPG_LITE | WORLD FASHION CHANNEL EN
