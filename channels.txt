@@ -448,11 +448,3 @@ match-football3 | https://iptvx.one/EPG7 | Матч! Футбол 3
 match-football2 | https://iptvx.one/EPG7 | Матч! Футбол 2
 match-football1 | https://iptvx.one/EPG7 | Матч! Футбол 1 
 match-tv | https://iptvx.one/EPG_LITE | Матч! ТВ
-
-===== KPLUS =====
-
-kaction | https://lichphatsong.site/schedule/epg.xml.gz | K+ ACTION 
-kkidshd | https://lichphatsong.site/schedule/epg.xml.gz | K+ KIDS
-ksport1hd | https://lichphatsong.site/schedule/epg.xml.gz | K+ SPORT1
-ksport2hd | https://lichphatsong.site/schedule/epg.xml.gz | K+ SPORT2
-kcinehd | https://lichphatsong.site/schedule/epg.xml.gz | K+ CINE
