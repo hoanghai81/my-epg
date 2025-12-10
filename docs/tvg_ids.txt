@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2025-12-10 02:08:51
+# Cập nhật lúc: 2025-12-11 02:10:54
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 179 ID
@@ -184,341 +184,440 @@ warnertvhd
 woman
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 334 ID
-#dabeiTV.de
-1-2-3.tv.de
-13TH STREET (Sky).de
-13TH STREET.de
+# Tổng cộng: 433 ID
+1-2-3tv.de
+13THSTREET.de
+1899Hoffenheim.de
 3sat.de
-ALEX Berlin.de
-ANIXE HD Serie.de
+ALEXBerlin.de
 ANIXE+.de
+ANIXESerie.de
 ARD-alpha.de
 ARTE.de
-AXN Black.de
-AXN White.de
-Al Jazeera English.de
-Animal Planet.de
-Asharq News.de
-BBC News.de
-BR Fernsehen Nord.de
-BR Fernsehen Sud.de
-Baby TV.de
-Baden TV Sud.de
-Baden TV.de
-Ballermann TV.de
-Beate-Uhse.TV (Sky).de
+AXNBlack.de
+AXNWhite.de
+Actionfilme.de
+AlJazeeraEnglish.de
+AnimalPlanet.de
+Artflix.de
+AsharqNews.de
+BBCWorld.de
+BR.de
+BRFernsehenNord.de
+BRFernsehenSud.de
+BabyTV.de
+BadenTV.de
+BadenTVSud.de
+BallermannTV.de
+BayerLeverkusen.de
+BayernMünchen.de
+Beate-UhseTV.de
 Bergblick.de
-Bibel TV.de
-Blue Hustler.de
+BibelTV.de
+Bild.de
+BlueHustler.de
 BonGusto.de
+BorussiaDortmund.de
+BorussiaMönchengladbach.de
+CEMTV.de
 CHANNEL21.de
-CNBC International.de
-CNN International.de
-Cartoon Network (Sky).de
-Cartoon Network.de
-Cartoonito (Sky).de
+CNNInternational.de
+CartoonNetwork.de
 Cartoonito.de
-Chemnitz Fernsehen.de
-Comedy Central.de
-Crime+Investigation (Sky).de
+ChemnitzFernsehen.de
+Classica.de
+ClipMyHorseTV.de
+ComedyCentral.de
 Crime+Investigation.de
-Curiosity Channel.de
-DELUXE MUSIC.de
+CuriosityChannel.de
+DABEI.de
+DAZN.de
+DAZN1.de
+DAZN10Live.de
+DAZN11Live.de
+DAZN12Live.de
+DAZN13Live.de
+DAZN14Live.de
+DAZN15Live.de
+DAZN16Live.de
+DAZN17Live.de
+DAZN18Live.de
+DAZN19Live.de
+DAZN1Live.de
+DAZN2.de
+DAZN20Live.de
+DAZN21Live.de
+DAZN22Live.de
+DAZN23Live.de
+DAZN24Live.de
+DAZN25Live.de
+DAZN2Live.de
+DAZN3Live.de
+DAZN4Live.de
+DAZN5Live.de
+DAZN6Live.de
+DAZN7Live.de
+DAZN8Live.de
+DAZN9Live.de
 DF1.de
 DMAX.de
-DMF.de
-Das Erste.de
-Discovery Channel (Sky).de
-Discovery Channel.de
-Disney Channel.de
-Dresden Fernsehen.de
-ERT World.de
+DW.de
+DasErste.de
+DaznFast.de
+DaznRise.de
+DeluxeDanceByKontor.de
+DeluxeFlashback.de
+DeluxeLounge.de
+DeluxeMusic.de
+DeluxeRap.de
+DeluxeRock.de
+DeutschesKino.de
+DeutschesMusikFernsehen.de
+Discovery.de
+Disney+Select.de
+DisneyChannel.de
+DramaFilme.de
+DresdenFernsehen.de
+EDGESport.de
+EUROSTAR.de
+E_Entertainment.de
+EintrachtFrankfurt.de
 Espreso.de
-Euro D.de
-Euronews Deutsch.de
-Euronews English.de
-Euronews Italiano.de
-Euronews Russki.de
-Eurosport 1.de
-Eurosport 2.de
-Eurostar TV.de
-FOLX MUSIC TELEVISION.de
+EuroD.de
+EuroND.de
+EuroNRUS.de
+EuronewsItaliano.de
+Eurosport1.de
+Eurosport2.de
+Eurosport2Xtra.de
+ExtremeSports.de
+FCAugsburg.de
+FCBAYERNTVLIVE.de
+FCHeidenheim.de
+FCStPauli.de
+FCUnionBerlin.de
+FIXandFOXI.de
+FOLXMUSICTELEVISION.de
 FREEDOM.de
-Fashion TV.de
-France 2.de
-France 24 english.de
-France 24 francais.de
-France 3.de
-Franken Fernsehen.de
-Friesischer Rundfunk.de
-GEO Television.de
-HAUPTSTADT.TV.de
+FSVMainz05.de
+FUSSBALLTV1.de
+FUSSBALLTV2.de
+FUSSBALLTV3.de
+FashionTV.de
+FixAndFoxi.de
+France24english.de
+France24francais.de
+FrankenFernsehen.de
+FriesischerRundfunk.de
+GEO.de
+HAUPTSTADTTV.de
 HGTV.de
+HISTORY.de
 HSE.de
-Haberturk TV.de
-Hamburg 1.de
-Heimatkanal (Sky).de
+HSE24.de
+HaberTurk.de
+Hamburg1.de
 Heimatkanal.de
+Hohenrausch.de
+HolsteinKiel.de
 INPLUS.de
-Imearth.de
-JenaTV.de
-Jukebox (Sky).de
 Jukebox.de
-K-TV.de
-Kabel Eins CLASSICS.de
-Kabel Eins Doku.de
-Kabel Eins.de
-Kanal 7.de
+Junior.de
+JustCooking.de
+KTV.de
+KabelEins.de
+KabelEinsCLASSICS.de
+KabelEinsDoku.de
+Kanal7.de
 KiKA.de
 Kinomir.de
 KinoweltTV.de
+Komödien.de
 L-TV.de
 LAUSITZWELLE.de
-Leipzig Fernsehen.de
+LeipzigFernsehen.de
 Lokal-TV.de
-Lust pur.de
-MDF.1 Fernsehen.de
-MDR-Fernsehen Sachsen-Anhalt.de
-MDR-Fernsehen Sachsen.de
-MDR-Fernsehen Thuringen.de
-MS Sport.de
+Lustpur.de
+MDRSachsen-Anhalt.de
+MDRSachsen.de
+MDRThuringen.de
+MOTORVISIONTV.de
+MSSport.de
 MTV.de
-Magenta Musik 1.de
-Magenta Musik 2.de
-MagentaSport.de
-MagentaTV+.de
-Marco Polo TV.de
-Meine Aufnahmen.de
-More Than Sports TV.de
-Motorvision+.de
-N24 Doku.de
-NDR Fernsehen Hamburg.de
-NDR Fernsehen Mecklenburg-Vorpommern.de
-NDR Fernsehen Niedersachsen.de
-NDR Fernsehen Schleswig-Holstein.de
-NIEDERBAYERN TV Deggendorf - Straubing.de
-NIEDERBAYERN TV Landshut.de
-NIEDERBAYERN TV Passau.de
+MTV00s.de
+MTV80s.de
+MTV90s.de
+MTVHits.de
+MTVLive.de
+MagentaMusik1.de
+MagentaMusik2.de
+MarcoPoloTV.de
+MeineAufnahmen.de
+MoreThanSportsTV.de
+N24Doku.de
+NDR.de
+NDRFernsehenNiedersachsen.de
+NDRHamburg.de
+NDRMecklenburg-Vorpommern.de
+NDRSchleswig-Holstein.de
+NIEDERBAYERNTV - PA.de
+NIEDERBAYERNTV-DEG.de
+NIEDERBAYERNTV-LA.de
 NITRO.de
-NRWision.de
-National Geographic Wild.de
-National Geographic.de
-Nick Jr. (Sky).de
-Nick Jr..de
-Nick/Comedy Central+1.de
-Nicktoons (Sky).de
+NOWUS.de
+NationalGeographic.de
+NationalGeographicWILD.de
+Nick.de
+NickComedyCentral+1.de
+NickJr.de
+Nicktoons.de
 OF-TV.de
-OK WeinstraSSe.de
-OK-TV Ludwigshafen.de
 OK4.de
 OK54 Trier.de
-OK:TV Mainz.de
-ONE MUSIC TELEVISION.de
+OKTVLudwigshafen.de
+OKTVMainz.de
+OKWeinstrabe.de
 ONE.de
+ONEMUSICTELEVISION.de
 OUTtv.de
-Oberpfalz TV.de
+OberpfalzTV.de
+OneTerra.de
 OstWest.de
-Penthouse Passion.de
-Playboy Europe.de
-ProSieben FUN.de
-ProSieben MAXX.de
+PearlTV.de
+PenthousePassion.de
+PlayboyEurope.de
 ProSieben.de
+ProSiebenFUN.de
+ProSiebenMAXX.de
 QVC.de
-RFH Regionalfernsehen Harz.de
+QVCZWEI.de
+QwestTV.de
+RBLeipzig.de
+RFHRegionalfernsehenHarz.de
 RFO.de
 RNF.de
-RTL Bayern.de
-RTL Bremen and Niedersachsen.de
-RTL Crime.de
-RTL Hamburg and Schleswig-Holstein.de
-RTL Hessen.de
-RTL Living.de
-RTL Nordrhein-Westfalen.de
-RTL Passion.de
-RTL Rhein-Neckar.de
+RTF1.de
+RTL+LIVE1.de
+RTL+LIVE2.de
+RTL+LIVE3.de
+RTL+LIVE4.de
+RTL+LIVE5.de
+RTL+LIVE6.de
 RTL.de
+RTLCrime.de
+RTLHBNDS.de
+RTLHHSH.de
+RTLHessen.de
+RTLLiving.de
+RTLNRW.de
+RTLPassion.de
 RTLZWEI.de
+RTLplus.de
 RTLup.de
-Radio Bremen TV.de
-Rai 1.de
-Rai 2.de
-Rai 3.de
-Red Bull TV.de
-Regio TV.de
-Rennsteig.TV.de
-Rhein-Main TV.de
+RTRPlaneta.de
+RadioBremenTV.de
+RaiDue.de
+RaiTre.de
+RaiUno.de
+RedBullTV.de
+RegioTV.de
+RennsteigTV.de
+Rhein-MainTV.de
 RiC.de
-Romance TV (Sky).de
-Romance TV.de
-SAT.1 Bayern.de
-SAT.1 GOLD.de
-SAT.1 Hamburg und Schleswig-Holstein.de
-SAT.1 Niedersachsen und Bremen.de
-SAT.1 Nordrhein-Westfalen.de
-SAT.1 Rheinland-Pfalz und Hessen.de
-SAT.1 emotions.de
-SAT.1.de
-SCHLAGER DELUXE.de
+RockAntenne.de
+RomanceTV.de
+RomantischeFilme.de
+SAT1.de
+SAT1Bayern.de
+SAT1GOLD.de
+SAT1HHSH.de
+SAT1NDSBremen.de
+SAT1NRW.de
+SAT1RhlPfHessen.de
+SAT1emotions.de
+SCFreiburg.de
 SPORT1+.de
 SPORT1.de
-SPORTDIGITAL FUSSBALL.de
-SR Fernsehen.de
-SRF.de
-SWR Fernsehen BW.de
-SWR Fernsehen RP.de
-SYFY (Sky).de
-SYFY.de
-Schlagerparadies.TV.de
-Servus TV Motorsport.de
-Shop LC.de
-Show Max.de
-Show Turk.de
-Sky Atlantic.de
-Sky Cinema Action.de
-Sky Cinema Classics.de
-Sky Cinema Family.de
-Sky Cinema Highlights.de
-Sky Cinema Premiere.de
-Sky Crime.de
-Sky Documentaries.de
-Sky Krimi.de
-Sky Nature.de
-Sky One.de
-Sky Replay.de
-Sky Showcase.de
-Sky Sport 1.de
-Sky Sport 10.de
-Sky Sport 2.de
-Sky Sport 3.de
-Sky Sport 4.de
-Sky Sport 5.de
-Sky Sport 6.de
-Sky Sport 7.de
-Sky Sport 8.de
-Sky Sport 9.de
-Sky Sport Bundesliga 1.de
-Sky Sport Bundesliga 10.de
-Sky Sport Bundesliga 2.de
-Sky Sport Bundesliga 3.de
-Sky Sport Bundesliga 4.de
-Sky Sport Bundesliga 5.de
-Sky Sport Bundesliga 6.de
-Sky Sport Bundesliga 7.de
-Sky Sport Bundesliga 8.de
-Sky Sport Bundesliga 9.de
-Sky Sport Bundesliga.de
-Sky Sport F1.de
-Sky Sport Golf.de
-Sky Sport Kompakt 1.de
-Sky Sport Mix.de
-Sky Sport News.de
-Sky Sport Premier League.de
-Sky Sport Tennis.de
-Sky Sport Top Event.de
-Spiegel Geschichte.de
-Sport 1 - myTeamTV.de
-Sport 10 - myTeamTV.de
-Sport 11 - myTeamTV.de
-Sport 12 - myTeamTV.de
-Sport 13 - myTeamTV.de
-Sport 14 - myTeamTV.de
-Sport 15 - myTeamTV.de
-Sport 16 - myTeamTV.de
-Sport 17 - myTeamTV.de
-Sport 18 - myTeamTV.de
-Sport 2 - myTeamTV.de
-Sport 3 - myTeamTV.de
-Sport 4 - myTeamTV.de
-Sport 5 - myTeamTV.de
-Sport 6 - myTeamTV.de
-Sport 7 - myTeamTV.de
-Sport 8 - myTeamTV.de
-Sport 9 - myTeamTV.de
-Stingray Classica.de
-Stingray DJAZZ.de
-Stingray iConcerts.de
-Studio 47.de
-Super RTL.de
-TELE 5.de
+SPORTDIGITALFUSSBALL.de
+SRFernsehen.de
+SWRBW.de
+SWRRP.de
+SchlagerDeluxe.de
+SchlagerparadiesTV.de
+Scooore.de
+ServusTVMotorsport.de
+ShowMax.de
+ShowTurk.de
+Silverline.de
+SkyAtlantic.de
+SkyCinemaAction.de
+SkyCinemaBestOf.de
+SkyCinemaClassics.de
+SkyCinemaFamily.de
+SkyCinemaHighlights.de
+SkyCinemaPremiere.de
+SkyCinemaPremieren+24.de
+SkyComedy.de
+SkyCrime.de
+SkyDocumentaries.de
+SkyKrimi.de
+SkyNature.de
+SkyOne.de
+SkyReplay.de
+SkyShowcase.de
+SkySport1.de
+SkySport10.de
+SkySport2.de
+SkySport3.de
+SkySport4.de
+SkySport5.de
+SkySport6.de
+SkySport7.de
+SkySport8.de
+SkySport9.de
+SkySportAustria1.de
+SkySportBundesliga.de
+SkySportBundesliga1.de
+SkySportBundesliga10.de
+SkySportBundesliga2.de
+SkySportBundesliga3.de
+SkySportBundesliga4.de
+SkySportBundesliga5.de
+SkySportBundesliga6.de
+SkySportBundesliga7.de
+SkySportBundesliga8.de
+SkySportBundesliga9.de
+SkySportBundesligaUHD.de
+SkySportF1.de
+SkySportGolf.de
+SkySportKompakt1.de
+SkySportKompakt2.de
+SkySportKompakt3.de
+SkySportKompakt4.de
+SkySportKompakt5.de
+SkySportMix.de
+SkySportNews.de
+SkySportPremierLeague.de
+SkySportTennis.de
+SkySportTopEvent.de
+SkySportUHD.de
+SpiegelGeschichte.de
+Sport1-myTeamTV.de
+Sport10-myTeamTV.de
+Sport11-myTeamTV.de
+Sport12-myTeamTV.de
+Sport13-myTeamTV.de
+Sport14-myTeamTV.de
+Sport15-myTeamTV.de
+Sport16-myTeamTV.de
+Sport17-myTeamTV.de
+Sport18-myTeamTV.de
+Sport2-myTeamTV.de
+Sport3-myTeamTV.de
+Sport4-myTeamTV.de
+Sport5-myTeamTV.de
+Sport6-myTeamTV.de
+Sport7-myTeamTV.de
+Sport8-myTeamTV.de
+Sport9-myTeamTV.de
+SportFree-myTeamTV.de
+Sportdeutschlandtv.de
+SportdigitalFUSSBALL2.de
+StingrayClassica.de
+StingrayDJAZZ.de
+StingrayiConcerts.de
+Studio47.de
+SuperRTL.de
+Syfy.de
 TLC.de
-TOGGO plus.de
-TV Mainfranken.de
-TV Mittelrhein.de
-TV Oberfranken.de
-TV Westsachsen.de
-TV5MONDE Europe.de
-TV8 Int.de
-TVA Ostbayern.de
-TVP Polonia.de
-TeleBom/TeleDom.de
-Testkanal H01.de
-Testkanal I01.de
-Testkanal I03.de
-Testkanal L01.de
-Testkanal L02.de
-Testkanal L03.de
-Testkanal L04.de
-Testkanal L05.de
-Testkanal L06.de
-Testkanal L07.de
-The HISTORY Channel (Sky).de
-The HISTORY Channel.de
+TOGGOplus.de
+TV5MONDEEurope.de
+TV8Int.de
+TVAOstbayern.de
+TVBerlin.de
+TVMainfranken.de
+TVMittelrhein.de
+TVOberfranken.de
+TVPolonia.de
+TVWestsachsen.de
+Tele5.de
+TeleBomTeleDom.de
+TestkanalH01.de
+TestkanalI01.de
+TestkanalI03.de
+TestkanalL01.de
+TestkanalL02.de
+TestkanalL03.de
+TestkanalL04.de
+TestkanalL05.de
+TestkanalL06.de
+TestkanalL07.de
+Thriller.de
 Travelxp.de
-Universal TV (Sky).de
-Universal TV.de
+ULKETV.de
+UniversalTV.de
+Utopja.de
+VFLBochum.de
+VFLWolfsburg.de
 VOX.de
 VOXup.de
-Volksmusik.TV.de
-WDR Fernsehen Aachen.de
-WDR Fernsehen Bielefeld.de
-WDR Fernsehen Bonn.de
-WDR Fernsehen Dortmund.de
-WDR Fernsehen Duisburg.de
-WDR Fernsehen Dusseldorf.de
-WDR Fernsehen Essen.de
-WDR Fernsehen Koln.de
-WDR Fernsehen Munster.de
-WDR Fernsehen Siegen.de
-WDR Fernsehen Wuppertal.de
+VfBStuttgart.de
+VolksmusikTV.de
+WDR.de
+WDRAachen.de
+WDRBielefeld.de
+WDRBonn.de
+WDRDortmund.de
+WDRDuisburg.de
+WDRDusseldorf.de
+WDREssen.de
+WDRFernsehenKöln.de
+WDRMunster.de
+WDRSiegen.de
+WDRWuppertal.de
 WELT.de
 WWTV.de
-Warner TV Comedy (Sky).de
-Warner TV Comedy.de
-Warner TV Film (Sky).de
-Warner TV Film.de
-Warner TV Serie (Sky).de
-Warner TV Serie.de
-Welt der Wunder.de
+WaidwerkTV.de
+WarnerTVComedy.de
+WarnerTVFilm.de
+WarnerTVSerie.de
+WeltderWunder.de
+WerderBremen.de
+WorldofFreesports.de
+Xplore.de
 ZDF.de
 ZDFinfo.de
-ZDFneo.de
-ZWEI MUSIC TELEVISION.de
-a.tv.de
-allgau.tv.de
-altenburg.tv.de
-auto motor und sport.de
-beIN Movies Turk.de
-beIN iZ.de
+ZWEIMUSICTELEVISION.de
+ZeeOne.de
+allgautv.de
+altenburgtv.de
+atv.de
+automotorundsport.de
+beINMoviesTurk.de
+beINiZ.de
 craction.de
+dokusat.de
 eSPORTS1.de
-ems TV.de
-hr-fernsehen.de
+emsTV.de
+eoTV.de
+hr.de
 iTVN.de
-munchen.tv.de
+munchentv.de
 n-tv.de
+nrwision.de
 phoenix.de
-rbb fernsehen Berlin.de
-rbb fernsehen Brandenburg.de
-salve.tv.de
+rbbBerlin.de
+rbbBrandenburg.de
+sachsen-fernsehen.de
+salvetv.de
 sixx.de
-sonnenklar.TV.de
+sonnenklarTV.de
 tagesschau24.de
-tv.berlin.de
-tv.ingolstadt.de
-wedo movies.de
-wetter.com TV.de
-ÜLKE TV.de
+tvingolstadt.de
+wedomovies.de
+wedosports.de
+wettercomTV.de
+zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 513 ID ===
+=== Tổng cộng tất cả nguồn: 612 ID ===
 === Thành công: 2 | Thất bại: 1 ===
