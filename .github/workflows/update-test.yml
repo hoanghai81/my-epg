@@ -3,7 +3,7 @@ name: Update EPG Test
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 19 * * *" # 2:00 AM VN = 19:00 UTC previous day (adjust if needed)
+    - cron: "0 20 * * *" # 2:00 AM VN = 19:00 UTC previous day (adjust if needed)
 
 jobs:
   build:
