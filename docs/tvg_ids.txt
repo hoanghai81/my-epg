@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-01-20 02:12:38
+# Cập nhật lúc: 2026-01-21 03:04:40
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
-# Tổng cộng: 174 ID
+# Tổng cộng: 171 ID
 abcaustralia
 afnhd
 angiang1
@@ -84,9 +84,6 @@ kbsworld
 khanhhoa
 khanhhoa1
 kix
-klive1
-klive2
-klive3
 laichau
 lamdong1
 lamdong2
@@ -614,5 +611,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 607 ID ===
+=== Tổng cộng tất cả nguồn: 604 ID ===
 === Thành công: 2 | Thất bại: 1 ===
