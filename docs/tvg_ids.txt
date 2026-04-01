@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-04-01 02:45:42
+# Cập nhật lúc: 2026-04-02 02:50:26
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 167 ID
@@ -452,6 +452,7 @@ SkyKrimi.de
 SkyNature.de
 SkyOne.de
 SkyReplay.de
+SkySciFi.de
 SkyShowcase.de
 SkySport1.de
 SkySport10.de
@@ -516,7 +517,6 @@ StingrayDJAZZ.de
 StingrayiConcerts.de
 Studio47.de
 SuperRTL.de
-Syfy.de
 TLC.de
 TOGGOplus.de
 TV5MONDEEurope.de
