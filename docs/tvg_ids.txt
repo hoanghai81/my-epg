@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-04-22 02:57:52
+# Cập nhật lúc: 2026-04-23 02:59:01
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 184 ID
@@ -69,7 +69,6 @@ france24eng
 gialai
 haiphong
 haiphong3
-haiphongplus
 hanoi1
 hanoi2
 happykids
@@ -81,6 +80,7 @@ hollywoodclassics
 htv1
 htv2hd
 htv3
+htv5
 htv7hd
 htv9hd
 htvccanhachd
