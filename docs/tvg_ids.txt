@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-05-02 02:59:10
+# Cập nhật lúc: 2026-05-03 02:45:01
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 184 ID
@@ -189,7 +189,7 @@ warnertvhd
 woman
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 436 ID
+# Tổng cộng: 437 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -396,6 +396,7 @@ PlayboyEurope.de
 ProSieben.de
 ProSiebenFUN.de
 ProSiebenMAXX.de
+ProSiebenSat1UHD.de
 QVC.de
 QVCZWEI.de
 QwestTV.de
@@ -418,7 +419,7 @@ RTLHessen.de
 RTLLiving.de
 RTLNRW.de
 RTLPassion.de
-RTLUHD.us
+RTLUHD.de
 RTLZWEI.de
 RTLplus.de
 RTLup.de
@@ -627,5 +628,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 620 ID ===
+=== Tổng cộng tất cả nguồn: 621 ID ===
 === Thành công: 2 | Thất bại: 1 ===
