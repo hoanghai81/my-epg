@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-05-09 03:02:41
+# Cập nhật lúc: 2026-05-10 02:48:29
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
-# Tổng cộng: 184 ID
+# Tổng cộng: 182 ID
 360anime
 360bundesliga
 360c1
@@ -94,7 +94,6 @@ htvkey
 htvthethaohd
 hue
 hungyen
-inthebox
 kbsworld
 khanhhoa
 khanhhoa1
@@ -104,7 +103,6 @@ lamdong1
 lamdong2
 langson
 laocai
-man
 musicbox
 nghean
 nhkworld
@@ -189,7 +187,7 @@ warnertvhd
 woman
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 435 ID
+# Tổng cộng: 437 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -396,6 +394,7 @@ PlayboyEurope.de
 ProSieben.de
 ProSiebenFUN.de
 ProSiebenMAXX.de
+ProSiebenSat1UHD.de
 QVC.de
 QVCZWEI.de
 QwestTV.de
@@ -418,6 +417,7 @@ RTLHessen.de
 RTLLiving.de
 RTLNRW.de
 RTLPassion.de
+RTLUHD.de
 RTLZWEI.de
 RTLplus.de
 RTLup.de
