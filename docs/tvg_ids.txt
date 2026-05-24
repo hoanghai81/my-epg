@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-05-24 02:59:37
+# Cập nhật lúc: 2026-05-25 02:58:38
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 182 ID
