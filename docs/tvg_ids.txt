@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-06-09 04:08:57
+# Cập nhật lúc: 2026-06-10 03:51:34
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 182 ID
@@ -187,7 +187,7 @@ warnertvhd
 woman
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 422 ID
+# Tổng cộng: 437 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -207,10 +207,13 @@ AsharqNews.de
 BBCWorld.de
 BR.de
 BRFernsehenNord.de
+BRFernsehenSud.de
 BabyTV.de
 BadenTV.de
+BadenTVSud.de
 BallermannTV.de
 BayerLeverkusen.de
+BayernMünchen.de
 Beate-UhseTV.de
 Bergblick.de
 BibelTV.de
@@ -218,6 +221,7 @@ Bild.de
 BlueHustler.de
 BonGusto.de
 BorussiaDortmund.de
+BorussiaMönchengladbach.de
 CEMTV.de
 CHANNEL21.de
 CNNInternational.de
@@ -314,8 +318,10 @@ HGTV.de
 HISTORY.de
 HSE.de
 HSE24.de
+HaberTurk.de
 Hamburg1.de
 Heimatkanal.de
+Hohenrausch.de
 HolsteinKiel.de
 INPLUS.de
 Jukebox.de
@@ -329,6 +335,7 @@ Kanal7.de
 KiKA.de
 Kinomir.de
 KinoweltTV.de
+Komödien.de
 L-TV.de
 LAUSITZWELLE.de
 LeipzigFernsehen.de
@@ -336,6 +343,7 @@ Lokal-TV.de
 Lustpur.de
 MDRSachsen-Anhalt.de
 MDRSachsen.de
+MDRThuringen.de
 MOTORVISIONTV.de
 MSGOLF1.de
 MSGOLF2.de
@@ -373,6 +381,7 @@ OK4.de
 OK54 Trier.de
 OKTVLudwigshafen.de
 OKTVMainz.de
+OKWeinstrabe.de
 ONE.de
 ONEMUSICTELEVISION.de
 OUTtv.de
@@ -552,6 +561,7 @@ TestkanalL06.de
 TestkanalL07.de
 Thriller.de
 Travelxp.de
+ULKETV.de
 UniversalTV.de
 Utopja.de
 VFLBochum.de
@@ -566,7 +576,10 @@ WDRBielefeld.de
 WDRBonn.de
 WDRDortmund.de
 WDRDuisburg.de
+WDRDusseldorf.de
 WDREssen.de
+WDRFernsehenKöln.de
+WDRMunster.de
 WDRSiegen.de
 WDRWuppertal.de
 WELT.de
@@ -583,6 +596,7 @@ ZDF.de
 ZDFinfo.de
 ZWEIMUSICTELEVISION.de
 ZeeOne.de
+allgautv.de
 altenburgtv.de
 atv.de
 automotorundsport.de
@@ -595,6 +609,7 @@ emsTV.de
 eoTV.de
 hr.de
 iTVN.de
+munchentv.de
 n-tv.de
 nrwision.de
 phoenix.de
@@ -611,5 +626,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 604 ID ===
+=== Tổng cộng tất cả nguồn: 619 ID ===
 === Thành công: 2 | Thất bại: 1 ===
