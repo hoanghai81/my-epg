@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-06-10 03:51:34
+# Cập nhật lúc: 2026-06-11 04:21:18
 
 ## Nguồn: https://lichphatsong.site/schedule/epg.xml.gz
 # Tổng cộng: 182 ID
@@ -187,7 +187,7 @@ warnertvhd
 woman
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 437 ID
+# Tổng cộng: 436 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -305,7 +305,6 @@ FREEDOM.de
 FSVMainz05.de
 FUSSBALLTV1.de
 FUSSBALLTV2.de
-FUSSBALLTV3.de
 FashionTV.de
 FixAndFoxi.de
 France24english.de
@@ -626,5 +625,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 619 ID ===
+=== Tổng cộng tất cả nguồn: 618 ID ===
 === Thành công: 2 | Thất bại: 1 ===
