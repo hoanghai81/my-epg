@@ -1,5 +1,5 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-08-18 02:18:43
+# Cập nhật lúc: 2026-08-19 02:19:22
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
 # Tổng cộng: 438 ID
