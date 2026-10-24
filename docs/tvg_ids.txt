@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-10-24 04:44:16
+# Cập nhật lúc: 2026-10-25 04:17:04
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 438 ID
+# Tổng cộng: 439 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -320,6 +320,7 @@ SkySportKompakt3.de
 SkySportKompakt4.de
 SkySportKompakt5.de
 SkySportMix.de
+SkySportNFL.de
 SkySportNews.de
 SkySportPremierLeague.de
 SkySportTennis.de
@@ -442,5 +443,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 438 ID ===
+=== Tổng cộng tất cả nguồn: 439 ID ===
 === Thành công: 1 | Thất bại: 2 ===
