@@ -1,8 +1,8 @@
 # Danh sách tvg-id từ các nguồn trong nguonlps.txt
-# Cập nhật lúc: 2026-10-31 05:41:44
+# Cập nhật lúc: 2026-11-01 04:59:35
 
 ## Nguồn: https://iptv-epg.org/files/epg-de.xml
-# Tổng cộng: 439 ID
+# Tổng cộng: 438 ID
 1-2-3tv.de
 13THSTREET.de
 1899Hoffenheim.de
@@ -136,7 +136,6 @@ HSE24.de
 HaberTurk.de
 Hamburg1.de
 Heimatkanal.de
-Hohenrausch.de
 HolsteinKiel.de
 INPLUS.de
 Jukebox.de
@@ -443,5 +442,5 @@ wedosports.de
 wettercomTV.de
 zdf_neo.de
 
-=== Tổng cộng tất cả nguồn: 439 ID ===
+=== Tổng cộng tất cả nguồn: 438 ID ===
 === Thành công: 1 | Thất bại: 2 ===
